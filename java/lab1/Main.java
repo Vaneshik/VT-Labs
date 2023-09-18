@@ -20,11 +20,11 @@ public class Main {
         for (int i = 0; i < 7; i++) {
             for (int j = 0; j < 13; j++) {
                 if (c[i] == 9) {
-                    arr[i][j] = Math.log(Math.pow((2 * (Math.PI / (2 + Math.sqrt(Math.abs(x[j]))))), 2));
+                    arr[i][j] = Math.log(Math.pow((2d * (Math.PI / (2d + Math.sqrt(Math.abs(x[j]))))), 2d));
                 } else if ((c[i] == 5) | (c[i] == 11) | (c[i] == 13)) {
-                    arr[i][j] = Math.log(Math.pow(Math.sin(Math.sin(Math.pow((x[j] + 0.5d), 2))), 2));
+                    arr[i][j] = Math.log(Math.pow(Math.sin(Math.sin(Math.pow((x[j] + 0.5d), 2d))), 2d));
                 } else {
-                    arr[i][j] = Math.atan(0.25 * Math.cos(Math.log(Math.abs(x[j]) / 2)));
+                    arr[i][j] = Math.atan(0.25d * Math.cos(Math.log(Math.abs(x[j]) / 2d)));
                 }
             }
         }
