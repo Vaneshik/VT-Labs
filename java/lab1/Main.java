@@ -19,13 +19,25 @@ public class Main {
         // calc values in array
         for (int i = 0; i < 7; i++) {
             for (int j = 0; j < 13; j++) {
-                if (c[i] == 9) {
-                    arr[i][j] = Math.log(Math.pow((2 * (Math.PI / (2 + Math.sqrt(Math.abs(x[j]))))), 2));
-                } else if ((c[i] == 5) | (c[i] == 11) | (c[i] == 13)) {
-                    arr[i][j] = Math.log(Math.pow(Math.sin(Math.sin(Math.pow((x[j] + 0.5), 2))), 2));
-                } else {
-                    arr[i][j] = Math.atan(0.25 * Math.cos(Math.log(Math.abs(x[j]) / 2)));
+                double res;
+                switch ((int) c[i]) {
+                    case 5:
+                        res = Math.log(Math.pow(Math.sin(Math.sin(Math.pow((x[j] + 0.5), 2))), 2));
+                        break;
+                    case 9:
+                        res = Math.log(Math.pow((2 * (Math.PI / (2 + Math.sqrt(Math.abs(x[j]))))), 2));
+                        break;
+                    case 11:
+                        res = Math.log(Math.pow(Math.sin(Math.sin(Math.pow((x[j] + 0.5), 2))), 2));
+                        break;
+                    case 13:
+                        res = Math.log(Math.pow(Math.sin(Math.sin(Math.pow((x[j] + 0.5), 2))), 2));
+                        break;
+                    default:
+                        res = Math.atan(0.25 * Math.cos(Math.log(Math.abs(x[j]) / 2)));
+                        break;
                 }
+                arr[i][j] = res;
             }
         }
 
