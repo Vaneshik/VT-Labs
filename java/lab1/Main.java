@@ -19,25 +19,18 @@ public class Main {
         // calc values in array
         for (int i = 0; i < 7; i++) {
             for (int j = 0; j < 13; j++) {
-                double res;
-                switch ((int) c[i]) {
+                arr[i][j] = switch ((int) c[i]) {
                     case 5:
-                        res = Math.log(Math.pow(Math.sin(Math.sin(Math.pow((x[j] + 0.5), 2))), 2));
-                        break;
+                        yield Math.log(Math.pow(Math.sin(Math.sin(Math.pow((x[j] + 0.5), 2))), 2));
                     case 9:
-                        res = Math.log(Math.pow((2 * (Math.PI / (2 + Math.sqrt(Math.abs(x[j]))))), 2));
-                        break;
+                        yield Math.log(Math.pow((2 * (Math.PI / (2 + Math.sqrt(Math.abs(x[j]))))), 2));
                     case 11:
-                        res = Math.log(Math.pow(Math.sin(Math.sin(Math.pow((x[j] + 0.5), 2))), 2));
-                        break;
+                        yield Math.log(Math.pow(Math.sin(Math.sin(Math.pow((x[j] + 0.5), 2))), 2));
                     case 13:
-                        res = Math.log(Math.pow(Math.sin(Math.sin(Math.pow((x[j] + 0.5), 2))), 2));
-                        break;
+                        yield Math.log(Math.pow(Math.sin(Math.sin(Math.pow((x[j] + 0.5), 2))), 2));
                     default:
-                        res = Math.atan(0.25 * Math.cos(Math.log(Math.abs(x[j]) / 2)));
-                        break;
-                }
-                arr[i][j] = res;
+                        yield Math.atan(0.25 * Math.cos(Math.log(Math.abs(x[j]) / 2)));
+                };
             }
         }
 
