@@ -97,8 +97,8 @@ def berg_encode(n: str) -> str:
             continue
         res1[i] = "1"
         n -= PHI_POS[i][0]
-    for i in range(50):
-        if (n - PHI_NEG[i][0] > -0.00000000001):
+    for i in range(5):
+        if (n - PHI_NEG[i][0] > -10**-5):
             res2[i] = "1"
             n -= PHI_NEG[i][0]
     f_part = "".join(res1[res1.index("1"):])
@@ -157,7 +157,7 @@ def float_encode(n: str, base: int) -> str:
         res += "0"
     res = res[::-1] + "."
 
-    for _ in range(10):
+    for _ in range(5):
         s_part *= base
         pre_calc = int(s_part)
         res += str(pre_calc)
