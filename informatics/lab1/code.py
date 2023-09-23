@@ -26,7 +26,7 @@ PHI_NEG = [(pow(GOLDEN, i), i) for i in range(-1, -51, -1)]
 
 
 def dec_encode(n: str, base: int) -> str:
-    n = int(n)  
+    n = int(n)
     res = ""
     while n != 0:
         remainder = n % base
@@ -82,7 +82,7 @@ def fact_encode(n: str) -> str:
 
 def fact_decode(n: str) -> int:
     res = 0
-    tmp = list(map(int, n.split(",")))
+    tmp = list(map(int, n.split(".")))
     length = len(tmp)
     for i in range(length):
         res += FACT[i] * tmp[length-i-1]
@@ -167,7 +167,7 @@ def float_encode(n: str, base: int) -> str:
 
 def float_decode(n: str, base: int) -> int:
     res = 0
-    f_part, s_part = n.split(",")
+    f_part, s_part = n.split(".")
     for i, elem in enumerate(f_part[::-1]):
         res += ALP.index(elem) * base ** i
     for i, elem in enumerate(s_part):
@@ -218,19 +218,23 @@ if __name__ == "__main__":
         ("25307", 10, 9),
         ("10053", 7, 10),
         ("28D10", 15, 5),
-        ("52,16", 10, 2),
-        ("3B,64", 16, 2),
-        ("73,14", 8, 2),
-        ("0,001001", 2, 16),
-        ("0,011001", 2, 10),
-        ("1F,1E", 16, 10),
+        ("52.16", 10, 2),
+        ("3B.64", 16, 2),
+        ("73.14", 8, 2),
+        ("0.001001", 2, 16),
+        ("0.011001", 2, 10),
+        ("1F.1E", 16, 10),
         ("75", 10, "Fib"),
         ("33{^2}00", "7C", 10),
         ("10100010", "Fib", 10),
         ("1000001.000001", "Berg", 10),
     ]
+    
+    # task = [
+    #     ("117", 10, "Fib")
+    # ]
 
-for i, (n, base1, base2) in enumerate(task, 1):
-    res = convert(n, base1, base2)
-    print("{:>2}) {:<15} in {:>4} to {:<4} = {}".format(
-        i, n, base1, base2, res))
+    for i, (n, base1, base2) in enumerate(task, 1):
+        res = convert(n, base1, base2)
+        print("{:>2}) {:<15} in {:>4} to {:<4} = {}".format(
+            i, n, base1, base2, res))
