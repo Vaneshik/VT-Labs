@@ -4,6 +4,9 @@
 chmod -R 777 lab0  
 rm -rf lab0
 
+# enable double asterisk
+shopt -s globstar
+
 # ================ PART 1 =================
 # Create tree and write content
 mkdir lab0 && cd lab0
@@ -92,11 +95,11 @@ wc -m <staryu5 >>staryu5 && echo "Done!"
 echo "======== 4.2 ========"
 ls -Rl 2>/tmp/s409858_errors.txt | grep "on" | sort -n -k 2
 echo "======== 4.3 ========"
-cat $(ls -dp1 $PWD/** | grep -E "(/[^/]+)+/l[^/:]+\$") | sort -r
+cat $(ls -dp1 "$PWD/"**/* | grep -E "(/[^/]+)+/l[^/:]+\$") | sort -r
 echo "======== 4.4 ========"
 cat bulbasaur4/* | grep -v "Sle"
 echo "======== 4.5 ========"
-ls -tdp1l $PWD/** | grep -E "(/[^/]+)+/g.+\$"
+ls -tdp1l "$PWD/"**/* | grep -E "(/[^/]+)+/g.+\$"
 echo "======== 4.6 ========"
 cat ursaring8/exploud ursaring8/jolteon | grep ce
 # =========================================
