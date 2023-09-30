@@ -84,14 +84,14 @@ ln -s nosepass8 ./Copy_64
 
 chmod u+w ursaring8/seedot
 cp -R nosepass8 ./ursaring8/seedot
-chmod u-w ursaring8/seedot 
+chmod u-w ursaring8/seedot
 # =========================================
 
 
 # ================ PART 4 =================
 # Search and filter
 echo "======== 4.1 ========"
-wc -m <staryu5 >>staryu5 && echo "Done!"
+wc -m <staryu5 >>staryu5 2>&1 && echo "Done!"
 echo "======== 4.2 ========"
 ls -Rl 2>/tmp/s409858_errors.txt | grep "on" | sort -n -k 2
 echo "======== 4.3 ========"
@@ -99,13 +99,11 @@ cat $(ls -dp1 "$PWD/"**/* | grep -E "(/[^/]+)+/l[^/:]+\$") | sort -r
 echo "======== 4.4 ========"
 cat bulbasaur4/* | grep -v "Sle"
 echo "======== 4.5 ========"
-ls -tdp1l "$PWD/"**/* | grep -E "(/[^/]+)+/g.+\$"
+ls -tdp1l "$PWD/"**/* 2>&1 | grep -E "(/[^/]+)+/g.+\$"
 echo "======== 4.6 ========"
 cat ursaring8/exploud ursaring8/jolteon | grep ce
 # =========================================
 
-# echo -e "\nTree:"
-# tree
 
 # ================ PART 5 =================
 # delete files
