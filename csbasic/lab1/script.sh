@@ -101,7 +101,7 @@ cat ~/VT-Labs/csbasic/lab1/lab0/ursaring8/exploud ~/VT-Labs/csbasic/lab1/lab0/ur
 # ================ PART 5 =================
 # delete files
 rm -f ~/VT-Labs/csbasic/lab1/lab0/leafeon9
-rm -rf ~/VT-Labs/csbasic/lab1/lab0/ursaring8/exploud
+rm -r ~/VT-Labs/csbasic/lab1/lab0/ursaring8/exploud
 rm ~/VT-Labs/csbasic/lab1/lab0/bulbasaur4/seelgardevo*
 rm -f ~/VT-Labs/csbasic/lab1/lab0/bulbasaur4/omastarleafe*
 chmod -R 777 ~/VT-Labs/csbasic/lab1/lab0/ursaring8 && rm -r ~/VT-Labs/csbasic/lab1/lab0/ursaring8
