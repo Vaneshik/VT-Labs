@@ -88,11 +88,11 @@ wc -m <~/VT-Labs/csbasic/lab1/lab0/staryu5 >>~/VT-Labs/csbasic/lab1/lab0/staryu5
 echo "======== 4.2 ========"
 ls -Rl 2>/tmp/s409858_errors.txt | grep "on" | sort -n -k 2
 echo "======== 4.3 ========"
-cat $(ls -dp1 $(pwd)/**/* | grep -E "(/[^/]+)+/l[^/:]+\$") | sort -r
+cat $(ls -dp1 ./**/* | grep -E "(/[^/]+)+/l[^/:]+\$") | sort -r
 echo "======== 4.4 ========"
 cat ~/VT-Labs/csbasic/lab1/lab0/bulbasaur4/* | grep -v "Sle"
 echo "======== 4.5 ========"
-ls -tdp1l $(pwd)/**/* 2>&1 | grep -E "(/[^/]+)+/g.+\$"
+ls -tdp1l ./**/* 2>&1 | grep -E "(/[^/]+)+/g.+\$"
 echo "======== 4.6 ========"
 cat ~/VT-Labs/csbasic/lab1/lab0/ursaring8/exploud ~/VT-Labs/csbasic/lab1/lab0/ursaring8/jolteon | grep ce
 # =========================================
