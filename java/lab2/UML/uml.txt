@@ -1,0 +1,100 @@
+@startuml
+object Pokemon
+Pokemon : From ru.ifmo.se.pokemon
+
+object Pheromosa
+Pheromosa : pokemons
+object MimeJr
+MimeJr : pokemons
+object MrMime
+MrMime : pokemons
+object Igglybuff
+Igglybuff : pokemons
+object Jigglypuff
+Jigglypuff : pokemons
+object Wigglytuff
+Wigglytuff : pokemons
+
+object PhysicalMove
+PhysicalMove : From ru.ifmo.se.pokemon
+object StatusMove
+StatusMove : From ru.ifmo.se.pokemon
+object SpecialMove
+SpecialMove : From ru.ifmo.se.pokemon
+
+object VitalThrow
+VitalThrow : moves
+object Confide
+Confide : moves
+object Bulldoze
+Bulldoze : moves
+object StoneEdge
+StoneEdge : moves
+object IcyWind
+IcyWind : moves
+object WakeUpSlap
+WakeUpSlap : moves
+object Barrier
+Barrier : moves
+object Psywave
+Psywave : moves
+object Sing
+Sing : moves
+object Swagger
+Swagger : moves
+object Pound
+Pound : moves
+object DoubleSlap
+DoubleSlap : moves
+
+
+Pokemon <|-- Pheromosa
+Pokemon <|-- MimeJr
+MimeJr <|-- MrMime
+Pokemon <|-- Igglybuff
+Igglybuff <|-- Jigglypuff
+Jigglypuff <|-- Wigglytuff
+
+
+Bulldoze --|> PhysicalMove
+DoubleSlap --|> PhysicalMove
+Pound --|> PhysicalMove
+StoneEdge --|> PhysicalMove
+VitalThrow --|> PhysicalMove
+WakeUpSlap --|> PhysicalMove
+
+Barrier --|> StatusMove
+Confide --|> StatusMove
+Sing --|> StatusMove
+Swagger --|> StatusMove
+
+IcyWind --|> SpecialMove
+Psywave --|> SpecialMove
+
+
+Pheromosa <-- VitalThrow
+Pheromosa <-- Confide
+Pheromosa <-- Bulldoze
+Pheromosa <-- StoneEdge
+
+MimeJr <-- IcyWind
+MimeJr <-- WakeUpSlap
+MimeJr <-- Barrier
+
+MrMime <-- IcyWind
+MrMime <-- WakeUpSlap
+MrMime <-- Barrier
+MrMime <-- Psywave
+
+Igglybuff <-- Sing
+Igglybuff <-- Swagger
+
+Jigglypuff <-- Sing
+Jigglypuff <-- Swagger
+Jigglypuff <-- Pound
+
+Wigglytuff <-- Sing
+Wigglytuff <-- Swagger
+Wigglytuff <-- Pound
+Wigglytuff <-- DoubleSlap
+@enduml
