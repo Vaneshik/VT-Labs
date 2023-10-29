@@ -2,9 +2,13 @@ package moves.status;
 
 import ru.ifmo.se.pokemon.*;
 
+/**
+ * Confide lowers the target's Special Attack by one stage.
+ */
+
 public class Confide extends StatusMove {
-    public Confide(){
-        super(Type.NORMAL, 0, 0);
+    public Confide() {
+        super(Type.NORMAL, 0, 100);
     }
 
     @Override

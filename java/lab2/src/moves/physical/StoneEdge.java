@@ -2,6 +2,10 @@ package moves.physical;
 
 import ru.ifmo.se.pokemon.*;
 
+/**
+ * Stone Edge deals damage and has an increased critical hit ratio (1⁄8 instead of 1⁄24).
+ */
+
 public class StoneEdge extends PhysicalMove {
     public StoneEdge() {
         super(Type.ROCK, 100, 80);

@@ -2,8 +2,12 @@ package moves.physical;
 
 import ru.ifmo.se.pokemon.*;
 
+/**
+ * Bulldoze deals damage and lowers the target's Speed by one stage.
+ */
+
 public class Bulldoze extends PhysicalMove {
-    public Bulldoze(){
+    public Bulldoze() {
         super(Type.GROUND, 60, 100);
     }
 

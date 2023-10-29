@@ -8,7 +8,7 @@ import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
 public class Pheromosa extends Pokemon {
-    public Pheromosa(String name, int level){
+    public Pheromosa(String name, int level) {
         super(name, level);
         setType(Type.BUG, Type.FIGHTING);
         setStats(71, 137, 37, 137, 37, 151);
