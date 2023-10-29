@@ -72,29 +72,29 @@ IcyWind --|> SpecialMove
 Psywave --|> SpecialMove
 
 
-Pheromosa <-- VitalThrow
-Pheromosa <-- Confide
-Pheromosa <-- Bulldoze
-Pheromosa <-- StoneEdge
-
-MimeJr <-- IcyWind
-MimeJr <-- WakeUpSlap
-MimeJr <-- Barrier
-
-MrMime <-- IcyWind
-MrMime <-- WakeUpSlap
-MrMime <-- Barrier
-MrMime <-- Psywave
-
-Igglybuff <-- Sing
-Igglybuff <-- Swagger
-
-Jigglypuff <-- Sing
-Jigglypuff <-- Swagger
-Jigglypuff <-- Pound
-
-Wigglytuff <-- Sing
-Wigglytuff <-- Swagger
-Wigglytuff <-- Pound
-Wigglytuff <-- DoubleSlap
+'Pheromosa <-- VitalThrow
+'Pheromosa <-- Confide
+'Pheromosa <-- Bulldoze
+'Pheromosa <-- StoneEdge
+'
+'MimeJr <-- IcyWind
+'MimeJr <-- WakeUpSlap
+'MimeJr <-- Barrier
+'
+'MrMime <-- IcyWind
+'MrMime <-- WakeUpSlap
+'MrMime <-- Barrier
+'MrMime <-- Psywave
+'
+'Igglybuff <-- Sing
+'Igglybuff <-- Swagger
+'
+'Jigglypuff <-- Sing
+'Jigglypuff <-- Swagger
+'Jigglypuff <-- Pound
+'
+'Wigglytuff <-- Sing
+'Wigglytuff <-- Swagger
+'Wigglytuff <-- Pound
+'Wigglytuff <-- DoubleSlap
 @enduml
