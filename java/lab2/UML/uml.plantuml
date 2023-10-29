@@ -3,17 +3,17 @@ object Pokemon
 Pokemon : From ru.ifmo.se.pokemon
 
 object Pheromosa
-Pheromosa : pokemons
+'Pheromosa : pokemons
 object MimeJr
-MimeJr : pokemons
+'MimeJr : pokemons
 object MrMime
-MrMime : pokemons
+'MrMime : pokemons
 object Igglybuff
-Igglybuff : pokemons
+'Igglybuff : pokemons
 object Jigglypuff
-Jigglypuff : pokemons
+'Jigglypuff : pokemons
 object Wigglytuff
-Wigglytuff : pokemons
+'Wigglytuff : pokemons
 
 object PhysicalMove
 PhysicalMove : From ru.ifmo.se.pokemon
@@ -23,29 +23,29 @@ object SpecialMove
 SpecialMove : From ru.ifmo.se.pokemon
 
 object VitalThrow
-VitalThrow : moves
+'VitalThrow : moves
 object Confide
-Confide : moves
+'Confide : moves
 object Bulldoze
-Bulldoze : moves
+'Bulldoze : moves
 object StoneEdge
-StoneEdge : moves
+'StoneEdge : moves
 object IcyWind
-IcyWind : moves
+'IcyWind : moves
 object WakeUpSlap
-WakeUpSlap : moves
+'WakeUpSlap : moves
 object Barrier
-Barrier : moves
+'Barrier : moves
 object Psywave
-Psywave : moves
+'Psywave : moves
 object Sing
-Sing : moves
+'Sing : moves
 object Swagger
-Swagger : moves
+'Swagger : moves
 object Pound
-Pound : moves
+'Pound : moves
 object DoubleSlap
-DoubleSlap : moves
+'DoubleSlap : moves
 
 
 Pokemon <|-- Pheromosa
