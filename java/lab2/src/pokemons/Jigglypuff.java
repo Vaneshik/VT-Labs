@@ -8,9 +8,8 @@ import ru.ifmo.se.pokemon.*;
 public class Jigglypuff extends Igglybuff {
     public Jigglypuff(String name, int level) {
         super(name, level);
-        setType(Type.NORMAL, Type.FAIRY);
         setStats(115, 45, 20, 45, 35, 20);
-        setMove(new Sing(), new Swagger(), new Pound());
+        addMove(new Pound());
     }
 
 }
