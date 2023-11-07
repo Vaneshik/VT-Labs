@@ -5,9 +5,9 @@
 а MM и SS – число от 00 до 59
 """
 
-from re import findall, sub
+from re import sub
 
 
 def replace_time(string: str) -> str:
-    pattern = r"([^:\d])([0-1]\d|2[0-3])(:[0-5]\d){1,2}([^:\d])"
-    return sub(pattern, r"\1(TBD)\4", string)
+    pattern = r"(?<![:\d])([0-1]\d|2[0-3])(:[0-5]\d){1,2}(?![:\d])"
+    return sub(pattern, r"(TBD)", string)
