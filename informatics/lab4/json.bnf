@@ -1,0 +1,9 @@
+root ::= value
+value ::= string | number | object | array | 'true' | 'false' | 'null'
+
+array ::= '[' ']' | '[' comma-separated-values ']'
+comma-separated-values ::= value | value ',' comma-separated-values
+
+object ::= '{' '}' | '{' comma-separated-keyvalues '}'
+comma-separated-keyvalues ::= keyvalue | keyvalue ',' comma-separated-keyvalues
+keyvalue ::= string ':' value
