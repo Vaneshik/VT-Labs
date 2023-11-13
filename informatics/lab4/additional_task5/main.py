@@ -24,7 +24,7 @@ def gen_tsv(dict_):
             x.append(week_num)
         for _ in range(8 - len(weeks)):
             x.append("")
-
+  
         x.append(elem["time"]["class_number"])
         x.append(elem["time"]["from"])
         x.append(elem["time"]["to"])
