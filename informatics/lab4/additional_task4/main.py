@@ -14,7 +14,7 @@ regex_task_parser = lambda x: dump2xml(parse_json_regex(x))
 
 def test(f, string):
     start_time = time.time()
-    for _ in range(500):
+    for _ in range(100):
         f(string)
     return time.time() - start_time
 
