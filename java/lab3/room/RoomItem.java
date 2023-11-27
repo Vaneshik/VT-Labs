@@ -2,6 +2,8 @@ package room;
 
 import enums.Status;
 
+import java.util.Objects;
+
 public abstract class RoomItem {
     private Status status = Status.DEFAULT;
 
@@ -12,7 +14,7 @@ public abstract class RoomItem {
     protected void setStatus(Status status) {
         this.status = status;
     }
-    
+
     public abstract String describe();
 
     @Override
@@ -21,15 +23,15 @@ public abstract class RoomItem {
     }
 
     @Override
-    public int hashCode() {
-        return toString().hashCode();
-    }
-
-    @Override
     public boolean equals(Object o) {
         if (getClass() != o.getClass()) {
             return false;
         }
         return hashCode() == o.hashCode();
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(status);
     }
 }

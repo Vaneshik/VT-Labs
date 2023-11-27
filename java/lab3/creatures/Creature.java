@@ -5,6 +5,8 @@ import enums.Status;
 import interfaces.Movable;
 import interfaces.Rotatable;
 
+import java.util.Objects;
+
 public abstract class Creature implements Movable, Rotatable {
     private String name;
     private int rotationSpeed = 0;
@@ -74,7 +76,7 @@ public abstract class Creature implements Movable, Rotatable {
 
     @Override
     public int hashCode() {
-        return toString().hashCode();
+        return Objects.hash(name, rotationSpeed, status, moveType);
     }
 
     @Override

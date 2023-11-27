@@ -3,6 +3,8 @@ package room;
 import enums.Status;
 import interfaces.Rotatable;
 
+import java.util.Objects;
+
 public class Floor extends RoomItem implements Rotatable {
     private int rotationSpeed = 0;
 
@@ -25,5 +27,18 @@ public class Floor extends RoomItem implements Rotatable {
 
     public String describe() {
         return "Пол.";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (getClass() != o.getClass()) {
+            return false;
+        }
+        return hashCode() == o.hashCode();
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), rotationSpeed);
     }
 }
