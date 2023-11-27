@@ -1,16 +1,8 @@
-package things;
+package room;
 
-import enums.Status;
-import interfaces.Spillable;
-
-public class Cup extends Thing implements Spillable {
-
+public class CupOfTea extends Cup {
     @Override
-    public void spill() {
-        setStatus(Status.SPILLING);
-    }
-
-    public void checkSpeed(int speed) {
+    public void checkIfSpilling(int speed) {
         if (speed > 2) {
             this.spill();
             System.out.println("Чай выплескивается из чашки.");

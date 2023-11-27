@@ -1,13 +1,18 @@
 package creatures;
 
-import things.MovableThing;
+import enums.MoveType;
+import enums.Status;
+import interfaces.Movable;
+import interfaces.Rotatable;
 
-public abstract class Creature extends MovableThing {
-    private boolean isAlive = true;
+public abstract class Creature implements Movable, Rotatable {
     private String name;
+    private int rotationSpeed = 0;
+    private Status status = Status.DEFAULT;
+    private MoveType moveType = MoveType.DEFAULT;
 
     public Creature() {
-        this.name = "";
+        this.name = "Default name";
     }
 
     public Creature(String name) {
@@ -22,16 +27,61 @@ public abstract class Creature extends MovableThing {
         this.name = name;
     }
 
-    boolean checkHealth() {
-        return this.isAlive;
+    public Status getStatus() {
+        return status;
     }
 
-    void kill() {
-        this.isAlive = false;
+    public void setStatus(Status status) {
+        this.status = status;
+    }
+
+    public MoveType getMoveType() {
+        return moveType;
+    }
+
+    public void setMoveType(MoveType moveType) {
+        this.moveType = moveType;
+    }
+
+    public void rotate() {
+        setStatus(Status.ROTATING);
+        this.rotationSpeed += 1;
+        System.out.println("Пол начал медленно вращаться.");
+    }
+
+    public int getRotationSpeed() {
+        return rotationSpeed;
+    }
+
+    public void speedUp(int power) {
+        if (this.getStatus() == Status.ROTATING) {
+            this.rotationSpeed += power;
+            System.out.println("Пол стал вращаться быстрее.");
+        }
+    }
+
+    public void move(MoveType type) {
+        setStatus(Status.MOVING);
+        setMoveType(type);
+    }
+
+    public abstract String describe();
+
+    @Override
+    public String toString() {
+        return describe();
     }
 
     @Override
-    public String describe() {
-        return this.name;
+    public int hashCode() {
+        return toString().hashCode();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (getClass() != o.getClass()) {
+            return false;
+        }
+        return hashCode() == o.hashCode();
     }
 }

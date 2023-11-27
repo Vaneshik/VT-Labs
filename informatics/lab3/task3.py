@@ -13,5 +13,5 @@ from re import sub
 
 
 def delete_groupmates(string: str, group: str) -> str:
-    pattern = r"[А-ЯЁа-яё-]+ ([А-ЯЁ]\.)\1 " + group + r"(\n|\Z)"
+    pattern = r"[А-ЯЁа-яё-]+ ([А-ЯЁ]\.)\1 " + group.strip() + r"(\n|\Z)"
     return sub(pattern, "", string).strip()

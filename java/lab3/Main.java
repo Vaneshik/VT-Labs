@@ -1,8 +1,10 @@
 import creatures.Moomin;
-import creatures.Moomins;
 import enums.Enviroment;
 import enums.MoveType;
-import things.*;
+import interfaces.Movable;
+import room.*;
+import room.Floor;
+import utils.Sun;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,8 +22,8 @@ public class Main {
         floor.speedUp(2);
 
         // Чай выплескивался из чашек
-        Cup cup = new Cup();
-        cup.checkSpeed(floor.getRotationSpeed());
+        CupOfTea teaCup = new CupOfTea();
+        teaCup.checkIfSpilling(floor.getRotationSpeed());
 
         // Стол
         Table table = new Table();
@@ -30,26 +32,28 @@ public class Main {
         Chair chair1 = new Chair();
         Chair chair2 = new Chair();
         Chair chair3 = new Chair();
-        Chairs chairs = new Chairs(chair1, chair2, chair3);
 
         // Семья Муми-Троллей
         Moomin father = new Moomin("Арам");
         Moomin mother = new Moomin("Ксения");
-        Moomin kid = new Moomin("Динах");
-        Moomins moominFamily = new Moomins(father, mother, kid);
+        Moomin kid = new Moomin("Рофлер");
 
         // Трельяж
         Trellie trellie = new Trellie();
         // Плятаной шкаф
         Wardrobe wardrobe = new Wardrobe();
 
-        MovableThing[] toMove = {table, chairs, moominFamily, trellie, wardrobe};
+        Movable[] toMove = {
+                table,
+                chair1, chair2, chair3, // стулья
+                father, mother, kid, // семья Мумми-Троллей
+                trellie,
+                wardrobe
+        };
 
         // Ехали по кругу
-        for (MovableThing elem : toMove) {
+        for (Movable elem : toMove) {
             elem.move(MoveType.CIRCLE);
-            System.out.println(elem.describe());
         }
-
     }
 }

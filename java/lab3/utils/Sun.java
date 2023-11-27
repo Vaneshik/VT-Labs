@@ -1,13 +1,20 @@
-package things;
+package utils;
 
 import enums.Enviroment;
 import enums.Status;
-import interfaces.Downable;
 
-public class Sun extends Thing implements Downable {
+public class Sun {
+    private Status status = Status.DEFAULT;
     private Enviroment enviroment = Enviroment.DEFAULT;
 
-    @Override
+    public void setStatus(Status status) {
+        this.status = status;
+    }
+
+    public Status getStatus() {
+        return status;
+    }
+
     public void goDown() {
         setStatus(Status.SETTING);
     }
@@ -16,7 +23,6 @@ public class Sun extends Thing implements Downable {
         this.enviroment = enviroment;
     }
 
-    @Override
     public String describe() {
         return "Солнце садится, " + enviroment + ".";
     }

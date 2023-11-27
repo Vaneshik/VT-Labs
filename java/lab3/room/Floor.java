@@ -1,24 +1,21 @@
-package things;
+package room;
 
 import enums.Status;
 import interfaces.Rotatable;
 
-public class Floor extends Thing implements Rotatable {
+public class Floor extends RoomItem implements Rotatable {
     private int rotationSpeed = 0;
 
-    @Override
     public void rotate() {
         setStatus(Status.ROTATING);
         rotationSpeed += 1;
         System.out.println("Пол начал медленно вращаться.");
     }
 
-    @Override
     public int getRotationSpeed() {
         return rotationSpeed;
     }
 
-    @Override
     public void speedUp(int power) {
         if (this.getStatus() == Status.ROTATING) {
             this.rotationSpeed += power;
@@ -26,8 +23,7 @@ public class Floor extends Thing implements Rotatable {
         }
     }
 
-    @Override
     public String describe() {
-        return "Стол.";
+        return "Пол.";
     }
 }

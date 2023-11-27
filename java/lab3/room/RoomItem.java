@@ -1,8 +1,8 @@
-package things;
+package room;
 
 import enums.Status;
 
-public abstract class Thing {
+public abstract class RoomItem {
     private Status status = Status.DEFAULT;
 
     public Status getStatus() {
@@ -12,7 +12,7 @@ public abstract class Thing {
     protected void setStatus(Status status) {
         this.status = status;
     }
-
+    
     public abstract String describe();
 
     @Override
