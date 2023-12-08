@@ -1,7 +1,7 @@
 from functools import reduce
 
 BIT_NAMES = ["r1", "r2", "i1", "r3", "i2", "i3", "i4"]
-inp = list(map(int, list(input())))
+inp = list(map(int, list(input("Введите переданное сообщение: "))))
 
 get_syndrom = lambda arr: str(reduce(lambda x, y: x ^ y, (inp[i] for i in arr)))
 error_ind = int(get_syndrom([3, 4, 5, 6]) +

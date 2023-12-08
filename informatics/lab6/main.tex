@@ -1,0 +1,33 @@
+\documentclass[12pt, a4paper]{article}
+
+\usepackage{graphicx} % Required for inserting images
+\graphicspath{{images/}}
+
+\usepackage{blindtext}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{lipsum}
+\usepackage{array}
+\usepackage[rightcaption]{sidecap}
+\usepackage[a4paper, left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage{multicol}  %  несколько колонок
+\usepackage{cmap} % поиск в PDF
+\usepackage[T2A]{fontenc} % кодировка
+\usepackage[utf8]{inputenc} % кодировка исходного текста
+\usepackage[english,russian]{babel} % локализация и переносы
+\usepackage{amsmath}
+
+% Turn on the style
+\pagestyle{fancy}
+% Clear the header and footer
+\fancyhead{}
+\fancyfoot{}
+% Set the right side of the footer to be the page number
+\fancyfoot[R]{\thepage}
+
+\begin{document}
+
+\input{titul.tex}
+\input{body}
+
+\end{document}
