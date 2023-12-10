@@ -1,9 +1,14 @@
 import creatures.Moomin;
 import enums.Enviroment;
+import enums.LiquidType;
 import enums.MoveType;
 import interfaces.Movable;
-import room.*;
 import room.Floor;
+import room.furniture.Chair;
+import room.furniture.Table;
+import room.furniture.Trellie;
+import room.furniture.Wardrobe;
+import room.items.Cup;
 import utils.Sun;
 
 public class Main {
@@ -22,7 +27,7 @@ public class Main {
         floor.speedUp(2);
 
         // Чай выплескивался из чашек
-        CupOfTea teaCup = new CupOfTea();
+        Cup teaCup = new Cup(LiquidType.TEA);
         teaCup.checkIfSpilling(floor.getRotationSpeed());
 
         // Стол

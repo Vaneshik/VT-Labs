@@ -1,13 +1,11 @@
-package room;
+package room.items;
 
 import enums.MoveType;
 import enums.Status;
-import interfaces.Movable;
-import interfaces.Rotatable;
 
 import java.util.Objects;
 
-public abstract class Furniture extends RoomItem implements Movable, Rotatable {
+abstract public class Container extends RoomItem {
     private MoveType moveType = MoveType.DEFAULT;
     private int rotationSpeed = 0;
 
@@ -27,7 +25,7 @@ public abstract class Furniture extends RoomItem implements Movable, Rotatable {
     public void rotate() {
         setStatus(Status.ROTATING);
         rotationSpeed += 1;
-        System.out.println("Пол начал медленно вращаться.");
+        System.out.println(this + " начал медленно вращаться.");
     }
 
     public int getRotationSpeed() {
@@ -37,8 +35,13 @@ public abstract class Furniture extends RoomItem implements Movable, Rotatable {
     public void speedUp(int power) {
         if (this.getStatus() == Status.ROTATING) {
             this.rotationSpeed += power;
-            System.out.println("Пол стал вращаться быстрее.");
+            System.out.println(this + " стал вращаться быстрее.");
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Контейнер";
     }
 
     @Override
@@ -46,7 +49,9 @@ public abstract class Furniture extends RoomItem implements Movable, Rotatable {
         if (getClass() != o.getClass()) {
             return false;
         }
-        return hashCode() == o.hashCode();
+        return super.equals(o) &&
+                ((Container) o).moveType == this.moveType &&
+                ((Container) o).rotationSpeed == this.rotationSpeed;
     }
 
     @Override

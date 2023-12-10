@@ -2,8 +2,8 @@ package enums;
 
 public enum Enviroment {
     SILENCE("обстановка полной тишины и молчания"),
-    NOISE("обстановка разгрома и криков о помощи"),
-    DEFAULT("обстановка дефолта");
+    NOISE("обстановка шума"),
+    DEFAULT("обстановка по умолчаниб");
 
     private final String description;
 

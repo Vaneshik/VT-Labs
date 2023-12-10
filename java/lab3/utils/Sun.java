@@ -26,7 +26,12 @@ public class Sun {
     }
 
     public String describe() {
-        return "Солнце садится, " + enviroment + ".";
+        return this + " садится, " + enviroment + ".";
+    }
+
+    @Override
+    public String toString() {
+        return "Солнце";
     }
 
     @Override

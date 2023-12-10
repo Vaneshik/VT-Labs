@@ -2,6 +2,7 @@ package room;
 
 import enums.Status;
 import interfaces.Rotatable;
+import room.items.RoomItem;
 
 import java.util.Objects;
 
@@ -11,7 +12,7 @@ public class Floor extends RoomItem implements Rotatable {
     public void rotate() {
         setStatus(Status.ROTATING);
         rotationSpeed += 1;
-        System.out.println("Пол начал медленно вращаться.");
+        System.out.println(this + " начал медленно вращаться.");
     }
 
     public int getRotationSpeed() {
@@ -21,12 +22,13 @@ public class Floor extends RoomItem implements Rotatable {
     public void speedUp(int power) {
         if (this.getStatus() == Status.ROTATING) {
             this.rotationSpeed += power;
-            System.out.println("Пол стал вращаться быстрее.");
+            System.out.println(this + " стал вращаться быстрее.");
         }
     }
 
-    public String describe() {
-        return "Пол.";
+    @Override
+    public String toString() {
+        return "Пол";
     }
 
     @Override
@@ -34,7 +36,8 @@ public class Floor extends RoomItem implements Rotatable {
         if (getClass() != o.getClass()) {
             return false;
         }
-        return hashCode() == o.hashCode();
+        return super.equals(o) &&
+                ((Floor) o).rotationSpeed == this.rotationSpeed;
     }
 
     @Override

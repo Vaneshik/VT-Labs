@@ -1,4 +1,4 @@
-package room;
+package room.items;
 
 import enums.Status;
 
@@ -15,11 +15,8 @@ public abstract class RoomItem {
         this.status = status;
     }
 
-    public abstract String describe();
-
-    @Override
     public String toString() {
-        return describe();
+        return "Предмет комнаты";
     }
 
     @Override
@@ -27,7 +24,7 @@ public abstract class RoomItem {
         if (getClass() != o.getClass()) {
             return false;
         }
-        return hashCode() == o.hashCode();
+        return ((RoomItem) o).status == this.status;
     }
 
     @Override

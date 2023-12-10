@@ -1,7 +1,5 @@
 package creatures;
 
-import enums.MoveType;
-
 public class Moomin extends Creature {
     public Moomin() {
         super();
@@ -12,13 +10,7 @@ public class Moomin extends Creature {
     }
 
     @Override
-    public String describe() {
+    public String toString() {
         return "Муми-тролль по имени " + getName();
-    }
-
-    @Override
-    public void move(MoveType type) {
-        super.move(type);
-        System.out.println(describe() + " едет " + getMoveType() + ".");
     }
 }

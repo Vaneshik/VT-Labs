@@ -2,8 +2,13 @@ package enums;
 
 public enum MoveType {
     STRAIGHT("прямо"),
-    DEFAULT("дефолтно"),
-    CIRCLE("по кругу");
+    BACK("назад"),
+    LEFT("налево"),
+    RIGHT("направо"),
+    UP("вверх"),
+    DOWN("вниз"),
+    CIRCLE("по кругу"),
+    DEFAULT("по умолчанию");
 
     private final String description;
 

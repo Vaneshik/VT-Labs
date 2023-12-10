@@ -1,15 +1,18 @@
 package enums;
 
-public enum Status {
-    SPILLING("выплескивается"),
-    MOVING("едет"),
-    ROTATING("вращается"),
-    SETTING("устанавливается"),
+public enum LiquidType {
+    TEA("Чай"),
+    COFFEE("Кофе"),
+    WATER("Вода"),
+    MILK("Молоко"),
+    JUICE("Сок"),
+    BEER("Пиво"),
+    WINE("Вино"),
     DEFAULT("по умолчанию");
 
     private final String description;
 
-    Status(String description) {
+    LiquidType(String description) {
         this.description = description;
     }
 

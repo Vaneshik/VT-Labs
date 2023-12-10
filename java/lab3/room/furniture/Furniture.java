@@ -1,48 +1,23 @@
-package creatures;
+package room.furniture;
 
 import enums.MoveType;
 import enums.Status;
 import interfaces.Movable;
 import interfaces.Rotatable;
+import room.items.RoomItem;
 
 import java.util.Objects;
 
-public abstract class Creature implements Movable, Rotatable {
-    private String name;
-    private int rotationSpeed = 0;
-    private Status status = Status.DEFAULT;
+public abstract class Furniture extends RoomItem implements Movable, Rotatable {
     private MoveType moveType = MoveType.DEFAULT;
+    private int rotationSpeed = 0;
 
-    public Creature() {
-        this.name = "ноунейм";
-    }
-
-    public Creature(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Status getStatus() {
-        return status;
-    }
-
-    public void setStatus(Status status) {
-        this.status = status;
+    public void setMoveType(MoveType moveType) {
+        this.moveType = moveType;
     }
 
     public MoveType getMoveType() {
         return moveType;
-    }
-
-    public void setMoveType(MoveType moveType) {
-        this.moveType = moveType;
     }
 
     public void move(MoveType type) {
@@ -70,7 +45,7 @@ public abstract class Creature implements Movable, Rotatable {
 
     @Override
     public String toString() {
-        return "Существо по имени " + getName();
+        return "Мебель";
     }
 
     @Override
@@ -79,14 +54,13 @@ public abstract class Creature implements Movable, Rotatable {
             return false;
         }
 
-        return ((Creature) o).name.equals(this.name) &&
-                ((Creature) o).rotationSpeed == this.rotationSpeed &&
-                ((Creature) o).status == this.status &&
-                ((Creature) o).moveType == this.moveType;
+        return  super.equals(o) &&
+                ((Furniture) o).moveType == this.moveType &&
+                ((Furniture) o).rotationSpeed == this.rotationSpeed;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, rotationSpeed, status, moveType);
+        return Objects.hash(super.hashCode(), moveType, rotationSpeed);
     }
 }
