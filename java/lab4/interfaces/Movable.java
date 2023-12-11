@@ -1,6 +1,6 @@
-package lab4.interfaces;
+package interfaces;
 
-import lab4.enums.MoveType;
+import enums.MoveType;
 
 public interface Movable {
     void move(MoveType move);

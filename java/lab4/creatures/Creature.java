@@ -1,9 +1,10 @@
-package lab4.creatures;
+package creatures;
 
-import lab4.enums.Status;
-import lab4.enums.MoveType;
-import lab4.interfaces.Movable;
-import lab4.interfaces.Rotatable;
+import enums.MoveType;
+import enums.Status;
+import interfaces.Movable;
+import interfaces.Rotatable;
+
 import java.util.Objects;
 
 public abstract class Creature implements Movable, Rotatable {

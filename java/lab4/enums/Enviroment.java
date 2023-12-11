@@ -1,4 +1,4 @@
-package lab4.enums;
+package enums;
 
 public enum Enviroment {
     SILENCE("обстановка полной тишины и молчания"),

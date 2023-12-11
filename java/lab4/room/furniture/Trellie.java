@@ -1,4 +1,4 @@
-package lab4.room.furniture;
+package room.furniture;
 
 public class Trellie extends Furniture {
     @Override

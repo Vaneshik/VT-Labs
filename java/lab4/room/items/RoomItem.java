@@ -1,6 +1,7 @@
-package lab4.room.items;
+package room.items;
 
-import lab4.enums.Status;
+import enums.Status;
+
 import java.util.Objects;
 
 public abstract class RoomItem {

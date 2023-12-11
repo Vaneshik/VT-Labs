@@ -1,12 +1,26 @@
-package lab4.room;
+package room.items;
 
-import lab4.enums.Status;
-import lab4.interfaces.Rotatable;
-import lab4.room.items.RoomItem;
+import enums.MoveType;
+import enums.Status;
+
 import java.util.Objects;
 
-public class Floor extends RoomItem implements Rotatable {
+abstract public class Container extends RoomItem {
+    private MoveType moveType = MoveType.DEFAULT;
     private int rotationSpeed = 0;
+
+    public void setMoveType(MoveType moveType) {
+        this.moveType = moveType;
+    }
+
+    public MoveType getMoveType() {
+        return moveType;
+    }
+
+    public void move(MoveType type) {
+        setStatus(Status.MOVING);
+        setMoveType(type);
+    }
 
     public void rotate() {
         setStatus(Status.ROTATING);
@@ -27,7 +41,7 @@ public class Floor extends RoomItem implements Rotatable {
 
     @Override
     public String toString() {
-        return "Пол";
+        return "Контейнер";
     }
 
     @Override
@@ -36,11 +50,12 @@ public class Floor extends RoomItem implements Rotatable {
             return false;
         }
         return super.equals(o) &&
-                ((Floor) o).rotationSpeed == this.rotationSpeed;
+                ((Container) o).moveType == this.moveType &&
+                ((Container) o).rotationSpeed == this.rotationSpeed;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(super.hashCode(), rotationSpeed);
+        return Objects.hash(super.hashCode(), moveType, rotationSpeed);
     }
 }

@@ -1,4 +1,4 @@
-package lab4.interfaces;
+package interfaces;
 
 public interface Spillable {
     void spill();

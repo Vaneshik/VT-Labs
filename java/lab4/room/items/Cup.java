@@ -1,6 +1,6 @@
-package lab4.room.items;
+package room.items;
 
-import lab4.enums.LiquidType;
+import enums.LiquidType;
 
 public class Cup extends LiquidContainer {
     public Cup() {

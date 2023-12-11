@@ -43,8 +43,8 @@ public class Sun {
         if (getClass() != o.getClass()) {
             return false;
         }
-        return status == ((Sun) o).status &&
-                enviroment == ((Sun) o).enviroment;
+        return this.status == ((Sun) o).status &&
+                this.enviroment == ((Sun) o).enviroment;
     }
 
     @Override

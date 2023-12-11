@@ -1,8 +1,8 @@
-package lab4.room.items;
+package room.items;
 
-import lab4.enums.LiquidType;
-import lab4.enums.Status;
-import lab4.interfaces.Spillable;
+import enums.LiquidType;
+import enums.Status;
+import interfaces.Spillable;
 
 abstract public class LiquidContainer extends Container implements Spillable {
     private LiquidType liquidType;

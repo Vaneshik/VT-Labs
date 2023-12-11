@@ -1,10 +1,11 @@
-package lab4.room.furniture;
+package room.furniture;
 
-import lab4.enums.Status;
-import lab4.enums.MoveType;
-import lab4.interfaces.Movable;
-import lab4.interfaces.Rotatable;
-import lab4.room.items.RoomItem;
+import enums.MoveType;
+import enums.Status;
+import interfaces.Movable;
+import interfaces.Rotatable;
+import room.items.RoomItem;
+
 import java.util.Objects;
 
 public abstract class Furniture extends RoomItem implements Movable, Rotatable {

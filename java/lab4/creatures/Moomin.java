@@ -1,4 +1,4 @@
-package lab4.creatures;
+package creatures;
 
 public class Moomin extends Creature {
     public Moomin() {

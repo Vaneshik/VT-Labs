@@ -1,23 +1,21 @@
-package lab4.utils;
+package utils;
 
+import enums.Enviroment;
+import enums.Status;
 
-import lab4.enums.Status;
-import lab4.enums.Enviroment;
-import lombok.Getter;
-import lombok.Setter;
 import java.util.Objects;
 
 public class Sun {
-    @Getter @Setter private Status status = Status.DEFAULT;
-    @Getter @Setter private Enviroment enviroment = Enviroment.DEFAULT;
+    private Status status = Status.DEFAULT;
+    private Enviroment enviroment = Enviroment.DEFAULT;
 
-//    public void setStatus(Status status) {
-//        this.status = status;
-//    }
-//
-//    public Status getStatus() {
-//        return status;
-//    }
+    public void setStatus(Status status) {
+        this.status = status;
+    }
+
+    public Status getStatus() {
+        return status;
+    }
 
     public void goDown() {
         setStatus(Status.SETTING);
@@ -25,6 +23,10 @@ public class Sun {
 
     public void setEnviroment(Enviroment enviroment) {
         this.enviroment = enviroment;
+    }
+
+    public Enviroment getEnviroment() {
+        return enviroment;
     }
 
     public String describe() {
@@ -41,7 +43,8 @@ public class Sun {
         if (getClass() != o.getClass()) {
             return false;
         }
-        return hashCode() == o.hashCode();
+        return status == ((Sun) o).status &&
+                enviroment == ((Sun) o).enviroment;
     }
 
     @Override
