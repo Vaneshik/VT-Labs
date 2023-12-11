@@ -9,6 +9,10 @@ public class Moomin extends Creature {
         super(name);
     }
 
+    public void lookOut() {
+        System.out.println(this + " выглянул.");
+    }
+
     @Override
     public String toString() {
         return "Муми-тролль по имени " + getName();

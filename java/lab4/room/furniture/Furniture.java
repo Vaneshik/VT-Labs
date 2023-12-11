@@ -54,7 +54,7 @@ public abstract class Furniture extends RoomItem implements Movable, Rotatable {
             return false;
         }
 
-        return  super.equals(o) &&
+        return super.equals(o) &&
                 ((Furniture) o).moveType == this.moveType &&
                 ((Furniture) o).rotationSpeed == this.rotationSpeed;
     }
