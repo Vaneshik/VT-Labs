@@ -28,9 +28,9 @@ public class Main {
         }
 
         // Добавляем Муми-Троллей в комнату
-        room.addMoomins(father);
-        room.addMoomins(mother);
-        room.addMoomins(kid);
+        room.addMoomin(father);
+        room.addMoomin(mother);
+        room.addMoomin(kid);
 
         Weather weather = new Weather();
 
@@ -77,7 +77,7 @@ public class Main {
         thunderStorm.getThunder().rumble();
 
         // Начал вращаться пол, сначала медленно
-        Floor floor = new Floor();
+        Floor floor = room.getFloor();
         floor.rotate();
 
         // Потом все быстрее и быстрее
@@ -86,20 +86,28 @@ public class Main {
 
         // Чай выплескивался из чашек
         Cup teaCup = new Cup(LiquidType.TEA);
+        room.addRoomItem(teaCup);
         teaCup.checkIfSpilling(floor.getRotationSpeed());
 
         // Стол
         Table table = new Table();
+        room.addRoomItem(table);
 
         // Стулья
         Chair chair1 = new Chair();
         Chair chair2 = new Chair();
         Chair chair3 = new Chair();
+        room.addRoomItem(chair1);
+        room.addRoomItem(chair2);
+        room.addRoomItem(chair3);
 
         // Трельяж
         Trellie trellie = new Trellie();
+        room.addRoomItem(trellie);
+
         // Плятаной шкаф
         Wardrobe wardrobe = new Wardrobe();
+        room.addRoomItem(wardrobe);
 
         Movable[] toMove = {
                 table,

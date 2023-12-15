@@ -1,27 +1,21 @@
 package exceptions;
 
+import room.furniture.Window;
+
 public class IllegalWindowMove extends Exception {
-    private String errorMessage = "Error=(";
+    Boolean window_status;
 
-    public String getErrorMessage() {
-        return errorMessage;
+    public IllegalWindowMove(Window w){
+        window_status = w.isOpen();
     }
 
-    public void setErrorMessage(String errorMessage) {
-        this.errorMessage = errorMessage;
-    }
-
-    public IllegalWindowMove() {
-        super();
-    }
-
-    public IllegalWindowMove(String e) {
-        super();
-        setErrorMessage(e);
+    @Override
+    public String getMessage() {
+        return super.getMessage() + ", Window Status = " + window_status;
     }
 
     @Override
     public String toString() {
-        return this.getErrorMessage();
+        return super.getMessage();
     }
 }
