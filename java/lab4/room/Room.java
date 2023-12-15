@@ -2,7 +2,6 @@ package room;
 
 import creatures.Moomin;
 import exceptions.IllegalMoominsCount;
-import room.furniture.Window;
 import room.items.RoomItem;
 
 import java.util.Vector;
