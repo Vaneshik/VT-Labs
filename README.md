@@ -11,7 +11,7 @@
 
 * 1 семестр :baby_bottle:
     * [Программирование (1-4 лаба)](https://github.com/Vaneshik/VT-Labs/tree/main/java)
-    * [Основы Профессиональной деятельности (1-2 лаба)](https://github.com/Vaneshik/VT-Labs/tree/main/csbasic)
+    * [Основы Профессиональной деятельности (1-2 лаба)](https://github.com/Vaneshik/VT-Labs/tree/main/opd)
     * [Информатика (1-6 лаба)](https://github.com/Vaneshik/VT-Labs/tree/main/informatics)
 
 # Полезные ссылки :mag_right:
