@@ -1,19 +1,19 @@
-# Description
-🚀 Welcome to my Software Engineering Labs Repository! 🧑‍💻
+# Будни ИТМОшника :hedgehog:
 
-🔎 Here, you'll find a collection of labs, homeworks, and courseworks that encapsulate my journey in 🌈ITMO University🌈
+    [!CAUTION]
+    !Любое копирование материала без указания автора приравнивается к плагату!
 
-📬 Feel free to DM me in [Telegram](https://t.me/vaneshik) [RUS/ENG] + Subscribe to my [Telegram Channel](https://t.me/+sTL8GeG882VhNDMy) - Van the Hedgehog! 🦔 
+Этот репозиторий содержит мои наработки (лабы / домашки / проекты) за время обучения на факультете Системного и Прикладного Программного Обеспечения (СППО) в университете ИТМО :nerd_face:
 
 ![meow](.utils/yuki_nagato.gif)
 
-# Subjects
-[🤓] First year:
-* [Programming // Программирование](https://github.com/Vaneshik/VT-Labs/tree/main/java)
-* [CSbasic (OPD) // Основы профессиональной деятельности](https://github.com/Vaneshik/VT-Labs/tree/main/csbasic)
-* [Informatics // Информатика](https://github.com/Vaneshik/VT-Labs/tree/main/informatics) 
+# Предметы :book:
 
-To Be Continued...
+* 1 семестр :baby_bottle:
+    * [Программирование (1-4 лаба)](https://github.com/Vaneshik/VT-Labs/tree/main/java)
+    * [Основы Профессиональной деятельности (1-2 лаба)](https://github.com/Vaneshik/VT-Labs/tree/main/csbasic)
+    * [Информатика (1-6 лаба)](https://github.com/Vaneshik/VT-Labs/tree/main/informatics)
 
-# Useful Links
-    WIP
+# Полезные ссылки :mag_right:
+
+* https://github.com/Imtjl/1st-year-guide — гайд на первый курс
