@@ -18,9 +18,9 @@ public class Main {
         room.Room room = new room.Room();
 
         // Семья Муми-Троллей
-        Moomin father = new Moomin("Арам");
-        Moomin mother = new Moomin("Ксения");
-        Moomin kid = new Moomin("Рофлер");
+        Moomin father = new Moomin("Грег");
+        Moomin mother = new Moomin("Дарья Скворцова");
+        Moomin kid = new Moomin("Григори");
 
         // Муми-Тролли выглянули и увидели
         for (Moomin m : new Moomin[]{father, mother, kid}) {
@@ -32,10 +32,13 @@ public class Main {
         room.addMoomin(mother);
         room.addMoomin(kid);
 
+
         Weather weather = new Weather();
 
         // Cолнце мирно опускается на блестящую гладь летнего моря.
         Weather.Sun sun = weather.new Sun();
+
+
         sun.setEnviroment(Enviroment.PEACEFUL);
         sun.stop();
 
