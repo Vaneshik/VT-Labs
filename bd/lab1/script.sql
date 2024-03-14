@@ -57,9 +57,9 @@ CREATE TABLE citizenship (
 );  
 
 CREATE TABLE person_citizenship_relation (
-    person_id INTEGER REFERENCES persons(person_id),
-    country_id INTEGER REFERENCES country(country_id),
-    PRIMARY KEY(person_id, country_id)
+    person_id INTEGER REFERENCES person(person_id),
+    citizenship_id INTEGER REFERENCES citizenship(citizenship_id),
+    PRIMARY KEY(person_id, citizenship_id)
 );
 
 INSERT INTO space_object (coords, weight, diameter, has_atmosphere, has_magnetic_field) VALUES (POINT(0, 0), 59742000000000000000, 12742000, TRUE, TRUE);
@@ -86,3 +86,7 @@ INSERT INTO emotion (name, power, duration, person_id) VALUES ('Хохот', 4, 
 INSERT INTO emotion (name, power, duration, person_id) VALUES ('Негодование', 5, '128 hours', 3);
 
 INSERT INTO citizenship (name, need_visa) VALUES ('Россия', FALSE);
+
+INSERT INTO person_citizenship_relation (person_id, citizenship_id) VALUES (1, 1);
+INSERT INTO person_citizenship_relation (person_id, citizenship_id) VALUES (2, 1);
+INSERT INTO person_citizenship_relation (person_id, citizenship_id) VALUES (3, 1);
