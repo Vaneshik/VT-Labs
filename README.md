@@ -28,7 +28,7 @@
 │
 ├── 🎓 2 семестр
 │   ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/java">Программирование (ПРОГА)</a>
-│   │   ├── <a href="hhttps://github.com/Vaneshik/prog-lab-4">Лаба 5</a>
+│   │   ├── <a href="https://github.com/Vaneshik/prog-lab-4">Лаба 5</a>
 │   │   ├── <a href="https://github.com/Vaneshik/prog-lab-6">Лаба 6</a>
 │   │   └── <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Лаба 7</a>
 │   ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/opd">Основы Профессиональной деятельности (ОПД)</a>

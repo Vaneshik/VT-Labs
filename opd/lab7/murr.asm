@@ -3,11 +3,9 @@ test1_n1:   WORD 0x1234
 test1_n2:   WORD 0x0007
 test1_ans: WORD 0x0000
 
-
 test2_n1:   WORD 0x1717
 test2_n2:   WORD 0x1000
 test2_ans: WORD 0x0000
-
 
 test3_n1:   WORD 0x7FFF
 test3_n2:   WORD 0x1234
@@ -15,12 +13,9 @@ test3_ans: WORD 0x0000
 test3_of1: WORD 0x0000
 test3_of2: WORD 0x0000
 
-
 test1_res:  WORD ?
 test2_res:  WORD ?
 test3_res:  WORD ?
-  
-
 
 ORG 0x1F6
 start:  CLA
