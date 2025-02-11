@@ -1,3 +1,6 @@
 [submodule "java/lab5"]
 	path = java/lab5
 	url = https://github.com/Vaneshik/prog-lab-5
+[submodule "java/lab6"]
+	path = java/lab6
+	url = https://github.com/Vaneshik/prog-lab-6
