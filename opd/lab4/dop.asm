@@ -24,7 +24,8 @@ map: ; &1 = funcs_address, &2 = vals_address
     current_val_address: WORD ?
     LD &2
     ST current_val_address 
-
+ 
+ 
     outer_loop:
         current_func_address: WORD ?
         LD &1
