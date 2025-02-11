@@ -1,0 +1,8 @@
+ln -s slakoth2 karrablast3/pidgeotslakoth
+cat karrablast3/sandshrew charmeleon4/lopunny > pignite2_41
+cat slakoth2 > charmeleon4/crobatslakoth
+cp deerling8 cranidos0/gardevoir
+cp -r charmeleon4 cranidos0/gardevoir
+ln -s karrablast3 Copy_32
+ln pignite2 charmeleon4/lopunnypignite
+

@@ -1,0 +1,223 @@
+ORG 0x10
+;------------------------------------------------------------------------------------------
+;Переменные для хранения тысяч, сотен, десятков и единиц
+THOUSANDS: WORD 0x0
+HUNDREDS: WORD 0x0
+DOZENS: WORD 0x0
+UNITS: WORD 0x0
+
+;------------------------------------------------------------------------------------------
+;Переменные для работы со словами
+MASK: WORD 0x00 ;Символ конца строки
+THOUSANDS_BEGIN: WORD 0x00A0 ;Массив с адресами тысяч
+HUNDREDS_BEGIN: WORD 0x0160 ;Массив с адресами сотен
+DOZENS_BEGIN: WORD 0x01B0 ;Массив с адресами десятков
+UNITS_BEGIN: WORD 0x00E9 ;Массив с адресами единиц
+CUR: WORD ? ;Текущая позиция в слове
+BYTE_MASK: WORD 0x00FF ;Маска для печати символов
+
+;Подрограммы
+READ: WORD 0x68 ;Чтение 
+PRINT: WORD 0x78 ;Вывод слова
+
+;------------------------------------------------------------------------------------------
+;Beginning
+START: CALL (READ)
+DEC
+ST THOUSANDS
+
+CALL (READ)
+DEC
+ST HUNDREDS
+
+CALL (READ)
+DEC
+ST DOZENS
+
+CALL (READ)
+DEC
+ST UNITS
+
+CLA
+OUT 0xC
+
+;------------------------------------------------------------------------------------------
+;выводы
+PRINT_THOUSANDS: LD THOUSANDS
+BMI PRINT_HUNDREDS
+ADD THOUSANDS_BEGIN
+ST CUR
+LD (CUR)
+ST CUR
+CALL (PRINT)
+
+LD #0x20
+OUT 0xC
+
+PRINT_HUNDREDS: LD HUNDREDS
+BMI PRINT_DOZENS
+ADD HUNDREDS_BEGIN
+ST CUR
+LD (CUR)
+ST CUR
+CALL (PRINT)
+
+LD #0x20
+OUT 0xC
+
+PRINT_DOZENS: LD DOZENS
+BMI PRINT_UNITS
+BEQ PRINT_UNITS_PLUS_TEN
+ADD DOZENS_BEGIN
+ST CUR
+LD (CUR)
+ST CUR
+CALL (PRINT)
+
+LD #0x20
+OUT 0xC
+
+PRINT_UNITS: LD UNITS
+BMI STOP
+ADD UNITS_BEGIN
+ST CUR
+LD (CUR)
+ST CUR
+CALL (PRINT)
+
+STOP: HLT
+
+PRINT_UNITS_PLUS_TEN:
+LD UNITS_BEGIN
+ADD UNITS
+ADD #0xA
+ST CUR
+LD (CUR)
+ST CUR
+CALL (PRINT)
+STOP_TWO: HLT
+
+ORG 0x68
+;------------------------------------------------------------------------------------------
+;Подпрограмма чтения символа с клавиатуры
+;-------------------------------------------------------------------------------------
+CLA
+CHECK: IN 0x1D
+AND #0x40
+BEQ CHECK
+IN 0x1C
+RET
+
+ORG 0x78
+;------------------------------------------------------------------------------------------
+;Подпрограмма вывода
+;-------------------------------------------------------------------------------------
+LOAD: LD (CUR)+
+ST S1
+AND BYTE_MASK
+ST S2
+LD S1
+SWAB
+AND BYTE_MASK
+ST S1
+CMP MASK
+BEQ RETURN
+OUT 0xC
+LD S2
+CMP MASK
+BEQ RETURN
+OUT 0xC
+JUMP LOAD
+RETURN: RET
+S1: WORD ?
+S2: WORD ?
+
+ORG 0x00A0
+;------------------------------------------------------------------------------------------
+;Массив с началами строк тысяч
+THOUSANDS_MASSIVE: WORD 0x00B0, 0x00B6, 0x00BC, 0x00C2, 0x00C9, 0x00CF, 0x00D5, 0x00DB, 0x00E2
+
+ORG 0x00B0
+;------------------------------------------------------------------------------------------
+;Строки с числами для тысяч
+ONE_THOUSAND: WORD 0xEEE4, 0xEDE0, 0x20F2, 0xFBF1, 0xFFF7, 0xE000
+TWO_THOUSANDS: WORD 0xE4E2, 0xE520, 0xF2FB, 0xF1FF, 0xF7E8, 0x0000
+THREE_THOUSANDS: WORD 0xF2F0, 0xE820,0xF2FB, 0xF1FF, 0xF7E8, 0x0000
+FOUR_THOUSANDS: WORD 0xF7E5, 0xF2FB, 0xF0E5, 0x20F2, 0xFBF1, 0xFFF7, 0xE800
+FIVE_THOUSANDS: WORD 0xEFFF, 0xF2FC,0x20F2, 0xFBF1, 0xFFF7, 0x0000
+SIX_THOUSANDS: WORD 0xF8E5, 0xF1F2, 0xFC20,  0xF2FB, 0xF1FF, 0xF700 
+SEVEN_THOUSANDS: WORD 0xF1E5, 0xECFC, 0x20F2, 0xFBF1, 0xFFF7, 0x0000
+EIGHT_THOUSANDS: WORD 0xE2EE, 0xF1E5, 0xECFC, 0x20F2, 0xFBF1, 0xFFF7, 0x0000
+NINE_THOUSANDS: WORD 0xE4E5, 0xE2FF, 0xF2FC, 0x20F2, 0xFBF1, 0xFFF7, 0x0000
+
+ORG 0x00E9
+;------------------------------------------------------------------------------------------
+;Массив с началами строк единиц
+UNITS_MASSIVE: WORD 0x0100, 0x0103, 0x0105, 0x0107, 0x010B, 0x010E, 0x0111, 0x0114, 0x0118, 0x011C, 0x0120, 0x0126, 0x012C, 0x0132, 0x0139, 0x013F, 0x0145, 0x014B, 0x0152
+
+ORG 0x0100
+;Строки с числами для единиц
+ONE: WORD 0xEEE4, 0xE8ED, 0x0000
+TWO: WORD 0xE4E2, 0xE000 
+THREE: WORD 0xF2F0, 0xE800 
+FOUR: WORD 0xF7E5, 0xF2FB, 0xF0E5, 0x0000
+FIVE: WORD 0xEFFF, 0xF2FC, 0x0000
+SIX: WORD 0xF8E5, 0xF1F2, 0xFC00 
+SEVEN: WORD 0xF1E5, 0xECFC, 0x0000
+EIGHT: WORD 0xE2EE, 0xF1E5, 0xECFC, 0x0000
+NINE: WORD 0xE4E5, 0xE2FF, 0xF2FC, 0x0000
+TEN: WORD 0xE4E5, 0xF1FF, 0xF2FC, 0x0000
+ELEVEN: WORD 0xEEE4, 0xE8ED, 0xEDE0, 0xE4F6, 0xE0F2, 0xFC00
+TWELVE: WORD 0xE4E2, 0xE5ED, 0xE0E4, 0xF6E0, 0xF2FC, 0x0000
+THIRTEEN: WORD 0xF2F0, 0xE8ED, 0xE0E4, 0xF6E0, 0xF2FC, 0x0000
+FOURTEEN: WORD 0xF7E5, 0xF2FB, 0xF0ED, 0xE0E4, 0xF6E0, 0xF2FC, 0x0000
+FIFTEEN: WORD 0xEFFF, 0xF2ED, 0xE0E4, 0xF6E0, 0xF2FC, 0x0000
+SIXTEEN: WORD 0xF8E5, 0xF1F2, 0xEDE0, 0xE4F6, 0xE0F2, 0xFC00
+SEVENTEEN: WORD 0xF1E5, 0xECED, 0xE0E4, 0xF6E0, 0xF2FC, 0x0000
+EIGHTEEN: WORD 0xE2EE, 0xF1E5, 0xECED, 0xE0E4, 0xF6E0, 0xF2FC, 0x0000
+NINETEEN: WORD 0xE4E5, 0xE2FF, 0xF2ED, 0xE0E4, 0xF6E0, 0xF2FC, 0x0000
+
+ORG 0x0160
+;------------------------------------------------------------------------------------------
+;Массив с началами строк сотен
+HUNDREDS_MASSIVE: WORD 0x0180, 0x0182, 0x0186, 0x018A, 0x018F, 0x0193,0x0198, 0x019C, 0x01A1
+
+ORG 0x0180
+;строки с числами для сотен
+ONE_HUNDRED: WORD 0xF1F2, 0xEE00
+TWO_HUNDRED: WORD 0xE4E2, 0xE5F1, 0xF2E8, 0x0000
+THREE_HUNDRED: WORD 0xF2F0, 0xE8F1, 0xF2E0, 0x0000
+FOUR_HUNDRED: WORD 0xF7E5, 0xF2FB, 0xF0E5, 0xF1F2, 0xE000
+FIVE_HUNDRED: WORD 0xEFFF, 0xF2FC, 0xF1EE, 0xF200
+SIX_HUNDRED: WORD 0xF8E5, 0xF1F2, 0xFCF1, 0xEEF2, 0x0000
+SEVEN_HUNDRED: WORD 0xF1E5, 0xECFC, 0xF1EE, 0xF200
+EIGHT_HUNDRED: WORD 0xE2EE, 0xF1E5, 0xECFC, 0xF1EE, 0xF200
+NINE_HUNDRED: WORD 0xE4E5, 0xE2FF, 0xF2FC, 0xF1EE, 0xF200
+
+ORG 0x01B0
+;------------------------------------------------------------------------------------------
+;Массив с началами строк десятков
+DOZENS_MASSIVE: WORD 0x011C, 0x01C0, 0x01C5, 0x01CA, 0x01CD, 0x01D2, 0x01D8,0x01DD, 0x01E4
+
+ORG 0x01C0
+;строки с числами для десятков 
+TWENTY: WORD 0xE4E2, 0xE0E4, 0xF6E0, 0xF2FC, 0x0000
+THIRTY: WORD 0xF2F0, 0xE8E4, 0xF6E0, 0xF2FC, 0x0000
+FORTY: WORD 0xF1EE, 0xF0EE, 0xEA00
+FIFTY: WORD 0xEFFF, 0xF2FC, 0xE4E5, 0xF1FF, 0xF200
+SIXTY: WORD 0xF8E5, 0xF1F2, 0xFCE4, 0xE5F1, 0xFFF2, 0x0000
+SEVENTY: WORD 0xF1E5, 0xECFC, 0xE4E5, 0xF1FF, 0xF200
+EIGHTY: WORD 0xE2EE, 0xF1E5, 0xECFC, 0xE4E5, 0xF1FF, 0xF20A, 0x0000
+NINETY: WORD 0xE4E5, 0xE2FF, 0xEDEE, 0xF1F2, 0xEE00
+
+
+
+
+
+
+
+
+
+
+
+

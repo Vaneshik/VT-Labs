@@ -1,0 +1,8 @@
+#!/bin/sh
+rm deerling8
+rm lab0/charmeleon4/crobat
+rm lab0/karrablast3/pidgeotslako*
+rm lab0/charmeleon4/lopunnypigni*
+rm -R karrablast3
+rm -R lab0/cranidos0/machop
+

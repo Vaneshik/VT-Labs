@@ -1,0 +1,18 @@
+chmod 311 charmeleon4
+chmod 601 charmeleon4/klang 
+chmod 622 charmeleon4/crobat
+chmod 620 charmeleon4/lopunny
+chmod 576 cranidos0
+chmod 624 cranidos0/carracosta
+chmod 737 cranidos0/gardevoir
+chmod 004 cranidos0/zorua
+chmod 577 cranidos0/machop
+chmod 577 cranidos0/voltorb
+chmod 620 deerling8
+chmod 305 karrablast3
+chmod 622 karrablast3/sandshrew
+chmod 624 karrablast3/pidgeot
+chmod 600 karrablast3/chandelure
+chmod 046 pignite2
+chmod 404 slakoth2
+
