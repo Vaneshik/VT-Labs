@@ -79,5 +79,6 @@
 
 # Полезные ссылки :mag_right:
 
+* [Мой коллега федор монтанович](https://github.com/2BuRy1)
 * [Гайд на первый курс от IMTJL](https://github.com/Imtjl/1st-year-guide)
 * [Гайд на второй курс IMTJL](https://github.com/Imtjl/2t-year-guide)
