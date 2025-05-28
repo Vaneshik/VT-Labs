@@ -1,0 +1,54 @@
+FUNCTION APPROXIMATION RESULTS
+=============================
+
+Input Data:
+Point 1: x = 1.0, y = 2.0
+Point 2: x = 2.0, y = 3.0
+Point 3: x = 4.0, y = 4.0
+Point 4: x = 123.0, y = 123.0
+Point 5: x = 12.0, y = 12.0
+Point 6: x = 123.0, y = 44.0
+Point 7: x = 23.0, y = 44.0
+Point 8: x = 5.0, y = 66.0
+
+Approximation Results:
+
+Linear Function:
+  Formula: y = 0.550075*x + 17.103503
+  RMSE: 28.070118
+  R²: 0.492864
+  Pearson Correlation: 0.702042
+  Interpretation: Weak fit
+
+Polynomial 2 Function:
+  Formula: y = -0.008083*x² + 1.588611*x + 10.365219
+  RMSE: 27.496898
+  R²: 0.513365
+  Interpretation: Moderate fit
+
+Polynomial 3 Function:
+  Formula: y = 0.000541*x³ + -0.087314*x² + 3.186525*x + 6.063044
+  RMSE: 27.402877
+  R²: 0.516687
+  Interpretation: Moderate fit
+
+Exponential Function:
+  Formula: y = 20.004365*exp(0.011664*x)
+  RMSE: 28.488401
+  R²: 0.477637
+  Interpretation: Weak fit
+
+Logarithmic Function:
+  Formula: y = -2.714978 + 16.886329*ln(x)
+  RMSE: 27.415681
+  R²: 0.516235
+  Interpretation: Moderate fit
+
+Power Function:
+  Formula: y = 10.222832*x^0.436821
+  RMSE: 27.219891
+  R²: 0.523120
+  Interpretation: Moderate fit
+
+Best Approximating Function: Power
+Best RMSE: 27.219891

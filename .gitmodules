@@ -4,3 +4,15 @@
 [submodule "java/lab6"]
 	path = java/lab6
 	url = https://github.com/Vaneshik/prog-lab-6
+[submodule "web/web-2"]
+	path = web/web-2
+	url = https://github.com/Vaneshik/web-2
+[submodule "web/web-3"]
+	path = web/web-3
+	url = https://github.com/Vaneshik/web-3
+[submodule "web/web-1"]
+	path = web/web-1
+	url = https://github.com/Vaneshik/web-1
+[submodule "web/web-4"]
+	path = web/web-4
+	url = https://github.com/Vaneshik/web-4
