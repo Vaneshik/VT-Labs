@@ -30,7 +30,7 @@
 │
 ├── 🎓 2 семестр
 │   ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/java">Программирование (ПРОГА)</a>
-│   │   ├── <a href="https://github.com/Vaneshik/prog-lab-4">Лаба 5</a>
+│   │   ├── <a href="https://github.com/Vaneshik/prog-lab-5">Лаба 5</a>
 │   │   ├── <a href="https://github.com/Vaneshik/prog-lab-6">Лаба 6</a>
 │   │   └── <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Лаба 7</a>
 │   ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/opd">Основы Профессиональной деятельности (ОПД)</a>
@@ -39,30 +39,34 @@
 │   │   ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/opd/lab5">Лаба 5</a>
 │   │   ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/opd/lab6">Лаба 6</a>
 │   │   └── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/opd/lab7">Лаба 7</a>
-│   ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/bd">Базы данных (БД)</a>
-│   │   ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/bd/lab1">Лаба 1</a>
-│   │   ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/bd/lab2">Лаба 2</a>
-│   │   ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/bd/lab3">Лаба 3</a>
-│   │   └── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/bd/lab4">Лаба 4</a>
-│
+│   └── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/bd">Базы данных (БД)</a>
+│       ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/bd/lab1">Лаба 1</a>
+│       ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/bd/lab2">Лаба 2</a>
+│       ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/bd/lab3">Лаба 3</a>
+│       └── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/bd/lab4">Лаба 4</a>
+│   
 ├── 📖 3 семестр
 │   ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/web">Веб-программирование (WEB)</a>
-│   │   ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/web/lab1">Лаба 1</a>
-│   │   ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/web/lab2">Лаба 2</a>
-│   │   ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/web/lab3">Лаба 3</a>
-│   │   └── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/web/lab4">Лаба 4</a>
+│   │   ├── <a href="https://github.com/Vaneshik/web-1">Лаба 1</a>
+│   │   ├── <a href="https://github.com/Vaneshik/web-2">Лаба 2</a>
+│   │   ├── <a href="https://github.com/Vaneshik/web-3">Лаба 3</a>
+│   │   └── <a href="https://github.com/Vaneshik/web-4">Лаба 4</a>
 │   └── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/llp">Языки Программирования (ЯПЫ)</a>
-│       ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/llp/lab1">Лаба 1</a>
-│       ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/llp/lab2">Лаба 2</a>
-│       ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/llp/lab3">Лаба 3</a>
-│       ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/llp/lab4">Лаба 4</a>
-│       └── <a href="https://stepik.org/course/12345">Курс на Stepik</a>
+│       ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/llp/assignment-1-io-library">Лаба 1</a>
+│       ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/llp/assignment-2-dictionary">Лаба 2</a>
+│       ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/llp/assignment-3-image-transform">Лаба 3</a>
+│       ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/llp/assignment-4-memory-allocator">Лаба 4</a>
+│       └── <a href="https://stepik.org/course/73618">Курс на Stepik</a>
 │
 ├── 📂 4 семестр
 │   ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/algo">Алгоритмы и Структуры Данных (АЛГОСЫ)</a>
 │   ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/archcomp">Архитектура компьютера (АК)</a>
 │   ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/opi">Основы программной инженерии (ОПИ)</a>
-│   └── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/computmath">Вычислительная математика (ВЫЧМАТ)</a>
+│   └── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/comp_math">Вычислительная математика (ВЫЧМАТ)</a>
+│       ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/comp_math/comp_math1">Лаба 1</a>
+│       ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/comp_math/comp_math2">Лаба 2</a>
+│       ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/comp_math/comp_math3">Лаба 3</a>
+│       └── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/comp_math/comp_math4">Лаба 4</a>
 │
 ├── 🔬 5 семестр
 |   └── Дожить бы 🥶
