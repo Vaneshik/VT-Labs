@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="ru.ifmo.person.model">
+    <class name="Person" table="persons">
+        <id name="id" type="long" column="id">
+            <generator class="identity"/>
+        </id>
+
+        <property name="name" type="string" column="name" not-null="true"/>
+
+        <component name="coordinates" class="Coordinates">
+            <property name="x" type="double" column="x"/>
+            <property name="y" type="int" column="y"/>
+        </component>
+
+        <property name="creationDate" type="timestamp" column="creation_date" not-null="true" update="false"/>
+
+        <property name="eyeColor" column="eye_color" not-null="true">
+            <type name="org.hibernate.type.EnumType">
+                <param name="enumClass">ru.ifmo.person.enumeration.Color</param>
+                <param name="useNamed">true</param>
+            </type>
+        </property>
+
+        <property name="hairColor" column="hair_color">
+            <type name="org.hibernate.type.EnumType">
+                <param name="enumClass">ru.ifmo.person.enumeration.Color</param>
+                <param name="useNamed">true</param>
+            </type>
+        </property>
+
+        <many-to-one name="location" class="Location" column="location_id" cascade="save-update"/>
+
+        <property name="height" column="height"/>
+        
+        <property name="weight" column="weight"/>
+
+        <property name="passportID" type="string" column="passport_id"/>
+
+        <property name="nationality" column="nationality">
+            <type name="org.hibernate.type.EnumType">
+                <param name="enumClass">ru.ifmo.person.enumeration.Country</param>
+                <param name="useNamed">true</param>
+            </type>
+        </property>
+    </class>
+</hibernate-mapping>
+

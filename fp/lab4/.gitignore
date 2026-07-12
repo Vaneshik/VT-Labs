@@ -1,0 +1,48 @@
+# Clojure/ClojureScript
+/.cpcache
+/.clj-kondo/.cache
+/.lsp
+/target
+/classes
+*.class
+*.jar
+.nrepl-port
+.nrepl-history
+.rebel_readline_history
+pom.xml
+pom.xml.asc
+
+# Shadow-cljs
+/.shadow-cljs
+/node_modules
+/resources/public/js
+/resources/public/css
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+.vscode/
+.lsp/
+
+# Build artifacts
+/out
+/.shadow-cljs
+
+# Downloads and torrents
+downloads
+*.torrent

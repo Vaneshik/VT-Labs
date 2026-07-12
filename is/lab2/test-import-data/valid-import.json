@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Sakura Haruno",
+    "coordinates": {"x": 150.5, "y": 300},
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 50,
+      "y": 100.5,
+      "z": 150,
+      "name": "Konohagakure"
+    },
+    "height": 165,
+    "weight": 55,
+    "passportID": "JP9001234",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Mikasa Ackerman",
+    "coordinates": {"x": 200.0, "y": 400},
+    "eyeColor": "BLACK",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 80,
+      "y": 120.0,
+      "z": 200,
+      "name": "Shiganshina"
+    },
+    "height": 170,
+    "weight": 60,
+    "passportID": "JP9005678",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Asuna Yuuki",
+    "coordinates": {"x": 180.3, "y": 350},
+    "eyeColor": "BROWN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 100,
+      "y": 150.0,
+      "z": 250,
+      "name": "Aincrad"
+    },
+    "height": 168,
+    "weight": 58,
+    "passportID": "JP9009012",
+    "nationality": "FRANCE"
+  }
+]

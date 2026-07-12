@@ -1,0 +1,32 @@
+{:paths ["src" "resources"]
+ :deps  {org.clojure/clojure {:mvn/version "1.11.3"}
+         
+         reagent/reagent {:mvn/version "1.2.0"}
+         
+         ring/ring-core {:mvn/version "1.12.2"}
+         ring/ring-jetty-adapter {:mvn/version "1.12.2"}
+         ring/ring-json {:mvn/version "0.5.1"}
+         
+         metosin/jsonista {:mvn/version "0.3.7"}
+         compojure/compojure {:mvn/version "1.7.0"}
+         
+         metosin/reitit-ring {:mvn/version "0.7.2"}
+         metosin/reitit-middleware {:mvn/version "0.7.2"}
+         metosin/muuntaja {:mvn/version "0.6.10"}
+         
+         org.clojure/tools.logging {:mvn/version "1.3.0"}
+         ch.qos.logback/logback-classic {:mvn/version "1.5.16"}}
+
+ :aliases
+ {:run {:main-opts ["-m" "mini-torrent.server"]}
+  
+  :dev {:extra-paths ["dev" "test"]
+        :main-opts ["-m" "app.main" "dev"]}
+  
+  :ui {:main-opts ["-m" "app.main" "run"]}
+  
+  :test {:extra-paths ["test"]
+         :main-opts ["-m" "runner"]}
+  
+  :cljfmt {:extra-deps {cljfmt/cljfmt {:mvn/version "0.12.0"}}
+           :main-opts ["-m" "cljfmt.main"]}}}

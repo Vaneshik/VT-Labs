@@ -1,0 +1,100 @@
+{
+  "load": {
+    "1": {
+      "config": 1,
+      "price": 3000,
+      "samples": 924,
+      "duration_sec": 179.826,
+      "throughput_rpm": 308.298,
+      "avg_ms": 1362.206,
+      "median_ms": 1357.0,
+      "p90_ms": 1367.8,
+      "p95_ms": 1454.85,
+      "p99_ms": 1500.54,
+      "max_ms": 1706,
+      "min_ms": 1308,
+      "error_rate": 1.0,
+      "http_403": 0,
+      "http_503": 0,
+      "duration_assertion_failures": 924,
+      "response_codes": {
+        "200": 924
+      },
+      "suitable": false
+    },
+    "2": {
+      "config": 2,
+      "price": 3900,
+      "samples": 924,
+      "duration_sec": 179.706,
+      "throughput_rpm": 308.504,
+      "avg_ms": 954.073,
+      "median_ms": 957.0,
+      "p90_ms": 960.0,
+      "p95_ms": 965.0,
+      "p99_ms": 975.77,
+      "max_ms": 998,
+      "min_ms": 908,
+      "error_rate": 1.0,
+      "http_403": 0,
+      "http_503": 0,
+      "duration_assertion_failures": 924,
+      "response_codes": {
+        "200": 924
+      },
+      "suitable": false
+    },
+    "3": {
+      "config": 3,
+      "price": 7700,
+      "samples": 924,
+      "duration_sec": 179.739,
+      "throughput_rpm": 308.447,
+      "avg_ms": 553.851,
+      "median_ms": 557.0,
+      "p90_ms": 559.0,
+      "p95_ms": 563.0,
+      "p99_ms": 575.0,
+      "max_ms": 584,
+      "min_ms": 509,
+      "error_rate": 0.0,
+      "http_403": 0,
+      "http_503": 0,
+      "duration_assertion_failures": 0,
+      "response_codes": {
+        "200": 924
+      },
+      "suitable": true
+    }
+  },
+  "selected_config": 3,
+  "stress": {
+    "config": 3,
+    "price": 7700,
+    "samples": 6191,
+    "duration_sec": 239.465,
+    "throughput_rpm": 1551.208,
+    "avg_ms": 3620.919,
+    "median_ms": 3686,
+    "p90_ms": 6069.0,
+    "p95_ms": 6676.5,
+    "p99_ms": 8636.0,
+    "max_ms": 10400,
+    "min_ms": 509,
+    "error_rate": 0.04167,
+    "http_403": 0,
+    "http_503": 0,
+    "duration_assertion_failures": 0,
+    "response_codes": {
+      "200": 5933,
+      "500": 258
+    },
+    "suitable": false
+  },
+  "first_failure": {
+    "load_rpm": 895,
+    "avg_ms": 649.381,
+    "p95_ms": 700.7,
+    "errors": 0
+  }
+}

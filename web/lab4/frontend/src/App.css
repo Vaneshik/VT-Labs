@@ -1,0 +1,496 @@
+/* === Google Font === */
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap');
+
+/* === Global Styles === */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Sora', sans-serif; /* Используем Sora */
+  height: 100vh;
+  width: 100vw;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow:hidden;
+}
+
+/* === Full-width App Container === */
+.App {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* === Sticky Full-Width Header === */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #2c3e50;
+  color: white;
+  width: 95vw;
+  padding: 20px;
+  position: sticky;
+  border-radius: 6px;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: -2px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* === Header Content - FULL WIDTH CENTERED === */
+.header .header-content {
+  width: 100%;
+  max-width: 1200px; /* Ограничиваем ширину */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+/* === Fix Buttons Alignment (Login/Register) === */
+.header .auth-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.header .auth-buttons button {
+  background: white;
+  color: #2c3e50;
+  border: 1px solid #ccc;
+  padding: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  border-radius: 6px;
+}
+
+.header .auth-buttons button:hover {
+  background: #ddd;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Sora', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+/* === Centered Content (Landing, Login, Register Pages) === */
+.centered-container {
+  display: block;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+  height: calc(100vh - 80px);
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+
+/* === Title and Text Styling === */
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+/* === Main Content - Centered Horizontally === */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* === Form, Table & Diagram Layout === */
+.point-form,
+.points-table,
+.diagram-container {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 15px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* === Diagram Section (Centered Horizontally) === */
+.diagram-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* === Table Styles - Scrollable with Fixed Height === */
+.points-table {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden; /* Prevents horizontal scroll */
+  align-items: center;
+  
+}
+
+/* === Table Wrapper - Enables Scrolling === */
+.points-table-wrapper {
+  max-height: 300px;
+  overflow-y: auto;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* === Table Styling === */
+.points-table table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+/* === Fix Table Header at the Top === */
+.points-table thead {
+  position: sticky;
+  top: 0;
+  background: #3498db;
+  color: white;
+  z-index: 2;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+/* === Table Head (Bold Titles) === */
+.points-table th {
+  padding: 12px;
+  text-align: center;
+  font-weight: bold;
+  background: #3498db;
+  color: white;
+  border: 1px solid #ddd;
+}
+
+/* === Fix for Scrollable tbody === */
+.points-table tbody {
+  display: block;
+  max-height: 250px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+/* === Table Rows & Cells - Prevents Breakage === */
+.points-table tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+/* === Prevent Timestamp from Breaking === */
+.points-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* === Fix Column Widths === */
+.points-table th:nth-child(1),
+.points-table td:nth-child(1) {
+  width: 30%;
+}
+
+.points-table th:nth-child(2),
+.points-table td:nth-child(2) {
+  width: 15%;
+}
+
+.points-table th:nth-child(3),
+.points-table td:nth-child(3) {
+  width: 15%;
+}
+
+.points-table th:nth-child(4),
+.points-table td:nth-child(4) {
+  width: 15%;
+}
+
+.points-table th:nth-child(5),
+.points-table td:nth-child(5) {
+  width: 25%;
+}
+
+/* === Hit/Miss Styling === */
+.points-table td[style*="green"] {
+  font-weight: bold;
+  color: green;
+}
+
+.points-table td[style*="red"] {
+  font-weight: bold;
+  color: red;
+}
+
+
+
+/* === Spinner Styles === */
+.spinner {
+  width: 100%;
+  max-width: 150px;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  appearance: textfield;
+}
+
+.spinner:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+
+
+/* === Centered Content for Landing, Login, Register Pages (WITHOUT HEADER) === */
+.landing-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center content vertically */
+  height: calc(100vh - 80px); /* Full height minus header */
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.login-page-content,
+.register-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center content vertically */
+  height: calc(100vh - 80px); /* Full height minus header */
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  font-size: 1.3rem;
+}
+
+/* === Centered Button === */
+.landing-page-content button,
+.login-page-content button,
+.register-page-content button {
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  border-radius: 6px;
+}
+
+/* === Form Container - Centering Everything === */
+.point-form {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 15px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрируем все элементы */
+  text-align: center;
+}
+
+/* === Center Labels & Inputs === */
+.point-form label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* === Input Fields === */
+.point-form input,
+.point-form select {
+  width: 100%;
+  max-width: 250px;
+  padding: 6px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-align: center;
+}
+
+/* === Fixing Spinner (Y-Coordinate) === */
+.spinner {
+  width: 100%;
+  max-width: 250px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-align: center;
+  appearance: textfield;
+}
+
+.spinner:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* === Error Message Styling === */
+.error {
+  color: red;
+  font-size: 1rem;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+/* === Centered Submit Button === */
+.point-form button {
+  width: 100%;
+  max-width: 200px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background: #2c3e50;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+
+/* Add a cool animation effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.anime-gif {
+  width: 500px; /* Adjust width */
+  max-width: 100%; /* Prevent overflow */
+  height: auto; /* Keep aspect ratio */
+  border-radius: 10px; /* Optional rounded corners */
+  display: block;
+  margin: 20px auto; /* Centering */
+  animation: fadeIn 1.5s ease-in-out;
+  margin-top: -200px;
+  margin-bottom: -40px;
+}
+
+.main-page-content {
+  overflow:scroll;
+}
+
+/* === Responsive Styles === */
+@media (max-width: 646px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+    padding: 12px;
+  }
+
+  .header .header-content {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header .auth-buttons {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .landing-page-content,
+  .main-page-content {
+    width: 95%;
+    max-width: 600px;
+    
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .point-form {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+
+
+/* === Планшетный режим (647px - 1134px) === */
+@media (min-width: 647px) and (max-width: 1134px) {
+  .header .header-content {
+    max-width: 90%;
+  }
+
+  .landing-page-content,
+  .main-page-content {
+    width: 85%;
+    max-width: 700px;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+}

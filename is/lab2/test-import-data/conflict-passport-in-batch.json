@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Test Person 1",
+    "coordinates": {"x": 100.1, "y": 100},
+    "eyeColor": "BLUE",
+    "hairColor": "BLACK",
+    "location": {"x": 10, "y": 20.5, "z": 30, "name": "Location A"},
+    "height": 170,
+    "weight": 65,
+    "passportID": "CONFLICT001",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Test Person 2",
+    "coordinates": {"x": 100.2, "y": 101},
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {"x": 11, "y": 21.5, "z": 31, "name": "Location B"},
+    "height": 171,
+    "weight": 66,
+    "passportID": "CONFLICT001",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Test Person 3",
+    "coordinates": {"x": 100.3, "y": 102},
+    "eyeColor": "BROWN",
+    "hairColor": "BLUE",
+    "location": {"x": 12, "y": 22.5, "z": 32, "name": "Location C"},
+    "height": 172,
+    "weight": 67,
+    "passportID": "VALID003",
+    "nationality": "SPAIN"
+  }
+]

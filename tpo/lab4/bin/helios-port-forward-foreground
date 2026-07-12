@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+LOCAL_PORT="${LOCAL_PORT:-8079}"
+REMOTE_HOST="${REMOTE_HOST:-stload.se.ifmo.ru}"
+REMOTE_PORT="${REMOTE_PORT:-8080}"
+HELIOS_USER="${HELIOS_USER:-s409858}"
+HELIOS_HOST="${HELIOS_HOST:-se.ifmo.ru}"
+HELIOS_PORT="${HELIOS_PORT:-2222}"
+SSH_KEY="${SSH_KEY:-$HOME/.ssh/id_ed25519_helios_lab4}"
+
+KEY_ARGS=()
+if [[ -f "$SSH_KEY" ]]; then
+  KEY_ARGS=(-i "$SSH_KEY")
+fi
+
+exec ssh -N \
+  -L "${LOCAL_PORT}:${REMOTE_HOST}:${REMOTE_PORT}" \
+  -p "$HELIOS_PORT" \
+  "${KEY_ARGS[@]}" \
+  "${HELIOS_USER}@${HELIOS_HOST}"
+

@@ -1,0 +1,8 @@
+*.log
+*.jtl
+__pycache__/
+*.pyc
+.tools/
+
+load/html-report-*/
+stress/html-report/

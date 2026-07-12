@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Zero Two",
+    "coordinates": {"x": 250.0, "y": 500},
+    "eyeColor": "BLUE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 90,
+      "y": 130.0,
+      "z": 220,
+      "name": "Plantation 13"
+    },
+    "height": 170,
+    "weight": 58,
+    "passportID": "JP9102030",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Zero Two",
+    "coordinates": {"x": 250.0, "y": 500},
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 95,
+      "y": 135.0,
+      "z": 230,
+      "name": "Another Location"
+    },
+    "height": 172,
+    "weight": 60,
+    "passportID": "JP9102031",
+    "nationality": "VATICAN"
+  }
+]

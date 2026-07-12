@@ -1,0 +1,6 @@
+.gradle/
+.venv/
+build/
+.DS_Store
+plots/
+*.class

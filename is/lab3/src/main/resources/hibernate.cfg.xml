@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://pg:5432/studs</property>
+        <property name="hibernate.connection.username">s409858</property>
+        <property name="hibernate.connection.password">dmfMuVPpI4Rt35fX</property>
+        
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+        
+        <property name="hibernate.current_session_context_class">thread</property>
+        
+        <property name="hibernate.connection.isolation">2</property>
+        
+        <!-- L2 Cache с Infinispan (ЛР3) -->
+        <property name="hibernate.cache.use_second_level_cache">true</property>
+        <property name="hibernate.cache.region.factory_class">org.infinispan.hibernate.cache.v53.InfinispanRegionFactory</property>
+        <property name="hibernate.cache.infinispan.cfg">org/infinispan/hibernate/cache/commons/builder/infinispan-configs-local.xml</property>
+        <property name="hibernate.cache.use_query_cache">true</property>
+        <property name="hibernate.generate_statistics">true</property>
+    </session-factory>
+</hibernate-configuration>
+

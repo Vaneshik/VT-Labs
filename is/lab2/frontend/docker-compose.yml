@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: person-management-frontend
+    network_mode: host
+    environment:
+      - REACT_APP_BACKEND_HOST=se.ifmo.ru
+      - REACT_APP_BACKEND_PORT=31337
+      - REACT_APP_BACKEND_PATH=/person-management-system/api
+    restart: unless-stopped
+

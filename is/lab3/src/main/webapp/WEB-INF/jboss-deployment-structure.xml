@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-deployment-structure>
+    <deployment>
+        <!-- Minimal exclusions for Hibernate 5.6 compatibility -->
+    </deployment>
+</jboss-deployment-structure>

@@ -1,0 +1,7 @@
+2024-06-18 03:14:28.334 [main] ERROR manager.Server - Ошибка сервера: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "manager.DBProvider.connection" is null
+2024-06-18 03:21:23.698 [main] ERROR manager.Server - Ошибка сервера: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "manager.DBProvider.connection" is null
+2024-06-18 08:38:14.736 [main] ERROR manager.Server - Ошибка сервера: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "manager.DBProvider.connection" is null
+2024-06-18 08:54:15.046 [main] ERROR manager.Server - Ошибка сервера: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "manager.DBProvider.connection" is null
+2024-06-18 09:03:26.518 [main] ERROR manager.Server - Ошибка сервера: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "manager.DBProvider.connection" is null
+2024-06-18 09:39:23.992 [main] ERROR manager.Server - Ошибка сервера: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "manager.DBProvider.connection" is null
+2024-06-18 09:43:07.550 [main] ERROR manager.Server - Ошибка сервера: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "manager.DBProvider.connection" is null

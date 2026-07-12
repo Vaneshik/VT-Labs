@@ -1,0 +1,12 @@
+target/
+.lein-*
+.nrepl-*
+*.jar
+*.class
+.DS_Store
+pom.xml
+pom.xml.asc
+rewrite_git_history.sh
+.clj-kondo/
+.lsp/
+.cpcache/
