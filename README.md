@@ -117,3 +117,47 @@
 * [eliteSufferer/ITMO_Studies](https://github.com/eliteSufferer/ITMO_Studies) — архив СППО с БД, Web, ОПИ, ЯПами и БЛПС.
 * [mikhalexandr/itmo-cse-labs](https://github.com/mikhalexandr/itmo-cse-labs) — свежий и аккуратно оформленный архив программной инженерии.
 * [mip3x/itmo-labs](https://github.com/mip3x/itmo-labs) — компактный архив СППО за первые три курса.
+
+<details>
+<summary><b>Ещё больше архивов и полезных репозиториев</b></summary>
+
+* [Elizacrai/PIKT.ITMO](https://github.com/Elizacrai/PIKT.ITMO) — работы ПИиКТ по направлению СППО.
+* [ColdDirol/ITMO](https://github.com/ColdDirol/ITMO) — семь семестров материалов ФПИиКТ.
+* [ITSamantha/itmo](https://github.com/ITSamantha/itmo) — компиляторы, ТПО и другие дисциплины старших курсов.
+* [p11menova/ITMO_Labs](https://github.com/p11menova/ITMO_Labs) — программирование, Web, ИС и алгоритмы.
+* [naku0/itmo](https://github.com/naku0/itmo) — небольшой общий архив лабораторных.
+* [svinoczar/itmo](https://github.com/svinoczar/itmo) — все лабы Александра в одном месте.
+* [grigory222/JustMyStrangeLabs](https://github.com/grigory222/JustMyStrangeLabs) — странные лабы, но название честное.
+* [GeruniaSun/ITMO](https://github.com/GeruniaSun/ITMO) — общий архив и свежие работы по ФП, ОС, ТПО и компиляторам.
+* [FEgor04/labs](https://github.com/FEgor04/labs) — большой набор лабораторных, включая РСХД.
+* [RomanVassilchenko/ITMOProjects](https://github.com/RomanVassilchenko/ITMOProjects) — один из старых крупных архивов проектов ИТМО.
+* [sultanowskii/itmo-edu](https://github.com/sultanowskii/itmo-edu) — учебные материалы и работы по компиляторам.
+* [awesoma31/ITMO_Labs](https://github.com/awesoma31/ITMO_Labs) — крупный архив набора 2022–2026.
+* [Gastozavr/itmo](https://github.com/Gastozavr/itmo) — студенческий архив набора 2023–2027.
+* [e345ee/MyITMOProjects](https://github.com/e345ee/MyITMOProjects) — проекты студента набора 2023–2027.
+* [AstroSoup/ITMO.STUDY](https://github.com/AstroSoup/ITMO.STUDY) — материалы следующего поколения студентов.
+* [ldpst/itmo](https://github.com/ldpst/itmo) — учебный монорепозиторий набора 2024–2028.
+* [vladlenblch/ITMO_VT](https://github.com/vladlenblch/ITMO_VT) — работы нового набора кафедры ВТ.
+* [CandyGoose/ITMO_Software_engineering](https://github.com/CandyGoose/ITMO_Software_engineering) — огромный каталог программной инженерии и смежного Нейротеха.
+* [buffer404/university](https://github.com/buffer404/university) — много лабораторных направления ИВТ.
+* [Roggired/ITMO](https://github.com/Roggired/ITMO) — методические материалы и работы практиков ВТ.
+* [rmntim/ITMO](https://github.com/rmntim/ITMO) — пять семестров ИВТ; полезен по общим ранним дисциплинам.
+* [VeraKasianenko/ITMO_Software_engineering](https://github.com/VeraKasianenko/ITMO_Software_engineering) — восьмисеместровый индекс программной инженерии.
+* [delovoyhomie/ITMO_labs](https://github.com/delovoyhomie/ITMO_labs) — ещё один архив лабораторных ИТМО.
+* [pro100kamil/itmo](https://github.com/pro100kamil/itmo) — лабораторные, собранные в одном каталоге.
+
+### Коллеги с отдельными репозиториями по предметам
+
+* [e1turin](https://github.com/e1turin) — ФП, ОС, ИС, ТПО, компиляторы и много аккуратно разнесённых курсов.
+* [ArtyomFuzis](https://github.com/ArtyomFuzis) — серии работ по Web, ИС и РСХД.
+* [MoyshaVondervals](https://github.com/MoyshaVondervals) — ОС, ИС, Web, РСХД и БЛПС.
+* [aeshabb](https://github.com/aeshabb) — полные серии лабораторных по ИС и ТПО.
+* [zazhigalka56123](https://github.com/zazhigalka56123) — функциональное программирование и ТПО.
+* [zkyoto](https://github.com/zkyoto) — несколько архивов `VT_labs` по периодам обучения.
+* [mrcdssclss](https://github.com/mrcdssclss) — лабораторные по ТПО студента ITMO CSE.
+* [medus04ka](https://github.com/medus04ka) — актуальные лабораторные по ТПО.
+* [Holdinalt](https://github.com/Holdinalt) — разработка компиляторов и ТПО.
+* [senina-m](https://github.com/senina-m) — дополнительные материалы по ФП.
+* [DopleZZ](https://github.com/DopleZZ), [deadxraver](https://github.com/deadxraver), [Kivicol](https://github.com/Kivicol), [senya-2011](https://github.com/senya-2011) — коллеги, которых рекомендуют README студентов нашего набора.
+
+</details>
