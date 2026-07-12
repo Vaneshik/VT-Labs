@@ -1,0 +1,9 @@
+// small kek-flavored demo
+var memes = ["lexer", "parser", "semantic"];
+kek(memes[1]);
+
+fun choose(items, index) {
+    return items[index];
+}
+
+kek("best lab stage: " + choose(memes, 2));

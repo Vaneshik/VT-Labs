@@ -1,0 +1,16 @@
+var sum = ["kek", "python", "array"];
+var beta = [26, 36, 79];
+var z = "compiler";
+if ((32 != 55) || (92 < 94)) {
+    sum = [z, "token", "python"];
+    print beta;
+}
+var count = [5, 38, 32];
+if (52 != 96) {
+    while (27 == 75) {
+        sum[2] = "python";
+        sum[0] = z;
+    }
+}
+var z4 = 5;
+count = [z4, 75, z4 - 42];

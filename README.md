@@ -82,6 +82,8 @@
 │       └── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/os/lab4">Лаба 4</a>
 │
 ├── ⚙️ 6 семестр
+│   ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/compilers">Разработка компиляторов (COMPILERS)</a>
+│   │   └── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/compilers/project">Проект — KEK Compiler</a>
 │   ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/tpo">Тестирование программного обеспечения (ТПО)</a>
 │   │   ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/tpo/lab1">Лаба 1</a>
 │   │   ├── <a href="https://github.com/Vaneshik/VT-Labs/tree/main/tpo/lab2">Лаба 2</a>
