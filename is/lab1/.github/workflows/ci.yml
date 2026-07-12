@@ -1,0 +1,107 @@
+name: 🚀 CI - Проверка что всё собирается
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  backend-build:
+    name: 🔨 Backend Build
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v3
+    
+    - name: ☕ Setup Java 17
+      uses: actions/setup-java@v3
+      with:
+        distribution: 'temurin'
+        java-version: '17'
+        cache: 'maven'
+    
+    - name: 🔧 Build with Maven
+      run: mvn clean compile -q
+    
+    - name: 📦 Package WAR
+      run: mvn package -DskipTests -q
+    
+    - name: ✅ Check WAR exists
+      run: |
+        if [ -f target/person-management-system.war ]; then
+          echo "✅ WAR файл собран успешно!"
+          ls -lh target/person-management-system.war
+        else
+          echo "❌ WAR файл не найден!"
+          exit 1
+        fi
+
+  frontend-build:
+    name: 🎨 Frontend Build
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v3
+    
+    - name: 🟢 Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    
+    - name: 📦 Install dependencies
+      run: |
+        cd frontend
+        npm install
+    
+    - name: 🔨 Build React app
+      run: |
+        cd frontend
+        npm run build
+    
+    - name: ✅ Check build output
+      run: |
+        if [ -d frontend/build ]; then
+          echo "✅ Frontend собран успешно!"
+          ls -lh frontend/build
+        else
+          echo "❌ Build директория не найдена!"
+          exit 1
+        fi
+
+  docker-check:
+    name: 🐳 Docker Build Check
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v3
+    
+    - name: 🐳 Build Docker image
+      run: |
+        cd frontend
+        docker build -t test-frontend:latest .
+    
+    - name: ✅ Docker build success
+      run: echo "✅ Docker образ собран успешно!"
+
+  all-checks-passed:
+    name: ✨ Все проверки пройдены
+    runs-on: ubuntu-latest
+    needs: [backend-build, frontend-build, docker-check]
+    
+    steps:
+    - name: 🎉 Success
+      run: |
+        echo "╔═══════════════════════════════════════╗"
+        echo "║  🎉 ВСЕ ПРОВЕРКИ ПРОШЛИ УСПЕШНО! 🎉  ║"
+        echo "╚═══════════════════════════════════════╝"
+        echo ""
+        echo "✅ Backend собрался"
+        echo "✅ Frontend собрался"  
+        echo "✅ Docker образ готов"
+        echo ""
+        echo "Готово к деплою! 🚀"
+

@@ -1,0 +1,8 @@
+{:linters {:unresolved-symbol {:level :error}
+           :unused-binding {:level :warning}
+           :unused-namespace {:level :warning}
+           :unused-private-var {:level :warning}
+           :unused-referred-var {:level :warning}
+           :redefined-var {:level :error}
+           :misplaced-docstring {:level :warning}}}
+

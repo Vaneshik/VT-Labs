@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui" xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+    <meta name="viewport" content="initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html"/>
+    <h:outputStylesheet library="css" name="style.css"/>
+    <title>пу-пу-пу</title>
+    <style type="text/css">
+        .ui-analog-clock {
+            width: 500px;
+        }
+        #container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center
+        }
+
+        #header {
+            display: flex;
+            justify-content: space-between;
+            width: 75%;
+            padding: 10px;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-top: 10px;
+            z-index: 1000;
+        }
+
+        .big-button {
+            font-size: 1.5rem;
+            padding: 10px 20px;
+            border-radius: 8px;
+        }
+    </style>
+</h:head>
+
+<h:body>
+
+    <div id="container" class="margin">
+        <!-- Header Section -->
+        <div id="header">
+            <div class="left">
+                <p>P3207</p>
+            </div>
+            <div class="center">
+                <p>Чусовлянов Максим Сергеевич</p>
+            </div>
+            <div class="right">
+                <p>409858</p>
+            </div>
+        </div>
+
+        <div id="main">
+            <div id="clock-container">
+                <h:form id="time-form">
+                    <p>
+                        Welcome again! Enjoy current time:
+                        <h:outputText id="updateable-time" value="#{timeBean.nowTime}"/>
+                    </p>
+                    <p:clock displayMode="analog" mode="server" />
+                </h:form>
+
+                <h:form id="hiddenForm" style="display:none">
+                    <h:commandButton id="updatePresentDateTime">
+                        <f:ajax render="time-form:updateable-time"/>
+                    </h:commandButton>
+                </h:form>
+            </div>
+
+            <div id="redirect-container">
+                <h:form>
+                    <h:commandButton id="redirect" action="goToMain" value="Ура играть в точечки..." styleClass="big-button"/>
+                </h:form>
+            </div>
+        </div>
+    </div>
+
+    <h:outputScript>
+        setInterval(function () {
+            document.getElementById("hiddenForm:updatePresentDateTime").click();
+        }, 8000);
+    </h:outputScript>
+</h:body>
+
+</html>

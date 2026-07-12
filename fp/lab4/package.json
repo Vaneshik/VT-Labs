@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.28.20"
+  }
+}

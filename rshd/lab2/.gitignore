@@ -1,0 +1,8 @@
+rshd-lab1/
+lab3/
+credentials
+.env
+.venv/
+.claude/
+__pycache__/
+/tmp/rshd-lab2-*

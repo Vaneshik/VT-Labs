@@ -1,0 +1,13 @@
+{:linters {:unresolved-symbol {:level :warning
+                             :exclude [(clojure.test/deftest)
+                                       (clojure.test/is)
+                                       (clojure.test/testing)]}
+            :unused-binding {:level :warning}
+            :unused-namespace {:level :warning}
+            :missing-else-branch {:level :off}
+            :redundant-do {:level :warning}
+            :redundant-let {:level :warning}
+            :type-mismatch {:level :warning}}
+ :output {:pattern "{{level}}:{{row}}:{{col}}: {{message}}"
+          :canonical-paths true}}
+

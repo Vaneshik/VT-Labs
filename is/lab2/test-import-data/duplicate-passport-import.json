@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Hinata Hyuga",
+    "coordinates": {"x": 220.0, "y": 450},
+    "eyeColor": "BLUE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 70,
+      "y": 110.0,
+      "z": 180,
+      "name": "Konoha"
+    },
+    "height": 163,
+    "weight": 53,
+    "passportID": "RU1234567",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Rin Tohsaka",
+    "coordinates": {"x": 190.5, "y": 380},
+    "eyeColor": "BLUE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 60,
+      "y": 105.0,
+      "z": 170,
+      "name": "Fuyuki"
+    },
+    "height": 167,
+    "weight": 57,
+    "passportID": "RU1234567",
+    "nationality": "FRANCE"
+  }
+]

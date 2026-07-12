@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="520" viewBox="0 0 920 520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="460.0" y="28" text-anchor="middle" font-family="Arial" font-size="20">Stress test response time</text>
+<line x1="80" y1="50" x2="80" y2="450" stroke="#333"/>
+<line x1="80" y1="450" x2="890" y2="450" stroke="#333"/>
+<text x="460.0" y="500" text-anchor="middle" font-family="Arial" font-size="14">load, requests/min</text>
+<text x="20" y="260.0" text-anchor="middle" transform="rotate(-90 20 260.0)" font-family="Arial" font-size="14">response time, ms</text>
+<line x1="80" y1="450.00" x2="890" y2="450.00" stroke="#eee"/>
+<text x="70" y="454.00" text-anchor="end" font-family="Arial" font-size="11">0</text>
+<line x1="80" y1="370.00" x2="890" y2="370.00" stroke="#eee"/>
+<text x="70" y="374.00" text-anchor="end" font-family="Arial" font-size="11">2146</text>
+<line x1="80" y1="290.00" x2="890" y2="290.00" stroke="#eee"/>
+<text x="70" y="294.00" text-anchor="end" font-family="Arial" font-size="11">4291</text>
+<line x1="80" y1="210.00" x2="890" y2="210.00" stroke="#eee"/>
+<text x="70" y="214.00" text-anchor="end" font-family="Arial" font-size="11">6437</text>
+<line x1="80" y1="130.00" x2="890" y2="130.00" stroke="#eee"/>
+<text x="70" y="134.00" text-anchor="end" font-family="Arial" font-size="11">8582</text>
+<line x1="80" y1="50.00" x2="890" y2="50.00" stroke="#eee"/>
+<text x="70" y="54.00" text-anchor="end" font-family="Arial" font-size="11">10728</text>
+<line x1="80.00" y1="50" x2="80.00" y2="450" stroke="#f2f2f2"/>
+<text x="80.00" y="468" text-anchor="middle" font-family="Arial" font-size="11">243</text>
+<line x1="242.00" y1="50" x2="242.00" y2="450" stroke="#f2f2f2"/>
+<text x="242.00" y="468" text-anchor="middle" font-family="Arial" font-size="11">1394</text>
+<line x1="404.00" y1="50" x2="404.00" y2="450" stroke="#f2f2f2"/>
+<text x="404.00" y="468" text-anchor="middle" font-family="Arial" font-size="11">2546</text>
+<line x1="566.00" y1="50" x2="566.00" y2="450" stroke="#f2f2f2"/>
+<text x="566.00" y="468" text-anchor="middle" font-family="Arial" font-size="11">3697</text>
+<line x1="728.00" y1="50" x2="728.00" y2="450" stroke="#f2f2f2"/>
+<text x="728.00" y="468" text-anchor="middle" font-family="Arial" font-size="11">4849</text>
+<line x1="890.00" y1="50" x2="890.00" y2="450" stroke="#f2f2f2"/>
+<text x="890.00" y="468" text-anchor="middle" font-family="Arial" font-size="11">6000</text>
+<line x1="80" y1="426.88" x2="890" y2="426.88" stroke="#d62728" stroke-dasharray="8 6"/>
+<text x="886" y="420.88" text-anchor="end" font-family="Arial" font-size="12" fill="#d62728">limit 620 ms</text>
+<path d="M 80.00 430.38 L 124.60 428.36 L 171.74 425.79 L 217.74 421.93 L 265.44 416.04 L 313.70 398.44 L 362.24 378.08 L 410.50 367.02 L 459.74 355.63 L 507.72 344.25 L 555.70 333.72 L 605.23 319.70 L 651.80 313.44 L 702.73 296.62 L 751.69 286.20 L 800.09 282.45 L 850.75 255.92 L 886.90 266.60 L 890.00 235.60 L 890.00 244.13 L 890.00 251.85 L 890.00 233.51 L 890.00 253.99 L 658.41 271.02" fill="none" stroke="#1f77b4" stroke-width="2.5"/>
+<circle cx="80.00" cy="430.38" r="3" fill="#1f77b4"/>
+<circle cx="124.60" cy="428.36" r="3" fill="#1f77b4"/>
+<circle cx="171.74" cy="425.79" r="3" fill="#1f77b4"/>
+<circle cx="217.74" cy="421.93" r="3" fill="#1f77b4"/>
+<circle cx="265.44" cy="416.04" r="3" fill="#1f77b4"/>
+<circle cx="313.70" cy="398.44" r="3" fill="#1f77b4"/>
+<circle cx="362.24" cy="378.08" r="3" fill="#1f77b4"/>
+<circle cx="410.50" cy="367.02" r="3" fill="#1f77b4"/>
+<circle cx="459.74" cy="355.63" r="3" fill="#1f77b4"/>
+<circle cx="507.72" cy="344.25" r="3" fill="#1f77b4"/>
+<circle cx="555.70" cy="333.72" r="3" fill="#1f77b4"/>
+<circle cx="605.23" cy="319.70" r="3" fill="#1f77b4"/>
+<circle cx="651.80" cy="313.44" r="3" fill="#1f77b4"/>
+<circle cx="702.73" cy="296.62" r="3" fill="#1f77b4"/>
+<circle cx="751.69" cy="286.20" r="3" fill="#1f77b4"/>
+<circle cx="800.09" cy="282.45" r="3" fill="#1f77b4"/>
+<circle cx="850.75" cy="255.92" r="3" fill="#1f77b4"/>
+<circle cx="886.90" cy="266.60" r="3" fill="#1f77b4"/>
+<circle cx="890.00" cy="235.60" r="3" fill="#1f77b4"/>
+<circle cx="890.00" cy="244.13" r="3" fill="#1f77b4"/>
+<circle cx="890.00" cy="251.85" r="3" fill="#1f77b4"/>
+<circle cx="890.00" cy="233.51" r="3" fill="#1f77b4"/>
+<circle cx="890.00" cy="253.99" r="3" fill="#1f77b4"/>
+<circle cx="658.41" cy="271.02" r="3" fill="#1f77b4"/>
+<rect x="92" y="58" width="14" height="4" fill="#1f77b4"/>
+<text x="114" y="63" font-family="Arial" font-size="12">avg response</text>
+<path d="M 80.00 429.67 L 124.60 427.41 L 171.74 423.87 L 217.74 419.46 L 265.44 412.87 L 313.70 379.83 L 362.24 364.24 L 410.50 351.08 L 459.74 330.43 L 507.72 313.23 L 555.70 324.81 L 605.23 304.89 L 651.80 289.15 L 702.73 270.02 L 751.69 244.93 L 800.09 242.32 L 850.75 207.01 L 886.90 221.48 L 890.00 127.93 L 890.00 128.43 L 890.00 160.59 L 890.00 92.86 L 890.00 186.54 L 658.41 167.91" fill="none" stroke="#2ca02c" stroke-width="2.5"/>
+<circle cx="80.00" cy="429.67" r="3" fill="#2ca02c"/>
+<circle cx="124.60" cy="427.41" r="3" fill="#2ca02c"/>
+<circle cx="171.74" cy="423.87" r="3" fill="#2ca02c"/>
+<circle cx="217.74" cy="419.46" r="3" fill="#2ca02c"/>
+<circle cx="265.44" cy="412.87" r="3" fill="#2ca02c"/>
+<circle cx="313.70" cy="379.83" r="3" fill="#2ca02c"/>
+<circle cx="362.24" cy="364.24" r="3" fill="#2ca02c"/>
+<circle cx="410.50" cy="351.08" r="3" fill="#2ca02c"/>
+<circle cx="459.74" cy="330.43" r="3" fill="#2ca02c"/>
+<circle cx="507.72" cy="313.23" r="3" fill="#2ca02c"/>
+<circle cx="555.70" cy="324.81" r="3" fill="#2ca02c"/>
+<circle cx="605.23" cy="304.89" r="3" fill="#2ca02c"/>
+<circle cx="651.80" cy="289.15" r="3" fill="#2ca02c"/>
+<circle cx="702.73" cy="270.02" r="3" fill="#2ca02c"/>
+<circle cx="751.69" cy="244.93" r="3" fill="#2ca02c"/>
+<circle cx="800.09" cy="242.32" r="3" fill="#2ca02c"/>
+<circle cx="850.75" cy="207.01" r="3" fill="#2ca02c"/>
+<circle cx="886.90" cy="221.48" r="3" fill="#2ca02c"/>
+<circle cx="890.00" cy="127.93" r="3" fill="#2ca02c"/>
+<circle cx="890.00" cy="128.43" r="3" fill="#2ca02c"/>
+<circle cx="890.00" cy="160.59" r="3" fill="#2ca02c"/>
+<circle cx="890.00" cy="92.86" r="3" fill="#2ca02c"/>
+<circle cx="890.00" cy="186.54" r="3" fill="#2ca02c"/>
+<circle cx="658.41" cy="167.91" r="3" fill="#2ca02c"/>
+<rect x="92" y="80" width="14" height="4" fill="#2ca02c"/>
+<text x="114" y="85" font-family="Arial" font-size="12">p95 response</text>
+</svg>

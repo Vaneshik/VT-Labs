@@ -1,0 +1,10 @@
+{:http {:port 3002}
+
+ :dev {:cors? true
+       :serve-static? true}
+
+ :client {:peer-id-prefix "-CLJ001-"
+          :port 51413
+          :numwant 50}
+
+ :timeouts {:tracker-ms 7000}}

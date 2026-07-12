@@ -1,0 +1,9502 @@
+[
+  {
+    "name": "Maxim Thomas",
+    "coordinates": {
+      "x": -43.5,
+      "y": 412
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 239,
+      "y": 385.5,
+      "z": 198,
+      "name": "Petersburg"
+    },
+    "height": 161,
+    "weight": 54,
+    "passportID": "PASS000001",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Maxim Kuznetsov",
+    "coordinates": {
+      "x": -103.5,
+      "y": -123
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 161,
+      "y": 149.5,
+      "z": 404,
+      "name": "Singapore"
+    },
+    "height": 156,
+    "weight": 87,
+    "passportID": "PASS000002",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Mikhail Volkov",
+    "coordinates": {
+      "x": -12.5,
+      "y": 581
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 470,
+      "y": 72.5,
+      "z": 214,
+      "name": "Delhi"
+    },
+    "height": 171,
+    "weight": 61,
+    "passportID": "PASS000003",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Jennifer Alekseev",
+    "coordinates": {
+      "x": 330.5,
+      "y": 543
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 334,
+      "y": 246.5,
+      "z": 193,
+      "name": "London"
+    },
+    "height": 175,
+    "weight": 69,
+    "passportID": "PASS000004",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Maxim Jones",
+    "coordinates": {
+      "x": -423.5,
+      "y": 104
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 421,
+      "y": 416.5,
+      "z": 231,
+      "name": "Warsaw"
+    },
+    "height": 168,
+    "weight": 84,
+    "passportID": "PASS000005",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Olga Sokolov",
+    "coordinates": {
+      "x": 301.5,
+      "y": -314
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 265,
+      "y": 242.5,
+      "z": 471,
+      "name": "Madrid"
+    },
+    "height": 172,
+    "weight": 71,
+    "passportID": "PASS000006",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "William Taylor",
+    "coordinates": {
+      "x": -44.5,
+      "y": 49
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 120,
+      "y": 134.5,
+      "z": 252,
+      "name": "Montreal"
+    },
+    "height": 190,
+    "weight": 62,
+    "passportID": "PASS000007",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Ekaterina Dmitriev",
+    "coordinates": {
+      "x": 147.5,
+      "y": 306
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 65,
+      "y": 428.5,
+      "z": 258,
+      "name": "Warsaw"
+    },
+    "height": 197,
+    "weight": 79,
+    "passportID": "PASS000008",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Mary Mikhailov",
+    "coordinates": {
+      "x": 372.5,
+      "y": 324
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 141,
+      "y": 196.5,
+      "z": 144,
+      "name": "Sydney"
+    },
+    "height": 162,
+    "weight": 82,
+    "passportID": "PASS000009",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Konstantin Dmitriev",
+    "coordinates": {
+      "x": -83.5,
+      "y": 133
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 48,
+      "y": 210.5,
+      "z": 114,
+      "name": "Berlin"
+    },
+    "height": 196,
+    "weight": 89,
+    "passportID": "PASS000010",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Ekaterina Davis",
+    "coordinates": {
+      "x": 368.5,
+      "y": -564
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 120,
+      "y": 78.5,
+      "z": 9,
+      "name": "Berlin"
+    },
+    "height": 189,
+    "weight": 88,
+    "passportID": "PASS000011",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Natalia Alekseev",
+    "coordinates": {
+      "x": 299.5,
+      "y": 265
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 65,
+      "y": 2.5,
+      "z": 452,
+      "name": "Seoul"
+    },
+    "height": 199,
+    "weight": 73,
+    "passportID": "PASS000012",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Oleg Thomas",
+    "coordinates": {
+      "x": 125.5,
+      "y": 249
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 331,
+      "y": 360.5,
+      "z": 220,
+      "name": "Singapore"
+    },
+    "height": 176,
+    "weight": 82,
+    "passportID": "PASS000013",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Tatiana Davis",
+    "coordinates": {
+      "x": -342.5,
+      "y": 269
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 86,
+      "y": 208.5,
+      "z": 334,
+      "name": "Singapore"
+    },
+    "height": 153,
+    "weight": 72,
+    "passportID": "PASS000014",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Mary Yakovlev",
+    "coordinates": {
+      "x": -233.5,
+      "y": 173
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 359,
+      "y": 470.5,
+      "z": 171,
+      "name": "Sydney"
+    },
+    "height": 166,
+    "weight": 73,
+    "passportID": "PASS000015",
+    "nationality": null
+  },
+  {
+    "name": "Richard Martinez",
+    "coordinates": {
+      "x": -81.5,
+      "y": 510
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 129,
+      "y": 245.5,
+      "z": 225,
+      "name": "Rome"
+    },
+    "height": 159,
+    "weight": 71,
+    "passportID": "PASS000016",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "James Martinez",
+    "coordinates": {
+      "x": 281.5,
+      "y": 531
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 177,
+      "y": 51.5,
+      "z": 453,
+      "name": "Budapest"
+    },
+    "height": 187,
+    "weight": 94,
+    "passportID": "PASS000017",
+    "nationality": null
+  },
+  {
+    "name": "Dmitry Taylor",
+    "coordinates": {
+      "x": 191.5,
+      "y": 570
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 488,
+      "y": 196.5,
+      "z": 256,
+      "name": "Montreal"
+    },
+    "height": 190,
+    "weight": 97,
+    "passportID": "PASS000018",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Maria Brown",
+    "coordinates": {
+      "x": 113.5,
+      "y": 648
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 114,
+      "y": 242.5,
+      "z": 250,
+      "name": "Warsaw"
+    },
+    "height": 158,
+    "weight": 73,
+    "passportID": "PASS000019",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Richard Kozlov",
+    "coordinates": {
+      "x": -107.5,
+      "y": 674
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 282,
+      "y": 212.5,
+      "z": 284,
+      "name": "Petersburg"
+    },
+    "height": 198,
+    "weight": 71,
+    "passportID": "PASS000020",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Alexey Hernandez",
+    "coordinates": {
+      "x": -227.5,
+      "y": 340
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 457,
+      "y": 15.5,
+      "z": 380,
+      "name": "Sydney"
+    },
+    "height": 150,
+    "weight": 78,
+    "passportID": "PASS000021",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Vladimir Garcia",
+    "coordinates": {
+      "x": 217.5,
+      "y": 249
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 224,
+      "y": 72.5,
+      "z": 131,
+      "name": "Sydney"
+    },
+    "height": 188,
+    "weight": 73,
+    "passportID": "PASS000022",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Viktor Alekseev",
+    "coordinates": {
+      "x": 106.5,
+      "y": 422
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 74,
+      "y": 8.5,
+      "z": 183,
+      "name": "Moscow"
+    },
+    "height": 183,
+    "weight": 56,
+    "passportID": "PASS000023",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Ivan Johnson",
+    "coordinates": {
+      "x": -407.5,
+      "y": 267
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 462,
+      "y": 455.5,
+      "z": 31,
+      "name": "Seoul"
+    },
+    "height": 190,
+    "weight": 86,
+    "passportID": "PASS000024",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Olga Brown",
+    "coordinates": {
+      "x": 305.5,
+      "y": -26
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 262,
+      "y": 370.5,
+      "z": 280,
+      "name": "Bangkok"
+    },
+    "height": 196,
+    "weight": 64,
+    "passportID": "PASS000025",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Elizabeth Smith",
+    "coordinates": {
+      "x": -457.5,
+      "y": -663
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 182,
+      "y": 252.5,
+      "z": 390,
+      "name": "Moscow"
+    },
+    "height": 166,
+    "weight": 60,
+    "passportID": "PASS000026",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "William Kuznetsov",
+    "coordinates": {
+      "x": -462.5,
+      "y": 42
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 441,
+      "y": 354.5,
+      "z": 31,
+      "name": "Budapest"
+    },
+    "height": 187,
+    "weight": 80,
+    "passportID": "PASS000027",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Viktor Popov",
+    "coordinates": {
+      "x": -478.5,
+      "y": 572
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 71,
+      "y": 19.5,
+      "z": 123,
+      "name": "London"
+    },
+    "height": 162,
+    "weight": 85,
+    "passportID": "PASS000028",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Thomas Davis",
+    "coordinates": {
+      "x": -469.5,
+      "y": -416
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 84,
+      "y": 3.5,
+      "z": 10,
+      "name": "Budapest"
+    },
+    "height": 196,
+    "weight": 70,
+    "passportID": "PASS000029",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Elena Kozlov",
+    "coordinates": {
+      "x": -32.5,
+      "y": 594
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 234,
+      "y": 272.5,
+      "z": 14,
+      "name": "Tokyo"
+    },
+    "height": 187,
+    "weight": 87,
+    "passportID": "PASS000030",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Maria Mikhailov",
+    "coordinates": {
+      "x": 99.4,
+      "y": 195
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 295,
+      "y": 321.5,
+      "z": 32,
+      "name": "Prague"
+    },
+    "height": 172,
+    "weight": 85,
+    "passportID": "PASS000031",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Ivan Jones",
+    "coordinates": {
+      "x": 99.5,
+      "y": 177
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 110,
+      "y": 275.5,
+      "z": 2,
+      "name": "Budapest"
+    },
+    "height": 152,
+    "weight": 67,
+    "passportID": "PASS000032",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Tatiana Kozlov",
+    "coordinates": {
+      "x": 252.5,
+      "y": 267
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 439,
+      "y": 271.5,
+      "z": 381,
+      "name": "Budapest"
+    },
+    "height": 199,
+    "weight": 69,
+    "passportID": "PASS000033",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Dmitry Smith",
+    "coordinates": {
+      "x": -448.5,
+      "y": 118
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 241,
+      "y": 442.5,
+      "z": 7,
+      "name": "Tokyo"
+    },
+    "height": 192,
+    "weight": 94,
+    "passportID": "PASS000034",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Oleg Lebedev",
+    "coordinates": {
+      "x": 361.5,
+      "y": 452
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 328,
+      "y": 453.5,
+      "z": 357,
+      "name": "Singapore"
+    },
+    "height": 190,
+    "weight": 86,
+    "passportID": "PASS000035",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Elena Davis",
+    "coordinates": {
+      "x": -22.5,
+      "y": 641
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 59,
+      "y": 253.5,
+      "z": 35,
+      "name": "Seoul"
+    },
+    "height": 173,
+    "weight": 51,
+    "passportID": "PASS000036",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Tatiana Taylor",
+    "coordinates": {
+      "x": -220.5,
+      "y": 169
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 20,
+      "y": 344.5,
+      "z": 272,
+      "name": "Berlin"
+    },
+    "height": 167,
+    "weight": 54,
+    "passportID": "PASS000037",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Igor Anderson",
+    "coordinates": {
+      "x": 66.5,
+      "y": 320
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 29,
+      "y": 119.5,
+      "z": 121,
+      "name": "Seoul"
+    },
+    "height": 190,
+    "weight": 79,
+    "passportID": "PASS000038",
+    "nationality": null
+  },
+  {
+    "name": "Olga Sidorov",
+    "coordinates": {
+      "x": 188.5,
+      "y": 8
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 121,
+      "y": 232.5,
+      "z": 248,
+      "name": "London"
+    },
+    "height": 151,
+    "weight": 51,
+    "passportID": "PASS000039",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Thomas Morozov",
+    "coordinates": {
+      "x": 251.5,
+      "y": 282
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 107,
+      "y": 144.5,
+      "z": 484,
+      "name": "Bangkok"
+    },
+    "height": 182,
+    "weight": 89,
+    "passportID": "PASS000040",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Victoria Ivanov",
+    "coordinates": {
+      "x": -123.5,
+      "y": 606
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 239,
+      "y": 363.5,
+      "z": 204,
+      "name": "Delhi"
+    },
+    "height": 198,
+    "weight": 69,
+    "passportID": "PASS000041",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Anna Miller",
+    "coordinates": {
+      "x": -420.5,
+      "y": 618
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 23,
+      "y": 110.5,
+      "z": 458,
+      "name": "NewYork"
+    },
+    "height": 151,
+    "weight": 80,
+    "passportID": "PASS000042",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "James Martinez",
+    "coordinates": {
+      "x": -381.5,
+      "y": 0
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 479,
+      "y": 225.5,
+      "z": 8,
+      "name": "Petersburg"
+    },
+    "height": 180,
+    "weight": 87,
+    "passportID": "PASS000043",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Mary Thomas",
+    "coordinates": {
+      "x": -337.2,
+      "y": 666
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 13,
+      "y": 65.5,
+      "z": 451,
+      "name": "London"
+    },
+    "height": 188,
+    "weight": 82,
+    "passportID": "PASS000044",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Natalia Lopez",
+    "coordinates": {
+      "x": -414.5,
+      "y": 624
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 51,
+      "y": 121.5,
+      "z": 259,
+      "name": "Rome"
+    },
+    "height": 180,
+    "weight": 81,
+    "passportID": "PASS000045",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Robert Miller",
+    "coordinates": {
+      "x": 308.5,
+      "y": -359
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 338,
+      "y": 181.5,
+      "z": 151,
+      "name": "Moscow"
+    },
+    "height": 172,
+    "weight": 54,
+    "passportID": "PASS000046",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Linda Brown",
+    "coordinates": {
+      "x": -232.5,
+      "y": 458
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 155,
+      "y": 440.5,
+      "z": 123,
+      "name": "Seoul"
+    },
+    "height": 166,
+    "weight": 83,
+    "passportID": "PASS000047",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Nikolay Lebedev",
+    "coordinates": {
+      "x": 441.5,
+      "y": 482
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 0,
+      "y": 456.5,
+      "z": 210,
+      "name": "Madrid"
+    },
+    "height": 172,
+    "weight": 90,
+    "passportID": "PASS000048",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Linda Sidorov",
+    "coordinates": {
+      "x": -186.5,
+      "y": -656
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 7,
+      "y": 252.5,
+      "z": 57,
+      "name": "Prague"
+    },
+    "height": 162,
+    "weight": 69,
+    "passportID": "PASS000049",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Patricia Kozlov",
+    "coordinates": {
+      "x": -34.5,
+      "y": 231
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 89,
+      "y": 259.5,
+      "z": 413,
+      "name": "Tokyo"
+    },
+    "height": 172,
+    "weight": 54,
+    "passportID": "PASS000050",
+    "nationality": null
+  },
+  {
+    "name": "Linda Jones",
+    "coordinates": {
+      "x": 164.5,
+      "y": 90
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 130,
+      "y": 91.5,
+      "z": 425,
+      "name": "Seoul"
+    },
+    "height": 184,
+    "weight": 90,
+    "passportID": "PASS000051",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Anastasia Popov",
+    "coordinates": {
+      "x": -161.5,
+      "y": 514
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 250,
+      "y": 399.5,
+      "z": 439,
+      "name": "Budapest"
+    },
+    "height": 152,
+    "weight": 72,
+    "passportID": "PASS000052",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Vera Fedorov",
+    "coordinates": {
+      "x": -468.5,
+      "y": -99
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 193,
+      "y": 215.5,
+      "z": 389,
+      "name": "Moscow"
+    },
+    "height": 184,
+    "weight": 83,
+    "passportID": "PASS000053",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Patricia Wilson",
+    "coordinates": {
+      "x": -406.5,
+      "y": 51
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 246,
+      "y": 234.5,
+      "z": 316,
+      "name": "Sydney"
+    },
+    "height": 179,
+    "weight": 83,
+    "passportID": "PASS000054",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Yulia Novikov",
+    "coordinates": {
+      "x": -280.5,
+      "y": -110
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 153,
+      "y": 15.5,
+      "z": 342,
+      "name": "Budapest"
+    },
+    "height": 160,
+    "weight": 84,
+    "passportID": "PASS000055",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Tatiana Yakovlev",
+    "coordinates": {
+      "x": 332.5,
+      "y": 509
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 239,
+      "y": 418.5,
+      "z": 372,
+      "name": "Rome"
+    },
+    "height": 178,
+    "weight": 62,
+    "passportID": "PASS000056",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Daria Smith",
+    "coordinates": {
+      "x": 377.5,
+      "y": 176
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 112,
+      "y": 35.5,
+      "z": 383,
+      "name": "Montreal"
+    },
+    "height": 159,
+    "weight": 96,
+    "passportID": "PASS000057",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Nikolay Johnson",
+    "coordinates": {
+      "x": 207.5,
+      "y": 207
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 341,
+      "y": 97.5,
+      "z": 30,
+      "name": "Moscow"
+    },
+    "height": 151,
+    "weight": 74,
+    "passportID": "PASS000058",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Nikolay Mikhailov",
+    "coordinates": {
+      "x": -71.5,
+      "y": 522
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 129,
+      "y": 188.5,
+      "z": 25,
+      "name": "Bangkok"
+    },
+    "height": 172,
+    "weight": 61,
+    "passportID": "PASS000059",
+    "nationality": null
+  },
+  {
+    "name": "Dmitry Ivanov",
+    "coordinates": {
+      "x": 141.5,
+      "y": 466
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 85,
+      "y": 89.5,
+      "z": 239,
+      "name": "Vancouver"
+    },
+    "height": 160,
+    "weight": 70,
+    "passportID": "PASS000060",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Marina Rodriguez",
+    "coordinates": {
+      "x": 282.5,
+      "y": 459
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 456,
+      "y": 471.5,
+      "z": 209,
+      "name": "Mumbai"
+    },
+    "height": 192,
+    "weight": 81,
+    "passportID": "PASS000061",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Sergey Popov",
+    "coordinates": {
+      "x": -415.5,
+      "y": 110
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 120,
+      "y": 290.5,
+      "z": 302,
+      "name": "Bangkok"
+    },
+    "height": 174,
+    "weight": 80,
+    "passportID": "PASS000062",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Konstantin Sidorov",
+    "coordinates": {
+      "x": 102.5,
+      "y": 170
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 424,
+      "y": 67.5,
+      "z": 2,
+      "name": "Toronto"
+    },
+    "height": 187,
+    "weight": 71,
+    "passportID": "PASS000063",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Andrey Novikov",
+    "coordinates": {
+      "x": 124.5,
+      "y": 631
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 388,
+      "y": 482.5,
+      "z": 461,
+      "name": "Tokyo"
+    },
+    "height": 188,
+    "weight": 51,
+    "passportID": "PASS000064",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Anna Sokolov",
+    "coordinates": {
+      "x": 142.5,
+      "y": 287
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 112,
+      "y": 41.5,
+      "z": 276,
+      "name": "Seoul"
+    },
+    "height": 195,
+    "weight": 62,
+    "passportID": "PASS000065",
+    "nationality": null
+  },
+  {
+    "name": "James Johnson",
+    "coordinates": {
+      "x": 35.5,
+      "y": 398
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 92,
+      "y": 260.5,
+      "z": 100,
+      "name": "London"
+    },
+    "height": 179,
+    "weight": 59,
+    "passportID": "PASS000066",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "David Williams",
+    "coordinates": {
+      "x": -143.5,
+      "y": 615
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 263,
+      "y": 452.5,
+      "z": 17,
+      "name": "Seoul"
+    },
+    "height": 152,
+    "weight": 70,
+    "passportID": "PASS000067",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Oleg Jones",
+    "coordinates": {
+      "x": 396.5,
+      "y": 569
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 120,
+      "y": 106.5,
+      "z": 449,
+      "name": "Shanghai"
+    },
+    "height": 157,
+    "weight": 50,
+    "passportID": "PASS000068",
+    "nationality": null
+  },
+  {
+    "name": "Thomas Williams",
+    "coordinates": {
+      "x": -148.5,
+      "y": 459
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 11,
+      "y": 50.5,
+      "z": 287,
+      "name": "Mumbai"
+    },
+    "height": 168,
+    "weight": 93,
+    "passportID": "PASS000069",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Linda Smith",
+    "coordinates": {
+      "x": -332.5,
+      "y": 597
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 292,
+      "y": 480.5,
+      "z": 376,
+      "name": "Madrid"
+    },
+    "height": 191,
+    "weight": 78,
+    "passportID": "PASS000070",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Tatiana Ivanov",
+    "coordinates": {
+      "x": -314.5,
+      "y": 39
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 463,
+      "y": 355.5,
+      "z": 49,
+      "name": "Tokyo"
+    },
+    "height": 194,
+    "weight": 63,
+    "passportID": "PASS000071",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Vladimir Williams",
+    "coordinates": {
+      "x": -481.5,
+      "y": -225
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 15,
+      "y": 185.5,
+      "z": 53,
+      "name": "Rome"
+    },
+    "height": 182,
+    "weight": 55,
+    "passportID": "PASS000072",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Ksenia Anderson",
+    "coordinates": {
+      "x": -46.5,
+      "y": 497
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 199,
+      "y": 83.5,
+      "z": 218,
+      "name": "Madrid"
+    },
+    "height": 165,
+    "weight": 71,
+    "passportID": "PASS000073",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Viktor Fedorov",
+    "coordinates": {
+      "x": 331.5,
+      "y": 238
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 404,
+      "y": 21.5,
+      "z": 217,
+      "name": "Delhi"
+    },
+    "height": 153,
+    "weight": 51,
+    "passportID": "PASS000074",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Elizabeth Johnson",
+    "coordinates": {
+      "x": 341.5,
+      "y": 136
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 382,
+      "y": 144.5,
+      "z": 62,
+      "name": "Seoul"
+    },
+    "height": 151,
+    "weight": 65,
+    "passportID": "PASS000075",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Alexey Smith",
+    "coordinates": {
+      "x": 304.5,
+      "y": 244
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 158,
+      "y": 341.5,
+      "z": 230,
+      "name": "Warsaw"
+    },
+    "height": 166,
+    "weight": 63,
+    "passportID": "PASS000076",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Maria Miller",
+    "coordinates": {
+      "x": -326.5,
+      "y": 213
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 157,
+      "y": 99.5,
+      "z": 207,
+      "name": "Bangkok"
+    },
+    "height": 166,
+    "weight": 54,
+    "passportID": "PASS000077",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Daria Fedorov",
+    "coordinates": {
+      "x": -110.5,
+      "y": 532
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 27,
+      "y": 233.5,
+      "z": 34,
+      "name": "Shanghai"
+    },
+    "height": 181,
+    "weight": 54,
+    "passportID": "PASS000078",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Jessica Wilson",
+    "coordinates": {
+      "x": -63.5,
+      "y": 161
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 90,
+      "y": 225.5,
+      "z": 137,
+      "name": "Berlin"
+    },
+    "height": 156,
+    "weight": 87,
+    "passportID": "PASS000079",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Olga Smith",
+    "coordinates": {
+      "x": -361.5,
+      "y": -594
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 448,
+      "y": 287.5,
+      "z": 120,
+      "name": "Delhi"
+    },
+    "height": 178,
+    "weight": 59,
+    "passportID": "PASS000080",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Vera Yakovlev",
+    "coordinates": {
+      "x": -84.5,
+      "y": 193
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 478,
+      "y": 132.5,
+      "z": 405,
+      "name": "Seoul"
+    },
+    "height": 197,
+    "weight": 73,
+    "passportID": "PASS000081",
+    "nationality": null
+  },
+  {
+    "name": "Vera Thomas",
+    "coordinates": {
+      "x": 314.5,
+      "y": 626
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 145,
+      "y": 159.5,
+      "z": 195,
+      "name": "Montreal"
+    },
+    "height": 172,
+    "weight": 96,
+    "passportID": "PASS000082",
+    "nationality": null
+  },
+  {
+    "name": "William Williams",
+    "coordinates": {
+      "x": 206.5,
+      "y": 259
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 367,
+      "y": 383.5,
+      "z": 469,
+      "name": "NewYork"
+    },
+    "height": 163,
+    "weight": 98,
+    "passportID": "PASS000083",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Natalia Fedorov",
+    "coordinates": {
+      "x": -465.5,
+      "y": 105
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 106,
+      "y": 353.5,
+      "z": 99,
+      "name": "Prague"
+    },
+    "height": 150,
+    "weight": 67,
+    "passportID": "PASS000084",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Tatiana Davis",
+    "coordinates": {
+      "x": -414.5,
+      "y": 351
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 97,
+      "y": 172.5,
+      "z": 193,
+      "name": "Delhi"
+    },
+    "height": 175,
+    "weight": 76,
+    "passportID": "PASS000085",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Daria Rodriguez",
+    "coordinates": {
+      "x": -204.5,
+      "y": 511
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 483,
+      "y": 232.5,
+      "z": 422,
+      "name": "Seoul"
+    },
+    "height": 177,
+    "weight": 66,
+    "passportID": "PASS000086",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Maria Mikhailov",
+    "coordinates": {
+      "x": -28.5,
+      "y": 59
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 53,
+      "y": 64.5,
+      "z": 78,
+      "name": "Mumbai"
+    },
+    "height": 165,
+    "weight": 91,
+    "passportID": "PASS000087",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Igor Brown",
+    "coordinates": {
+      "x": 256.5,
+      "y": 204
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 435,
+      "y": 115.5,
+      "z": 120,
+      "name": "Berlin"
+    },
+    "height": 196,
+    "weight": 89,
+    "passportID": "PASS000088",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Andrey Kuznetsov",
+    "coordinates": {
+      "x": -400.5,
+      "y": 454
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 453,
+      "y": 140.5,
+      "z": 101,
+      "name": "Warsaw"
+    },
+    "height": 162,
+    "weight": 62,
+    "passportID": "PASS000089",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Anna Thomas",
+    "coordinates": {
+      "x": -197.5,
+      "y": 556
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 263,
+      "y": 477.5,
+      "z": 353,
+      "name": "Toronto"
+    },
+    "height": 161,
+    "weight": 99,
+    "passportID": "PASS000090",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Tatiana Martinez",
+    "coordinates": {
+      "x": 414.5,
+      "y": 249
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 229,
+      "y": 106.5,
+      "z": 358,
+      "name": "Budapest"
+    },
+    "height": 177,
+    "weight": 52,
+    "passportID": "PASS000091",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Olga Miller",
+    "coordinates": {
+      "x": 212.5,
+      "y": 497
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 496,
+      "y": 352.5,
+      "z": 286,
+      "name": "Tokyo"
+    },
+    "height": 155,
+    "weight": 71,
+    "passportID": "PASS000092",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Tatiana Sidorov",
+    "coordinates": {
+      "x": 408.5,
+      "y": 400
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 286,
+      "y": 291.5,
+      "z": 413,
+      "name": "Madrid"
+    },
+    "height": 160,
+    "weight": 57,
+    "passportID": "PASS000093",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Oleg Jones",
+    "coordinates": {
+      "x": -287.5,
+      "y": 630
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 54,
+      "y": 62.5,
+      "z": 211,
+      "name": "Berlin"
+    },
+    "height": 197,
+    "weight": 91,
+    "passportID": "PASS000094",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Vera Popov",
+    "coordinates": {
+      "x": 344.5,
+      "y": 224
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 348,
+      "y": 45.5,
+      "z": 75,
+      "name": "Vancouver"
+    },
+    "height": 161,
+    "weight": 89,
+    "passportID": "PASS000095",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Linda Miller",
+    "coordinates": {
+      "x": -316.5,
+      "y": -570
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 50,
+      "y": 184.5,
+      "z": 389,
+      "name": "Petersburg"
+    },
+    "height": 165,
+    "weight": 56,
+    "passportID": "PASS000096",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Patricia Johnson",
+    "coordinates": {
+      "x": -83.5,
+      "y": 696
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 150,
+      "y": 97.5,
+      "z": 339,
+      "name": "Petersburg"
+    },
+    "height": 176,
+    "weight": 76,
+    "passportID": "PASS000097",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Sergey Wilson",
+    "coordinates": {
+      "x": 136.5,
+      "y": 345
+    },
+    "eyeColor": "BROWN",
+    "hairColor": null,
+    "location": {
+      "x": 376,
+      "y": 484.5,
+      "z": 274,
+      "name": "Bangkok"
+    },
+    "height": 184,
+    "weight": 64,
+    "passportID": "PASS000098",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Susan Kozlov",
+    "coordinates": {
+      "x": 155.5,
+      "y": 303
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 149,
+      "y": 178.5,
+      "z": 167,
+      "name": "Prague"
+    },
+    "height": 186,
+    "weight": 78,
+    "passportID": "PASS000099",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Irina Martinez",
+    "coordinates": {
+      "x": -8.5,
+      "y": 357
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 133,
+      "y": 242.5,
+      "z": 492,
+      "name": "Paris"
+    },
+    "height": 175,
+    "weight": 87,
+    "passportID": "PASS000100",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Richard Lebedev",
+    "coordinates": {
+      "x": -113.5,
+      "y": 374
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 406,
+      "y": 362.5,
+      "z": 446,
+      "name": "Toronto"
+    },
+    "height": 174,
+    "weight": 71,
+    "passportID": "PASS000101",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Anna Jones",
+    "coordinates": {
+      "x": 252.5,
+      "y": -236
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 65,
+      "y": 117.5,
+      "z": 171,
+      "name": "Paris"
+    },
+    "height": 151,
+    "weight": 86,
+    "passportID": "PASS000102",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Konstantin Johnson",
+    "coordinates": {
+      "x": -191.5,
+      "y": 254
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 362,
+      "y": 356.5,
+      "z": 138,
+      "name": "London"
+    },
+    "height": 194,
+    "weight": 83,
+    "passportID": "PASS000103",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Michael Popov",
+    "coordinates": {
+      "x": -271.5,
+      "y": 582
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 425,
+      "y": 207.5,
+      "z": 307,
+      "name": "Shanghai"
+    },
+    "height": 198,
+    "weight": 54,
+    "passportID": "PASS000104",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Victoria Thomas",
+    "coordinates": {
+      "x": 441.5,
+      "y": 464
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 141,
+      "y": 288.5,
+      "z": 438,
+      "name": "Sydney"
+    },
+    "height": 181,
+    "weight": 59,
+    "passportID": "PASS000105",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Konstantin Smith",
+    "coordinates": {
+      "x": -454.5,
+      "y": 458
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 236,
+      "y": 252.5,
+      "z": 55,
+      "name": "Madrid"
+    },
+    "height": 159,
+    "weight": 99,
+    "passportID": "PASS000106",
+    "nationality": null
+  },
+  {
+    "name": "Vladimir Rodriguez",
+    "coordinates": {
+      "x": -167.5,
+      "y": -662
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 225,
+      "y": 263.5,
+      "z": 84,
+      "name": "Rome"
+    },
+    "height": 166,
+    "weight": 95,
+    "passportID": "PASS000107",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Anastasia Rodriguez",
+    "coordinates": {
+      "x": -42.5,
+      "y": 319
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 149,
+      "y": 265.5,
+      "z": 287,
+      "name": "NewYork"
+    },
+    "height": 186,
+    "weight": 56,
+    "passportID": "PASS000108",
+    "nationality": null
+  },
+  {
+    "name": "Vladimir Kozlov",
+    "coordinates": {
+      "x": -69.5,
+      "y": 215
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 257,
+      "y": 240.5,
+      "z": 164,
+      "name": "Petersburg"
+    },
+    "height": 186,
+    "weight": 57,
+    "passportID": "PASS000109",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Victoria Miller",
+    "coordinates": {
+      "x": -461.5,
+      "y": 407
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 265,
+      "y": 183.5,
+      "z": 280,
+      "name": "Vienna"
+    },
+    "height": 188,
+    "weight": 96,
+    "passportID": "PASS000110",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Barbara Thomas",
+    "coordinates": {
+      "x": -310.5,
+      "y": 187
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 236,
+      "y": 286.5,
+      "z": 275,
+      "name": "Toronto"
+    },
+    "height": 196,
+    "weight": 63,
+    "passportID": "PASS000111",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Mary Smith",
+    "coordinates": {
+      "x": 311.5,
+      "y": 68
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 159,
+      "y": 66.5,
+      "z": 28,
+      "name": "Bangkok"
+    },
+    "height": 185,
+    "weight": 79,
+    "passportID": "PASS000112",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Igor Dmitriev",
+    "coordinates": {
+      "x": -446.6,
+      "y": 415
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 209,
+      "y": 67.5,
+      "z": 318,
+      "name": "Moscow"
+    },
+    "height": 179,
+    "weight": 80,
+    "passportID": "PASS000113",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Anastasia Wilson",
+    "coordinates": {
+      "x": 125.5,
+      "y": -298
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 54,
+      "y": 100.5,
+      "z": 451,
+      "name": "Vancouver"
+    },
+    "height": 176,
+    "weight": 93,
+    "passportID": "PASS000114",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Susan Popov",
+    "coordinates": {
+      "x": -273.5,
+      "y": 368
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 251,
+      "y": 369.5,
+      "z": 274,
+      "name": "Bangkok"
+    },
+    "height": 160,
+    "weight": 67,
+    "passportID": "PASS000115",
+    "nationality": null
+  },
+  {
+    "name": "Sergey Anderson",
+    "coordinates": {
+      "x": -259.5,
+      "y": 624
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 104,
+      "y": 49.5,
+      "z": 284,
+      "name": "NewYork"
+    },
+    "height": 156,
+    "weight": 62,
+    "passportID": "PASS000116",
+    "nationality": null
+  },
+  {
+    "name": "Igor Alekseev",
+    "coordinates": {
+      "x": 201.5,
+      "y": 499
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 485,
+      "y": 336.5,
+      "z": 168,
+      "name": "Madrid"
+    },
+    "height": 182,
+    "weight": 90,
+    "passportID": "PASS000117",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Patricia Kuznetsov",
+    "coordinates": {
+      "x": -240.5,
+      "y": 633
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 224,
+      "y": 186.5,
+      "z": 144,
+      "name": "Berlin"
+    },
+    "height": 161,
+    "weight": 74,
+    "passportID": "PASS000118",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Jessica Johnson",
+    "coordinates": {
+      "x": 141.5,
+      "y": 68
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 314,
+      "y": 298.5,
+      "z": 103,
+      "name": "Budapest"
+    },
+    "height": 168,
+    "weight": 77,
+    "passportID": "PASS000119",
+    "nationality": null
+  },
+  {
+    "name": "Yulia Anderson",
+    "coordinates": {
+      "x": 229.5,
+      "y": 266
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 98,
+      "y": 193.5,
+      "z": 121,
+      "name": "Rome"
+    },
+    "height": 185,
+    "weight": 66,
+    "passportID": "PASS000120",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "David Lebedev",
+    "coordinates": {
+      "x": 86.9,
+      "y": 611
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 248,
+      "y": 82.5,
+      "z": 433,
+      "name": "Rome"
+    },
+    "height": 186,
+    "weight": 70,
+    "passportID": "PASS000121",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Irina Johnson",
+    "coordinates": {
+      "x": -229.5,
+      "y": 445
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 270,
+      "y": 68.5,
+      "z": 200,
+      "name": "Madrid"
+    },
+    "height": 166,
+    "weight": 72,
+    "passportID": "PASS000122",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Victoria Ivanov",
+    "coordinates": {
+      "x": -217.5,
+      "y": 534
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 1,
+      "y": 297.5,
+      "z": 247,
+      "name": "Toronto"
+    },
+    "height": 196,
+    "weight": 82,
+    "passportID": "PASS000123",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Vera Thomas",
+    "coordinates": {
+      "x": 152.5,
+      "y": 215
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 173,
+      "y": 240.5,
+      "z": 40,
+      "name": "Petersburg"
+    },
+    "height": 196,
+    "weight": 57,
+    "passportID": "PASS000124",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Michael Dmitriev",
+    "coordinates": {
+      "x": -301.5,
+      "y": -633
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 101,
+      "y": 183.5,
+      "z": 349,
+      "name": "Beijing"
+    },
+    "height": 161,
+    "weight": 97,
+    "passportID": "PASS000125",
+    "nationality": null
+  },
+  {
+    "name": "Irina Johnson",
+    "coordinates": {
+      "x": 361.5,
+      "y": 568
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 42,
+      "y": 192.5,
+      "z": 219,
+      "name": "Montreal"
+    },
+    "height": 180,
+    "weight": 90,
+    "passportID": "PASS000126",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Richard Yakovlev",
+    "coordinates": {
+      "x": -299.5,
+      "y": 232
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 79,
+      "y": 354.5,
+      "z": 119,
+      "name": "Beijing"
+    },
+    "height": 162,
+    "weight": 70,
+    "passportID": "PASS000127",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Jennifer Miller",
+    "coordinates": {
+      "x": -413.5,
+      "y": 303
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 81,
+      "y": 281.5,
+      "z": 176,
+      "name": "Madrid"
+    },
+    "height": 181,
+    "weight": 53,
+    "passportID": "PASS000128",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Barbara Petrov",
+    "coordinates": {
+      "x": 290.5,
+      "y": 623
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 401,
+      "y": 324.5,
+      "z": 255,
+      "name": "Montreal"
+    },
+    "height": 155,
+    "weight": 88,
+    "passportID": "PASS000129",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Irina Alekseev",
+    "coordinates": {
+      "x": -273.5,
+      "y": 205
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 455,
+      "y": 105.5,
+      "z": 133,
+      "name": "Singapore"
+    },
+    "height": 157,
+    "weight": 53,
+    "passportID": "PASS000130",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "William Wilson",
+    "coordinates": {
+      "x": -376.5,
+      "y": -343
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 157,
+      "y": 135.5,
+      "z": 350,
+      "name": "Singapore"
+    },
+    "height": 161,
+    "weight": 89,
+    "passportID": "PASS000131",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Mikhail Taylor",
+    "coordinates": {
+      "x": -354.5,
+      "y": 560
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 188,
+      "y": 249.5,
+      "z": 41,
+      "name": "Bangkok"
+    },
+    "height": 157,
+    "weight": 81,
+    "passportID": "PASS000132",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Thomas Johnson",
+    "coordinates": {
+      "x": -449.5,
+      "y": -418
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 289,
+      "y": 311.5,
+      "z": 100,
+      "name": "Berlin"
+    },
+    "height": 187,
+    "weight": 99,
+    "passportID": "PASS000133",
+    "nationality": null
+  },
+  {
+    "name": "Viktor Kuznetsov",
+    "coordinates": {
+      "x": -222.5,
+      "y": 385
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 414,
+      "y": 318.5,
+      "z": 498,
+      "name": "Prague"
+    },
+    "height": 199,
+    "weight": 68,
+    "passportID": "PASS000134",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Oleg Fedorov",
+    "coordinates": {
+      "x": 295.5,
+      "y": 571
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 415,
+      "y": 134.5,
+      "z": 188,
+      "name": "London"
+    },
+    "height": 159,
+    "weight": 60,
+    "passportID": "PASS000135",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Viktor Garcia",
+    "coordinates": {
+      "x": -97.5,
+      "y": 124
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 66,
+      "y": 476.5,
+      "z": 21,
+      "name": "Berlin"
+    },
+    "height": 158,
+    "weight": 73,
+    "passportID": "PASS000136",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Nikolay Martinez",
+    "coordinates": {
+      "x": -12.5,
+      "y": -165
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 375,
+      "y": 34.5,
+      "z": 112,
+      "name": "Petersburg"
+    },
+    "height": 155,
+    "weight": 60,
+    "passportID": "PASS000137",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Vladimir Williams",
+    "coordinates": {
+      "x": 34.5,
+      "y": 581
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 157,
+      "y": 417.5,
+      "z": 185,
+      "name": "Vancouver"
+    },
+    "height": 163,
+    "weight": 90,
+    "passportID": "PASS000138",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Anastasia Sokolov",
+    "coordinates": {
+      "x": -387.5,
+      "y": 105
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 96,
+      "y": 103.5,
+      "z": 326,
+      "name": "Mumbai"
+    },
+    "height": 199,
+    "weight": 96,
+    "passportID": "PASS000139",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Anastasia Dmitriev",
+    "coordinates": {
+      "x": -164.5,
+      "y": 555
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 146,
+      "y": 426.5,
+      "z": 176,
+      "name": "Moscow"
+    },
+    "height": 183,
+    "weight": 66,
+    "passportID": "PASS000140",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Pavel Lebedev",
+    "coordinates": {
+      "x": -297.5,
+      "y": 121
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 370,
+      "y": 1.5,
+      "z": 379,
+      "name": "Sydney"
+    },
+    "height": 171,
+    "weight": 83,
+    "passportID": "PASS000141",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Natalia Lebedev",
+    "coordinates": {
+      "x": -97.5,
+      "y": 598
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 180,
+      "y": 347.5,
+      "z": 240,
+      "name": "Budapest"
+    },
+    "height": 187,
+    "weight": 82,
+    "passportID": "PASS000142",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Jennifer Johnson",
+    "coordinates": {
+      "x": 282.5,
+      "y": 280
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 82,
+      "y": 94.5,
+      "z": 247,
+      "name": "Shanghai"
+    },
+    "height": 158,
+    "weight": 72,
+    "passportID": "PASS000143",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Svetlana Thomas",
+    "coordinates": {
+      "x": 43.5,
+      "y": 105
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 183,
+      "y": 497.5,
+      "z": 371,
+      "name": "Toronto"
+    },
+    "height": 182,
+    "weight": 93,
+    "passportID": "PASS000144",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Ivan Kuznetsov",
+    "coordinates": {
+      "x": -277.5,
+      "y": 237
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 45,
+      "y": 252.5,
+      "z": 414,
+      "name": "Prague"
+    },
+    "height": 185,
+    "weight": 75,
+    "passportID": "PASS000145",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Marina Hernandez",
+    "coordinates": {
+      "x": -49.5,
+      "y": 73
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 342,
+      "y": 434.5,
+      "z": 40,
+      "name": "Paris"
+    },
+    "height": 150,
+    "weight": 85,
+    "passportID": "PASS000146",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Alexander Sidorov",
+    "coordinates": {
+      "x": 438.5,
+      "y": 269
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 165,
+      "y": 198.5,
+      "z": 306,
+      "name": "Vienna"
+    },
+    "height": 158,
+    "weight": 97,
+    "passportID": "PASS000147",
+    "nationality": null
+  },
+  {
+    "name": "James Novikov",
+    "coordinates": {
+      "x": -79.5,
+      "y": 125
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 175,
+      "y": 224.5,
+      "z": 494,
+      "name": "Sydney"
+    },
+    "height": 180,
+    "weight": 84,
+    "passportID": "PASS000148",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Dmitry Kuznetsov",
+    "coordinates": {
+      "x": -96.5,
+      "y": -687
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 245,
+      "y": 54.5,
+      "z": 71,
+      "name": "Vancouver"
+    },
+    "height": 196,
+    "weight": 95,
+    "passportID": "PASS000149",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Andrey Jones",
+    "coordinates": {
+      "x": -371.5,
+      "y": -634
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 307,
+      "y": 52.5,
+      "z": 39,
+      "name": "Toronto"
+    },
+    "height": 199,
+    "weight": 74,
+    "passportID": "PASS000150",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Irina Yakovlev",
+    "coordinates": {
+      "x": 116.5,
+      "y": 326
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 124,
+      "y": 302.5,
+      "z": 49,
+      "name": "Petersburg"
+    },
+    "height": 165,
+    "weight": 71,
+    "passportID": "PASS000151",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "William Kuznetsov",
+    "coordinates": {
+      "x": -29.5,
+      "y": 322
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 403,
+      "y": 302.5,
+      "z": 313,
+      "name": "Delhi"
+    },
+    "height": 195,
+    "weight": 52,
+    "passportID": "PASS000152",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Susan Smith",
+    "coordinates": {
+      "x": -341.5,
+      "y": 582
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 382,
+      "y": 5.5,
+      "z": 376,
+      "name": "Beijing"
+    },
+    "height": 188,
+    "weight": 63,
+    "passportID": "PASS000153",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Sergey Petrov",
+    "coordinates": {
+      "x": 216.5,
+      "y": 266
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 87,
+      "y": 230.5,
+      "z": 83,
+      "name": "Seoul"
+    },
+    "height": 156,
+    "weight": 53,
+    "passportID": "PASS000154",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Jennifer Martinez",
+    "coordinates": {
+      "x": -252.5,
+      "y": 655
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 433,
+      "y": 112.5,
+      "z": 443,
+      "name": "Paris"
+    },
+    "height": 191,
+    "weight": 76,
+    "passportID": "PASS000155",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "James Johnson",
+    "coordinates": {
+      "x": 311.5,
+      "y": 629
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 227,
+      "y": 68.5,
+      "z": 61,
+      "name": "Toronto"
+    },
+    "height": 182,
+    "weight": 63,
+    "passportID": "PASS000156",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Anastasia Miller",
+    "coordinates": {
+      "x": -19.5,
+      "y": 692
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 38,
+      "y": 231.5,
+      "z": 55,
+      "name": "Bangkok"
+    },
+    "height": 197,
+    "weight": 94,
+    "passportID": "PASS000157",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Sergey Brown",
+    "coordinates": {
+      "x": 280.5,
+      "y": 28
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 371,
+      "y": 244.5,
+      "z": 126,
+      "name": "Sydney"
+    },
+    "height": 154,
+    "weight": 83,
+    "passportID": "PASS000158",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Viktor Johnson",
+    "coordinates": {
+      "x": -34.5,
+      "y": 242
+    },
+    "eyeColor": "WHITE",
+    "hairColor": null,
+    "location": {
+      "x": 45,
+      "y": 303.5,
+      "z": 493,
+      "name": "Rome"
+    },
+    "height": 170,
+    "weight": 52,
+    "passportID": "PASS000159",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Anastasia Ivanov",
+    "coordinates": {
+      "x": -39.5,
+      "y": 673
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 57,
+      "y": 211.5,
+      "z": 340,
+      "name": "Shanghai"
+    },
+    "height": 164,
+    "weight": 73,
+    "passportID": "PASS000160",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Yulia Fedorov",
+    "coordinates": {
+      "x": 84.5,
+      "y": -53
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 168,
+      "y": 194.5,
+      "z": 274,
+      "name": "Seoul"
+    },
+    "height": 192,
+    "weight": 99,
+    "passportID": "PASS000161",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Maxim Miller",
+    "coordinates": {
+      "x": -31.5,
+      "y": 531
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 58,
+      "y": 299.5,
+      "z": 490,
+      "name": "Budapest"
+    },
+    "height": 157,
+    "weight": 94,
+    "passportID": "PASS000162",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Vera Volkov",
+    "coordinates": {
+      "x": -448.5,
+      "y": -363
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 187,
+      "y": 346.5,
+      "z": 452,
+      "name": "Petersburg"
+    },
+    "height": 189,
+    "weight": 58,
+    "passportID": "PASS000163",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Maxim Thomas",
+    "coordinates": {
+      "x": 406.5,
+      "y": 182
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 123,
+      "y": 170.5,
+      "z": 22,
+      "name": "Prague"
+    },
+    "height": 162,
+    "weight": 73,
+    "passportID": "PASS000164",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Michael Yakovlev",
+    "coordinates": {
+      "x": -229.5,
+      "y": 109
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 119,
+      "y": 99.5,
+      "z": 409,
+      "name": "Sydney"
+    },
+    "height": 164,
+    "weight": 74,
+    "passportID": "PASS000165",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Anna Jones",
+    "coordinates": {
+      "x": -124.5,
+      "y": 189
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 417,
+      "y": 135.5,
+      "z": 478,
+      "name": "Seoul"
+    },
+    "height": 174,
+    "weight": 75,
+    "passportID": "PASS000166",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Andrey Fedorov",
+    "coordinates": {
+      "x": 413.5,
+      "y": 456
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 328,
+      "y": 493.5,
+      "z": 23,
+      "name": "Shanghai"
+    },
+    "height": 162,
+    "weight": 69,
+    "passportID": "PASS000167",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Oleg Thomas",
+    "coordinates": {
+      "x": -382.5,
+      "y": 540
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 25,
+      "y": 326.5,
+      "z": 370,
+      "name": "Rome"
+    },
+    "height": 156,
+    "weight": 91,
+    "passportID": "PASS000168",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Daria Kozlov",
+    "coordinates": {
+      "x": -38.5,
+      "y": 185
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 359,
+      "y": 124.5,
+      "z": 484,
+      "name": "Mumbai"
+    },
+    "height": 189,
+    "weight": 58,
+    "passportID": "PASS000169",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Tatiana Fedorov",
+    "coordinates": {
+      "x": 122.5,
+      "y": -472
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 476,
+      "y": 50.5,
+      "z": 26,
+      "name": "Moscow"
+    },
+    "height": 150,
+    "weight": 70,
+    "passportID": "PASS000170",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Sergey Smith",
+    "coordinates": {
+      "x": 122.5,
+      "y": 602
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 151,
+      "y": 43.5,
+      "z": 307,
+      "name": "Berlin"
+    },
+    "height": 196,
+    "weight": 81,
+    "passportID": "PASS000171",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Maxim Mikhailov",
+    "coordinates": {
+      "x": 186.5,
+      "y": 497
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 211,
+      "y": 172.5,
+      "z": 463,
+      "name": "Sydney"
+    },
+    "height": 186,
+    "weight": 70,
+    "passportID": "PASS000172",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Victoria Alekseev",
+    "coordinates": {
+      "x": -476.5,
+      "y": -544
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 213,
+      "y": 166.5,
+      "z": 14,
+      "name": "Shanghai"
+    },
+    "height": 179,
+    "weight": 83,
+    "passportID": "PASS000173",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Vera Miller",
+    "coordinates": {
+      "x": -393.5,
+      "y": 41
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 256,
+      "y": 341.5,
+      "z": 163,
+      "name": "Berlin"
+    },
+    "height": 161,
+    "weight": 67,
+    "passportID": "PASS000174",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Robert Fedorov",
+    "coordinates": {
+      "x": 274.5,
+      "y": 530
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 227,
+      "y": 61.5,
+      "z": 26,
+      "name": "NewYork"
+    },
+    "height": 169,
+    "weight": 51,
+    "passportID": "PASS000175",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Olga Williams",
+    "coordinates": {
+      "x": 201.5,
+      "y": -667
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 428,
+      "y": 319.5,
+      "z": 287,
+      "name": "Berlin"
+    },
+    "height": 168,
+    "weight": 54,
+    "passportID": "PASS000176",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "James Taylor",
+    "coordinates": {
+      "x": 77.5,
+      "y": 557
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 214,
+      "y": 169.5,
+      "z": 275,
+      "name": "Montreal"
+    },
+    "height": 172,
+    "weight": 91,
+    "passportID": "PASS000177",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Marina Fedorov",
+    "coordinates": {
+      "x": -137.5,
+      "y": 532
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 243,
+      "y": 125.5,
+      "z": 495,
+      "name": "Budapest"
+    },
+    "height": 164,
+    "weight": 96,
+    "passportID": "PASS000178",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Tatiana Sokolov",
+    "coordinates": {
+      "x": -492.5,
+      "y": 282
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 257,
+      "y": 377.5,
+      "z": 99,
+      "name": "Beijing"
+    },
+    "height": 155,
+    "weight": 73,
+    "passportID": "PASS000179",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Alexander Novikov",
+    "coordinates": {
+      "x": 402.5,
+      "y": 290
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 25,
+      "y": 498.5,
+      "z": 280,
+      "name": "Paris"
+    },
+    "height": 165,
+    "weight": 72,
+    "passportID": "PASS000180",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Maxim Davis",
+    "coordinates": {
+      "x": -49.5,
+      "y": 121
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 300,
+      "y": 110.5,
+      "z": 304,
+      "name": "Prague"
+    },
+    "height": 177,
+    "weight": 52,
+    "passportID": "PASS000181",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Barbara Kuznetsov",
+    "coordinates": {
+      "x": -477.5,
+      "y": 196
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 89,
+      "y": 15.5,
+      "z": 22,
+      "name": "Singapore"
+    },
+    "height": 194,
+    "weight": 51,
+    "passportID": "PASS000182",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Olga Davis",
+    "coordinates": {
+      "x": 321.5,
+      "y": 689
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 479,
+      "y": 403.5,
+      "z": 235,
+      "name": "Vancouver"
+    },
+    "height": 175,
+    "weight": 63,
+    "passportID": "PASS000183",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Ivan Wilson",
+    "coordinates": {
+      "x": 449.5,
+      "y": 471
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 83,
+      "y": 159.5,
+      "z": 378,
+      "name": "London"
+    },
+    "height": 196,
+    "weight": 66,
+    "passportID": "PASS000184",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Konstantin Martinez",
+    "coordinates": {
+      "x": -376.5,
+      "y": 436
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 462,
+      "y": 373.5,
+      "z": 420,
+      "name": "Mumbai"
+    },
+    "height": 164,
+    "weight": 94,
+    "passportID": "PASS000185",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Susan Kozlov",
+    "coordinates": {
+      "x": -239.5,
+      "y": 612
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 410,
+      "y": 168.5,
+      "z": 60,
+      "name": "Delhi"
+    },
+    "height": 158,
+    "weight": 78,
+    "passportID": "PASS000186",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Vladimir Anderson",
+    "coordinates": {
+      "x": 247.5,
+      "y": -175
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 46,
+      "y": 459.5,
+      "z": 40,
+      "name": "Petersburg"
+    },
+    "height": 156,
+    "weight": 72,
+    "passportID": "PASS000187",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Yulia Kozlov",
+    "coordinates": {
+      "x": -94.5,
+      "y": 136
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 14,
+      "y": 377.5,
+      "z": 460,
+      "name": "Tokyo"
+    },
+    "height": 192,
+    "weight": 60,
+    "passportID": "PASS000188",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Yulia Dmitriev",
+    "coordinates": {
+      "x": 341.5,
+      "y": 412
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 269,
+      "y": 491.5,
+      "z": 287,
+      "name": "Beijing"
+    },
+    "height": 180,
+    "weight": 56,
+    "passportID": "PASS000189",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Michael Smith",
+    "coordinates": {
+      "x": 199.5,
+      "y": -520
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 148,
+      "y": 46.5,
+      "z": 323,
+      "name": "Paris"
+    },
+    "height": 174,
+    "weight": 76,
+    "passportID": "PASS000190",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Natalia Yakovlev",
+    "coordinates": {
+      "x": 235.5,
+      "y": 536
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 286,
+      "y": 443.5,
+      "z": 247,
+      "name": "Warsaw"
+    },
+    "height": 188,
+    "weight": 73,
+    "passportID": "PASS000191",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Mary Alekseev",
+    "coordinates": {
+      "x": -50.5,
+      "y": 327
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 449,
+      "y": 52.5,
+      "z": 374,
+      "name": "Tokyo"
+    },
+    "height": 154,
+    "weight": 93,
+    "passportID": "PASS000192",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Victoria Johnson",
+    "coordinates": {
+      "x": -20.8,
+      "y": 261
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 176,
+      "y": 195.5,
+      "z": 378,
+      "name": "Vienna"
+    },
+    "height": 172,
+    "weight": 85,
+    "passportID": "PASS000193",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Viktor Brown",
+    "coordinates": {
+      "x": -83.5,
+      "y": 483
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 386,
+      "y": 354.5,
+      "z": 169,
+      "name": "Prague"
+    },
+    "height": 180,
+    "weight": 67,
+    "passportID": "PASS000194",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Ekaterina Novikov",
+    "coordinates": {
+      "x": 450.5,
+      "y": 292
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 135,
+      "y": 499.5,
+      "z": 426,
+      "name": "Seoul"
+    },
+    "height": 171,
+    "weight": 77,
+    "passportID": "PASS000195",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Vera Mikhailov",
+    "coordinates": {
+      "x": 184.5,
+      "y": 367
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 250,
+      "y": 238.5,
+      "z": 148,
+      "name": "Bangkok"
+    },
+    "height": 197,
+    "weight": 97,
+    "passportID": "PASS000196",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Konstantin Dmitriev",
+    "coordinates": {
+      "x": 435.5,
+      "y": 266
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 357,
+      "y": 325.5,
+      "z": 485,
+      "name": "Delhi"
+    },
+    "height": 158,
+    "weight": 52,
+    "passportID": "PASS000197",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Anastasia Taylor",
+    "coordinates": {
+      "x": -75.5,
+      "y": -528
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 476,
+      "y": 117.5,
+      "z": 54,
+      "name": "Prague"
+    },
+    "height": 168,
+    "weight": 79,
+    "passportID": "PASS000198",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Natalia Volkov",
+    "coordinates": {
+      "x": -258.5,
+      "y": 402
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 495,
+      "y": 18.5,
+      "z": 227,
+      "name": "Seoul"
+    },
+    "height": 199,
+    "weight": 86,
+    "passportID": "PASS000199",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Susan Miller",
+    "coordinates": {
+      "x": -229.5,
+      "y": 366
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 215,
+      "y": 398.5,
+      "z": 432,
+      "name": "Berlin"
+    },
+    "height": 199,
+    "weight": 82,
+    "passportID": "PASS000200",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Sergey Ivanov",
+    "coordinates": {
+      "x": -229.5,
+      "y": 288
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 82,
+      "y": 380.5,
+      "z": 331,
+      "name": "Seoul"
+    },
+    "height": 164,
+    "weight": 87,
+    "passportID": "PASS000201",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Irina Lopez",
+    "coordinates": {
+      "x": -430.5,
+      "y": 115
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 473,
+      "y": 62.5,
+      "z": 170,
+      "name": "Seoul"
+    },
+    "height": 177,
+    "weight": 59,
+    "passportID": "PASS000202",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Irina Williams",
+    "coordinates": {
+      "x": 256.5,
+      "y": -451
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 7,
+      "y": 56.5,
+      "z": 156,
+      "name": "London"
+    },
+    "height": 189,
+    "weight": 83,
+    "passportID": "PASS000203",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Oleg Morozov",
+    "coordinates": {
+      "x": -140.3,
+      "y": 104
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 458,
+      "y": 466.5,
+      "z": 37,
+      "name": "NewYork"
+    },
+    "height": 153,
+    "weight": 89,
+    "passportID": "PASS000204",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Elena Mikhailov",
+    "coordinates": {
+      "x": -36.5,
+      "y": 390
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 181,
+      "y": 222.5,
+      "z": 311,
+      "name": "Beijing"
+    },
+    "height": 177,
+    "weight": 62,
+    "passportID": "PASS000205",
+    "nationality": null
+  },
+  {
+    "name": "Pavel Taylor",
+    "coordinates": {
+      "x": -22.2,
+      "y": 299
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 457,
+      "y": 474.5,
+      "z": 120,
+      "name": "Warsaw"
+    },
+    "height": 167,
+    "weight": 95,
+    "passportID": "PASS000206",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Linda Mikhailov",
+    "coordinates": {
+      "x": -398.5,
+      "y": 455
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 151,
+      "y": 344.5,
+      "z": 467,
+      "name": "Beijing"
+    },
+    "height": 190,
+    "weight": 70,
+    "passportID": "PASS000207",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Sergey Kuznetsov",
+    "coordinates": {
+      "x": 422.6,
+      "y": 107
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 89,
+      "y": 113.5,
+      "z": 317,
+      "name": "Petersburg"
+    },
+    "height": 190,
+    "weight": 92,
+    "passportID": "PASS000208",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Ivan Anderson",
+    "coordinates": {
+      "x": -473.5,
+      "y": 479
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 471,
+      "y": 312.5,
+      "z": 280,
+      "name": "Sydney"
+    },
+    "height": 155,
+    "weight": 75,
+    "passportID": "PASS000209",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Irina Williams",
+    "coordinates": {
+      "x": 366.5,
+      "y": 6
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 119,
+      "y": 250.5,
+      "z": 127,
+      "name": "Shanghai"
+    },
+    "height": 190,
+    "weight": 84,
+    "passportID": "PASS000210",
+    "nationality": null
+  },
+  {
+    "name": "Oleg Popov",
+    "coordinates": {
+      "x": 24.5,
+      "y": -450
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 475,
+      "y": 6.5,
+      "z": 494,
+      "name": "Paris"
+    },
+    "height": 170,
+    "weight": 53,
+    "passportID": "PASS000211",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Konstantin Garcia",
+    "coordinates": {
+      "x": -14.5,
+      "y": 398
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 338,
+      "y": 446.5,
+      "z": 16,
+      "name": "Toronto"
+    },
+    "height": 198,
+    "weight": 59,
+    "passportID": "PASS000212",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Mary Taylor",
+    "coordinates": {
+      "x": -66.5,
+      "y": -669
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 219,
+      "y": 151.5,
+      "z": 385,
+      "name": "Vienna"
+    },
+    "height": 184,
+    "weight": 58,
+    "passportID": "PASS000213",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "David Novikov",
+    "coordinates": {
+      "x": -157.5,
+      "y": 292
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 442,
+      "y": 486.5,
+      "z": 333,
+      "name": "Berlin"
+    },
+    "height": 195,
+    "weight": 93,
+    "passportID": "PASS000214",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Daria Volkov",
+    "coordinates": {
+      "x": 161.3,
+      "y": 249
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 364,
+      "y": 405.5,
+      "z": 438,
+      "name": "Petersburg"
+    },
+    "height": 169,
+    "weight": 79,
+    "passportID": "PASS000215",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Jessica Sidorov",
+    "coordinates": {
+      "x": 185.5,
+      "y": 616
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 32,
+      "y": 95.5,
+      "z": 322,
+      "name": "Montreal"
+    },
+    "height": 167,
+    "weight": 83,
+    "passportID": "PASS000216",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Anna Rodriguez",
+    "coordinates": {
+      "x": 299.5,
+      "y": 16
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 285,
+      "y": 166.5,
+      "z": 359,
+      "name": "Budapest"
+    },
+    "height": 161,
+    "weight": 87,
+    "passportID": "PASS000217",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Susan Martinez",
+    "coordinates": {
+      "x": 231.5,
+      "y": 269
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 31,
+      "y": 1.5,
+      "z": 98,
+      "name": "Vienna"
+    },
+    "height": 189,
+    "weight": 93,
+    "passportID": "PASS000218",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Yulia Kuznetsov",
+    "coordinates": {
+      "x": -98.5,
+      "y": 41
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 354,
+      "y": 375.5,
+      "z": 164,
+      "name": "Budapest"
+    },
+    "height": 189,
+    "weight": 74,
+    "passportID": "PASS000219",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Vladimir Rodriguez",
+    "coordinates": {
+      "x": -143.5,
+      "y": 216
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 99,
+      "y": 395.5,
+      "z": 99,
+      "name": "Madrid"
+    },
+    "height": 166,
+    "weight": 84,
+    "passportID": "PASS000220",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Irina Williams",
+    "coordinates": {
+      "x": -173.5,
+      "y": 603
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 305,
+      "y": 383.5,
+      "z": 339,
+      "name": "Sydney"
+    },
+    "height": 197,
+    "weight": 82,
+    "passportID": "PASS000221",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Richard Petrov",
+    "coordinates": {
+      "x": -179.5,
+      "y": 374
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 266,
+      "y": 459.5,
+      "z": 62,
+      "name": "Rome"
+    },
+    "height": 180,
+    "weight": 92,
+    "passportID": "PASS000222",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Patricia Jones",
+    "coordinates": {
+      "x": 212.5,
+      "y": 345
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 223,
+      "y": 499.5,
+      "z": 346,
+      "name": "Moscow"
+    },
+    "height": 152,
+    "weight": 50,
+    "passportID": "PASS000223",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Andrey Smith",
+    "coordinates": {
+      "x": -287.5,
+      "y": 385
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 285,
+      "y": 117.5,
+      "z": 367,
+      "name": "Mumbai"
+    },
+    "height": 190,
+    "weight": 79,
+    "passportID": "PASS000224",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Thomas Ivanov",
+    "coordinates": {
+      "x": -440.5,
+      "y": 418
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 373,
+      "y": 99.5,
+      "z": 42,
+      "name": "Vancouver"
+    },
+    "height": 157,
+    "weight": 72,
+    "passportID": "PASS000225",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Elena Lopez",
+    "coordinates": {
+      "x": 452.5,
+      "y": 519
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 1,
+      "y": 170.5,
+      "z": 433,
+      "name": "Petersburg"
+    },
+    "height": 177,
+    "weight": 58,
+    "passportID": "PASS000226",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Robert Fedorov",
+    "coordinates": {
+      "x": -249.5,
+      "y": 681
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 465,
+      "y": 375.5,
+      "z": 267,
+      "name": "Vancouver"
+    },
+    "height": 175,
+    "weight": 80,
+    "passportID": "PASS000227",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Susan Sokolov",
+    "coordinates": {
+      "x": -172.5,
+      "y": 604
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 88,
+      "y": 141.5,
+      "z": 147,
+      "name": "Vienna"
+    },
+    "height": 180,
+    "weight": 66,
+    "passportID": "PASS000228",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Sergey Williams",
+    "coordinates": {
+      "x": -391.7,
+      "y": 646
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 71,
+      "y": 220.5,
+      "z": 284,
+      "name": "Vienna"
+    },
+    "height": 195,
+    "weight": 90,
+    "passportID": "PASS000229",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Anastasia Anderson",
+    "coordinates": {
+      "x": 274.5,
+      "y": 59
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 5,
+      "y": 111.5,
+      "z": 67,
+      "name": "Berlin"
+    },
+    "height": 176,
+    "weight": 66,
+    "passportID": "PASS000230",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Barbara Martinez",
+    "coordinates": {
+      "x": -304.5,
+      "y": 57
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 384,
+      "y": 232.5,
+      "z": 35,
+      "name": "Petersburg"
+    },
+    "height": 179,
+    "weight": 66,
+    "passportID": "PASS000231",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Alexey Miller",
+    "coordinates": {
+      "x": 272.5,
+      "y": 563
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 443,
+      "y": 403.5,
+      "z": 485,
+      "name": "Berlin"
+    },
+    "height": 157,
+    "weight": 79,
+    "passportID": "PASS000232",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Robert Wilson",
+    "coordinates": {
+      "x": -225.5,
+      "y": 445
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 416,
+      "y": 208.5,
+      "z": 424,
+      "name": "Petersburg"
+    },
+    "height": 183,
+    "weight": 55,
+    "passportID": "PASS000233",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Andrey Johnson",
+    "coordinates": {
+      "x": 195.5,
+      "y": 543
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 24,
+      "y": 14.5,
+      "z": 26,
+      "name": "Rome"
+    },
+    "height": 170,
+    "weight": 53,
+    "passportID": "PASS000234",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Thomas Sidorov",
+    "coordinates": {
+      "x": -401.5,
+      "y": 37
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 311,
+      "y": 205.5,
+      "z": 305,
+      "name": "Budapest"
+    },
+    "height": 156,
+    "weight": 59,
+    "passportID": "PASS000235",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Maxim Wilson",
+    "coordinates": {
+      "x": 350.5,
+      "y": 448
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 439,
+      "y": 302.5,
+      "z": 302,
+      "name": "Prague"
+    },
+    "height": 174,
+    "weight": 52,
+    "passportID": "PASS000236",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Konstantin Lebedev",
+    "coordinates": {
+      "x": -377.5,
+      "y": 531
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 172,
+      "y": 327.5,
+      "z": 461,
+      "name": "Shanghai"
+    },
+    "height": 156,
+    "weight": 98,
+    "passportID": "PASS000237",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Jessica Davis",
+    "coordinates": {
+      "x": -431.5,
+      "y": -398
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 67,
+      "y": 120.5,
+      "z": 276,
+      "name": "Seoul"
+    },
+    "height": 182,
+    "weight": 89,
+    "passportID": "PASS000238",
+    "nationality": null
+  },
+  {
+    "name": "Daria Sokolov",
+    "coordinates": {
+      "x": 201.5,
+      "y": 48
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 250,
+      "y": 307.5,
+      "z": 187,
+      "name": "Mumbai"
+    },
+    "height": 163,
+    "weight": 63,
+    "passportID": "PASS000239",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "William Morozov",
+    "coordinates": {
+      "x": 30.5,
+      "y": 545
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 295,
+      "y": 495.5,
+      "z": 401,
+      "name": "Budapest"
+    },
+    "height": 179,
+    "weight": 78,
+    "passportID": "PASS000240",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Jennifer Jones",
+    "coordinates": {
+      "x": -379.9,
+      "y": 546
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 421,
+      "y": 499.5,
+      "z": 269,
+      "name": "Bangkok"
+    },
+    "height": 189,
+    "weight": 55,
+    "passportID": "PASS000241",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Anna Anderson",
+    "coordinates": {
+      "x": 250.5,
+      "y": 645
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 271,
+      "y": 68.5,
+      "z": 189,
+      "name": "Berlin"
+    },
+    "height": 158,
+    "weight": 59,
+    "passportID": "PASS000242",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Thomas Rodriguez",
+    "coordinates": {
+      "x": -468.5,
+      "y": 35
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 228,
+      "y": 10.5,
+      "z": 170,
+      "name": "Tokyo"
+    },
+    "height": 171,
+    "weight": 65,
+    "passportID": "PASS000243",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "David Lebedev",
+    "coordinates": {
+      "x": 336.5,
+      "y": 449
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 239,
+      "y": 369.5,
+      "z": 89,
+      "name": "Berlin"
+    },
+    "height": 163,
+    "weight": 50,
+    "passportID": "PASS000244",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Thomas Brown",
+    "coordinates": {
+      "x": -130.5,
+      "y": 208
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 301,
+      "y": 67.5,
+      "z": 209,
+      "name": "Shanghai"
+    },
+    "height": 165,
+    "weight": 51,
+    "passportID": "PASS000245",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Natalia Wilson",
+    "coordinates": {
+      "x": -339.5,
+      "y": -589
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 361,
+      "y": 176.5,
+      "z": 109,
+      "name": "Prague"
+    },
+    "height": 182,
+    "weight": 52,
+    "passportID": "PASS000246",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Elena Wilson",
+    "coordinates": {
+      "x": 380.7,
+      "y": 528
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 34,
+      "y": 89.5,
+      "z": 122,
+      "name": "Warsaw"
+    },
+    "height": 195,
+    "weight": 69,
+    "passportID": "PASS000247",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Roman Alekseev",
+    "coordinates": {
+      "x": -178.4,
+      "y": -148
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 437,
+      "y": 472.5,
+      "z": 127,
+      "name": "Toronto"
+    },
+    "height": 186,
+    "weight": 92,
+    "passportID": "PASS000248",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Patricia Kozlov",
+    "coordinates": {
+      "x": 182.5,
+      "y": 373
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 299,
+      "y": 184.5,
+      "z": 212,
+      "name": "Toronto"
+    },
+    "height": 177,
+    "weight": 52,
+    "passportID": "PASS000249",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Alexey Johnson",
+    "coordinates": {
+      "x": -31.5,
+      "y": 596
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 214,
+      "y": 461.5,
+      "z": 206,
+      "name": "Bangkok"
+    },
+    "height": 188,
+    "weight": 88,
+    "passportID": "PASS000250",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Igor Kuznetsov",
+    "coordinates": {
+      "x": 257.5,
+      "y": -226
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 371,
+      "y": 488.5,
+      "z": 319,
+      "name": "Beijing"
+    },
+    "height": 170,
+    "weight": 81,
+    "passportID": "PASS000251",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "William Lopez",
+    "coordinates": {
+      "x": 179.7,
+      "y": 534
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 21,
+      "y": 305.5,
+      "z": 461,
+      "name": "NewYork"
+    },
+    "height": 176,
+    "weight": 78,
+    "passportID": "PASS000252",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Mikhail Miller",
+    "coordinates": {
+      "x": -481.5,
+      "y": 571
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 232,
+      "y": 31.5,
+      "z": 193,
+      "name": "Vancouver"
+    },
+    "height": 162,
+    "weight": 80,
+    "passportID": "PASS000253",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Viktor Taylor",
+    "coordinates": {
+      "x": 58.5,
+      "y": 443
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 134,
+      "y": 337.5,
+      "z": 456,
+      "name": "Delhi"
+    },
+    "height": 169,
+    "weight": 75,
+    "passportID": "PASS000254",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "James Sidorov",
+    "coordinates": {
+      "x": 368.5,
+      "y": 539
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 191,
+      "y": 10.5,
+      "z": 217,
+      "name": "Warsaw"
+    },
+    "height": 165,
+    "weight": 84,
+    "passportID": "PASS000255",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Vera Lebedev",
+    "coordinates": {
+      "x": -500.5,
+      "y": 272
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 454,
+      "y": 361.5,
+      "z": 377,
+      "name": "Beijing"
+    },
+    "height": 188,
+    "weight": 89,
+    "passportID": "PASS000256",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "James Jones",
+    "coordinates": {
+      "x": -175.5,
+      "y": 265
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 358,
+      "y": 498.5,
+      "z": 6,
+      "name": "Berlin"
+    },
+    "height": 163,
+    "weight": 60,
+    "passportID": "PASS000257",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Anna Kozlov",
+    "coordinates": {
+      "x": -419.5,
+      "y": 655
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 136,
+      "y": 63.5,
+      "z": 22,
+      "name": "London"
+    },
+    "height": 189,
+    "weight": 83,
+    "passportID": "PASS000258",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Jennifer Garcia",
+    "coordinates": {
+      "x": -122.5,
+      "y": -448
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 66,
+      "y": 77.5,
+      "z": 73,
+      "name": "NewYork"
+    },
+    "height": 187,
+    "weight": 79,
+    "passportID": "PASS000259",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Dmitry Thomas",
+    "coordinates": {
+      "x": -111.5,
+      "y": 27
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 133,
+      "y": 254.5,
+      "z": 67,
+      "name": "Shanghai"
+    },
+    "height": 179,
+    "weight": 65,
+    "passportID": "PASS000260",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Igor Yakovlev",
+    "coordinates": {
+      "x": -192.5,
+      "y": 667
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 132,
+      "y": 490.5,
+      "z": 143,
+      "name": "Mumbai"
+    },
+    "height": 183,
+    "weight": 71,
+    "passportID": "PASS000261",
+    "nationality": null
+  },
+  {
+    "name": "Tatiana Popov",
+    "coordinates": {
+      "x": 253.5,
+      "y": 347
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 473,
+      "y": 157.5,
+      "z": 144,
+      "name": "Montreal"
+    },
+    "height": 185,
+    "weight": 71,
+    "passportID": "PASS000262",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Vladimir Jones",
+    "coordinates": {
+      "x": 300.5,
+      "y": 620
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 145,
+      "y": 172.5,
+      "z": 140,
+      "name": "Vancouver"
+    },
+    "height": 182,
+    "weight": 75,
+    "passportID": "PASS000263",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "James Miller",
+    "coordinates": {
+      "x": -182.5,
+      "y": 425
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 341,
+      "y": 126.5,
+      "z": 211,
+      "name": "Budapest"
+    },
+    "height": 180,
+    "weight": 71,
+    "passportID": "PASS000264",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Mikhail Brown",
+    "coordinates": {
+      "x": 447.5,
+      "y": 501
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 420,
+      "y": 34.5,
+      "z": 30,
+      "name": "Vancouver"
+    },
+    "height": 179,
+    "weight": 62,
+    "passportID": "PASS000265",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Michael Novikov",
+    "coordinates": {
+      "x": 405.5,
+      "y": 408
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 209,
+      "y": 308.5,
+      "z": 174,
+      "name": "London"
+    },
+    "height": 164,
+    "weight": 57,
+    "passportID": "PASS000266",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Pavel Martinez",
+    "coordinates": {
+      "x": 190.5,
+      "y": -135
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 206,
+      "y": 182.5,
+      "z": 257,
+      "name": "Toronto"
+    },
+    "height": 179,
+    "weight": 64,
+    "passportID": "PASS000267",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Igor Thomas",
+    "coordinates": {
+      "x": 36.5,
+      "y": -112
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 413,
+      "y": 285.5,
+      "z": 446,
+      "name": "Vancouver"
+    },
+    "height": 153,
+    "weight": 50,
+    "passportID": "PASS000268",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Yulia Mikhailov",
+    "coordinates": {
+      "x": 59.5,
+      "y": -124
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 188,
+      "y": 304.5,
+      "z": 232,
+      "name": "Madrid"
+    },
+    "height": 152,
+    "weight": 56,
+    "passportID": "PASS000269",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Natalia Rodriguez",
+    "coordinates": {
+      "x": 419.5,
+      "y": -454
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 154,
+      "y": 117.5,
+      "z": 190,
+      "name": "Toronto"
+    },
+    "height": 190,
+    "weight": 90,
+    "passportID": "PASS000270",
+    "nationality": null
+  },
+  {
+    "name": "Alexander Fedorov",
+    "coordinates": {
+      "x": -152.5,
+      "y": -595
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 496,
+      "y": 324.5,
+      "z": 418,
+      "name": "NewYork"
+    },
+    "height": 185,
+    "weight": 74,
+    "passportID": "PASS000271",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Linda Thomas",
+    "coordinates": {
+      "x": -339.5,
+      "y": -476
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 229,
+      "y": 456.5,
+      "z": 184,
+      "name": "Shanghai"
+    },
+    "height": 158,
+    "weight": 62,
+    "passportID": "PASS000272",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Jessica Lopez",
+    "coordinates": {
+      "x": 232.5,
+      "y": 40
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 463,
+      "y": 60.5,
+      "z": 382,
+      "name": "Montreal"
+    },
+    "height": 159,
+    "weight": 67,
+    "passportID": "PASS000273",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Jennifer Novikov",
+    "coordinates": {
+      "x": 438.5,
+      "y": 138
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 131,
+      "y": 183.5,
+      "z": 176,
+      "name": "Rome"
+    },
+    "height": 170,
+    "weight": 97,
+    "passportID": "PASS000274",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Yulia Rodriguez",
+    "coordinates": {
+      "x": 262.5,
+      "y": 15
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 222,
+      "y": 209.5,
+      "z": 112,
+      "name": "NewYork"
+    },
+    "height": 194,
+    "weight": 96,
+    "passportID": "PASS000275",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Linda Jones",
+    "coordinates": {
+      "x": 51.5,
+      "y": 507
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 363,
+      "y": 255.5,
+      "z": 170,
+      "name": "Toronto"
+    },
+    "height": 194,
+    "weight": 97,
+    "passportID": "PASS000276",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Svetlana Volkov",
+    "coordinates": {
+      "x": -427.5,
+      "y": -203
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 491,
+      "y": 72.5,
+      "z": 88,
+      "name": "Seoul"
+    },
+    "height": 178,
+    "weight": 56,
+    "passportID": "PASS000277",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Irina Garcia",
+    "coordinates": {
+      "x": -209.5,
+      "y": 610
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 288,
+      "y": 28.5,
+      "z": 42,
+      "name": "Warsaw"
+    },
+    "height": 160,
+    "weight": 51,
+    "passportID": "PASS000278",
+    "nationality": null
+  },
+  {
+    "name": "Mikhail Sokolov",
+    "coordinates": {
+      "x": 169.5,
+      "y": 668
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 232,
+      "y": 211.5,
+      "z": 474,
+      "name": "Seoul"
+    },
+    "height": 178,
+    "weight": 52,
+    "passportID": "PASS000279",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Oleg Dmitriev",
+    "coordinates": {
+      "x": 427.5,
+      "y": 11
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 376,
+      "y": 495.5,
+      "z": 439,
+      "name": "Bangkok"
+    },
+    "height": 175,
+    "weight": 70,
+    "passportID": "PASS000280",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Marina Wilson",
+    "coordinates": {
+      "x": -48.5,
+      "y": 269
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 480,
+      "y": 475.5,
+      "z": 263,
+      "name": "Moscow"
+    },
+    "height": 173,
+    "weight": 70,
+    "passportID": "PASS000281",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Mary Lebedev",
+    "coordinates": {
+      "x": 216.5,
+      "y": 79
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 319,
+      "y": 160.5,
+      "z": 71,
+      "name": "Singapore"
+    },
+    "height": 167,
+    "weight": 58,
+    "passportID": "PASS000282",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Natalia Miller",
+    "coordinates": {
+      "x": 314.5,
+      "y": -687
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 372,
+      "y": 284.5,
+      "z": 46,
+      "name": "Sydney"
+    },
+    "height": 150,
+    "weight": 73,
+    "passportID": "PASS000283",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Ekaterina Morozov",
+    "coordinates": {
+      "x": 275.5,
+      "y": 329
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 297,
+      "y": 213.5,
+      "z": 205,
+      "name": "Madrid"
+    },
+    "height": 191,
+    "weight": 93,
+    "passportID": "PASS000284",
+    "nationality": null
+  },
+  {
+    "name": "Oleg Garcia",
+    "coordinates": {
+      "x": 297.5,
+      "y": 640
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 203,
+      "y": 190.5,
+      "z": 207,
+      "name": "Prague"
+    },
+    "height": 198,
+    "weight": 55,
+    "passportID": "PASS000285",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "James Petrov",
+    "coordinates": {
+      "x": 335.5,
+      "y": 402
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 210,
+      "y": 34.5,
+      "z": 476,
+      "name": "Prague"
+    },
+    "height": 176,
+    "weight": 84,
+    "passportID": "PASS000286",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Elizabeth Yakovlev",
+    "coordinates": {
+      "x": -216.5,
+      "y": 383
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 138,
+      "y": 421.5,
+      "z": 470,
+      "name": "Seoul"
+    },
+    "height": 164,
+    "weight": 65,
+    "passportID": "PASS000287",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Linda Kozlov",
+    "coordinates": {
+      "x": -195.5,
+      "y": -639
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 471,
+      "y": 9.5,
+      "z": 97,
+      "name": "Bangkok"
+    },
+    "height": 184,
+    "weight": 61,
+    "passportID": "PASS000288",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Ksenia Sokolov",
+    "coordinates": {
+      "x": -160.5,
+      "y": 292
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 492,
+      "y": 0.5,
+      "z": 43,
+      "name": "Delhi"
+    },
+    "height": 193,
+    "weight": 55,
+    "passportID": "PASS000289",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Yulia Fedorov",
+    "coordinates": {
+      "x": -96.5,
+      "y": 20
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 227,
+      "y": 462.5,
+      "z": 189,
+      "name": "Montreal"
+    },
+    "height": 162,
+    "weight": 63,
+    "passportID": "PASS000290",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Andrey Jones",
+    "coordinates": {
+      "x": 451.5,
+      "y": 161
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 337,
+      "y": 249.5,
+      "z": 261,
+      "name": "Prague"
+    },
+    "height": 174,
+    "weight": 95,
+    "passportID": "PASS000291",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Alexander Miller",
+    "coordinates": {
+      "x": -310.5,
+      "y": 394
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 410,
+      "y": 472.5,
+      "z": 58,
+      "name": "Shanghai"
+    },
+    "height": 177,
+    "weight": 86,
+    "passportID": "PASS000292",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Thomas Wilson",
+    "coordinates": {
+      "x": -163.5,
+      "y": -84
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 469,
+      "y": 313.5,
+      "z": 479,
+      "name": "Toronto"
+    },
+    "height": 197,
+    "weight": 82,
+    "passportID": "PASS000293",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Ksenia Dmitriev",
+    "coordinates": {
+      "x": -312.5,
+      "y": -387
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 95,
+      "y": 78.5,
+      "z": 271,
+      "name": "Vancouver"
+    },
+    "height": 155,
+    "weight": 70,
+    "passportID": "PASS000294",
+    "nationality": null
+  },
+  {
+    "name": "Tatiana Dmitriev",
+    "coordinates": {
+      "x": 386.5,
+      "y": 507
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 349,
+      "y": 190.5,
+      "z": 335,
+      "name": "Bangkok"
+    },
+    "height": 179,
+    "weight": 78,
+    "passportID": "PASS000295",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Daria Williams",
+    "coordinates": {
+      "x": -290.5,
+      "y": -591
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 191,
+      "y": 152.5,
+      "z": 453,
+      "name": "Prague"
+    },
+    "height": 161,
+    "weight": 52,
+    "passportID": "PASS000296",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Elizabeth Morozov",
+    "coordinates": {
+      "x": 58.9,
+      "y": -178
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 64,
+      "y": 184.5,
+      "z": 7,
+      "name": "Tokyo"
+    },
+    "height": 176,
+    "weight": 99,
+    "passportID": "PASS000297",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Patricia Sokolov",
+    "coordinates": {
+      "x": -442.5,
+      "y": 7
+    },
+    "eyeColor": "WHITE",
+    "hairColor": null,
+    "location": {
+      "x": 498,
+      "y": 168.5,
+      "z": 413,
+      "name": "Montreal"
+    },
+    "height": 173,
+    "weight": 72,
+    "passportID": "PASS000298",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Ksenia Johnson",
+    "coordinates": {
+      "x": -97.5,
+      "y": 138
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 272,
+      "y": 125.5,
+      "z": 125,
+      "name": "Madrid"
+    },
+    "height": 187,
+    "weight": 84,
+    "passportID": "PASS000299",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Richard Davis",
+    "coordinates": {
+      "x": -233.5,
+      "y": -275
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 54,
+      "y": 477.5,
+      "z": 359,
+      "name": "Warsaw"
+    },
+    "height": 164,
+    "weight": 72,
+    "passportID": "PASS000300",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Alexey Lebedev",
+    "coordinates": {
+      "x": 283.5,
+      "y": 537
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 109,
+      "y": 41.5,
+      "z": 11,
+      "name": "Prague"
+    },
+    "height": 174,
+    "weight": 70,
+    "passportID": "PASS000301",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Maria Rodriguez",
+    "coordinates": {
+      "x": -108.5,
+      "y": 70
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 100,
+      "y": 246.5,
+      "z": 460,
+      "name": "Prague"
+    },
+    "height": 160,
+    "weight": 52,
+    "passportID": "PASS000302",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Elena Wilson",
+    "coordinates": {
+      "x": -229.5,
+      "y": 314
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 482,
+      "y": 152.5,
+      "z": 168,
+      "name": "London"
+    },
+    "height": 197,
+    "weight": 87,
+    "passportID": "PASS000303",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Mary Kuznetsov",
+    "coordinates": {
+      "x": 425.5,
+      "y": -38
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 489,
+      "y": 172.5,
+      "z": 298,
+      "name": "Delhi"
+    },
+    "height": 183,
+    "weight": 80,
+    "passportID": "PASS000304",
+    "nationality": null
+  },
+  {
+    "name": "Victoria Wilson",
+    "coordinates": {
+      "x": -184.5,
+      "y": 115
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 381,
+      "y": 255.5,
+      "z": 207,
+      "name": "Seoul"
+    },
+    "height": 154,
+    "weight": 94,
+    "passportID": "PASS000305",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Alexey Martinez",
+    "coordinates": {
+      "x": -23.5,
+      "y": 567
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 347,
+      "y": 292.5,
+      "z": 230,
+      "name": "London"
+    },
+    "height": 175,
+    "weight": 83,
+    "passportID": "PASS000306",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Daria Davis",
+    "coordinates": {
+      "x": -379.5,
+      "y": 127
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 478,
+      "y": 412.5,
+      "z": 343,
+      "name": "Seoul"
+    },
+    "height": 150,
+    "weight": 96,
+    "passportID": "PASS000307",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Vladimir Morozov",
+    "coordinates": {
+      "x": -472.5,
+      "y": 55
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 11,
+      "y": 485.5,
+      "z": 17,
+      "name": "Madrid"
+    },
+    "height": 159,
+    "weight": 62,
+    "passportID": "PASS000308",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Susan Lopez",
+    "coordinates": {
+      "x": 53.5,
+      "y": 269
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 124,
+      "y": 447.5,
+      "z": 226,
+      "name": "Toronto"
+    },
+    "height": 170,
+    "weight": 52,
+    "passportID": "PASS000309",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Elizabeth Alekseev",
+    "coordinates": {
+      "x": -347.5,
+      "y": 518
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 11,
+      "y": 219.5,
+      "z": 222,
+      "name": "Moscow"
+    },
+    "height": 163,
+    "weight": 61,
+    "passportID": "PASS000310",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Ksenia Rodriguez",
+    "coordinates": {
+      "x": 347.5,
+      "y": -182
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 1,
+      "y": 103.5,
+      "z": 154,
+      "name": "Petersburg"
+    },
+    "height": 191,
+    "weight": 61,
+    "passportID": "PASS000311",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Ekaterina Thomas",
+    "coordinates": {
+      "x": -191.5,
+      "y": -212
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 440,
+      "y": 272.5,
+      "z": 259,
+      "name": "NewYork"
+    },
+    "height": 175,
+    "weight": 65,
+    "passportID": "PASS000312",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Dmitry Jones",
+    "coordinates": {
+      "x": 443.5,
+      "y": 187
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 175,
+      "y": 292.5,
+      "z": 185,
+      "name": "Warsaw"
+    },
+    "height": 150,
+    "weight": 81,
+    "passportID": "PASS000313",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Alexander Smith",
+    "coordinates": {
+      "x": 186.5,
+      "y": 446
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 90,
+      "y": 118.5,
+      "z": 140,
+      "name": "Budapest"
+    },
+    "height": 181,
+    "weight": 68,
+    "passportID": "PASS000314",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Irina Lopez",
+    "coordinates": {
+      "x": -219.5,
+      "y": 165
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 310,
+      "y": 421.5,
+      "z": 61,
+      "name": "London"
+    },
+    "height": 192,
+    "weight": 59,
+    "passportID": "PASS000315",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Viktor Novikov",
+    "coordinates": {
+      "x": 293.5,
+      "y": 454
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 444,
+      "y": 385.5,
+      "z": 92,
+      "name": "Toronto"
+    },
+    "height": 161,
+    "weight": 81,
+    "passportID": "PASS000316",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "James Davis",
+    "coordinates": {
+      "x": -296.5,
+      "y": 449
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 286,
+      "y": 123.5,
+      "z": 406,
+      "name": "Bangkok"
+    },
+    "height": 178,
+    "weight": 57,
+    "passportID": "PASS000317",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Vera Davis",
+    "coordinates": {
+      "x": 64.5,
+      "y": 239
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 165,
+      "y": 419.5,
+      "z": 493,
+      "name": "Sydney"
+    },
+    "height": 178,
+    "weight": 51,
+    "passportID": "PASS000318",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Konstantin Sokolov",
+    "coordinates": {
+      "x": 449.5,
+      "y": 356
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 187,
+      "y": 210.5,
+      "z": 455,
+      "name": "Sydney"
+    },
+    "height": 172,
+    "weight": 74,
+    "passportID": "PASS000319",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Alexey Petrov",
+    "coordinates": {
+      "x": 446.5,
+      "y": 140
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 161,
+      "y": 155.5,
+      "z": 419,
+      "name": "NewYork"
+    },
+    "height": 157,
+    "weight": 75,
+    "passportID": "PASS000320",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Linda Smith",
+    "coordinates": {
+      "x": -489.5,
+      "y": 519
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 229,
+      "y": 151.5,
+      "z": 196,
+      "name": "Beijing"
+    },
+    "height": 167,
+    "weight": 84,
+    "passportID": "PASS000321",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Nikolay Novikov",
+    "coordinates": {
+      "x": -201.5,
+      "y": 342
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 406,
+      "y": 357.5,
+      "z": 162,
+      "name": "NewYork"
+    },
+    "height": 184,
+    "weight": 78,
+    "passportID": "PASS000322",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Irina Rodriguez",
+    "coordinates": {
+      "x": 365.5,
+      "y": 166
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 248,
+      "y": 3.5,
+      "z": 251,
+      "name": "Seoul"
+    },
+    "height": 187,
+    "weight": 86,
+    "passportID": "PASS000323",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Robert Mikhailov",
+    "coordinates": {
+      "x": -192.3,
+      "y": 87
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 397,
+      "y": 478.5,
+      "z": 127,
+      "name": "Singapore"
+    },
+    "height": 171,
+    "weight": 87,
+    "passportID": "PASS000324",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Yulia Sidorov",
+    "coordinates": {
+      "x": -245.5,
+      "y": 182
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 163,
+      "y": 390.5,
+      "z": 143,
+      "name": "NewYork"
+    },
+    "height": 175,
+    "weight": 77,
+    "passportID": "PASS000325",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Robert Alekseev",
+    "coordinates": {
+      "x": 10.5,
+      "y": 483
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 30,
+      "y": 216.5,
+      "z": 310,
+      "name": "Moscow"
+    },
+    "height": 154,
+    "weight": 88,
+    "passportID": "PASS000326",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Anastasia Brown",
+    "coordinates": {
+      "x": 48.5,
+      "y": 651
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 179,
+      "y": 20.5,
+      "z": 188,
+      "name": "Berlin"
+    },
+    "height": 173,
+    "weight": 52,
+    "passportID": "PASS000327",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Svetlana Petrov",
+    "coordinates": {
+      "x": -63.5,
+      "y": -679
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 258,
+      "y": 93.5,
+      "z": 398,
+      "name": "Toronto"
+    },
+    "height": 158,
+    "weight": 59,
+    "passportID": "PASS000328",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Tatiana Ivanov",
+    "coordinates": {
+      "x": -373.5,
+      "y": -187
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 59,
+      "y": 215.5,
+      "z": 201,
+      "name": "Vienna"
+    },
+    "height": 172,
+    "weight": 51,
+    "passportID": "PASS000329",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Yulia Lopez",
+    "coordinates": {
+      "x": 143.5,
+      "y": 568
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 319,
+      "y": 311.5,
+      "z": 126,
+      "name": "Prague"
+    },
+    "height": 188,
+    "weight": 50,
+    "passportID": "PASS000330",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Yulia Smith",
+    "coordinates": {
+      "x": -209.5,
+      "y": 376
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 119,
+      "y": 21.5,
+      "z": 128,
+      "name": "Seoul"
+    },
+    "height": 177,
+    "weight": 95,
+    "passportID": "PASS000331",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Konstantin Dmitriev",
+    "coordinates": {
+      "x": -445.5,
+      "y": 442
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 359,
+      "y": 187.5,
+      "z": 486,
+      "name": "Paris"
+    },
+    "height": 186,
+    "weight": 90,
+    "passportID": "PASS000332",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Irina Dmitriev",
+    "coordinates": {
+      "x": 259.5,
+      "y": 601
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 401,
+      "y": 450.5,
+      "z": 250,
+      "name": "Warsaw"
+    },
+    "height": 178,
+    "weight": 61,
+    "passportID": "PASS000333",
+    "nationality": null
+  },
+  {
+    "name": "Tatiana Mikhailov",
+    "coordinates": {
+      "x": 281.5,
+      "y": -498
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 165,
+      "y": 421.5,
+      "z": 453,
+      "name": "Tokyo"
+    },
+    "height": 175,
+    "weight": 90,
+    "passportID": "PASS000334",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Svetlana Wilson",
+    "coordinates": {
+      "x": -296.5,
+      "y": 434
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 70,
+      "y": 300.5,
+      "z": 94,
+      "name": "Petersburg"
+    },
+    "height": 191,
+    "weight": 95,
+    "passportID": "PASS000335",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "John Brown",
+    "coordinates": {
+      "x": 351.5,
+      "y": 318
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 498,
+      "y": 346.5,
+      "z": 404,
+      "name": "Rome"
+    },
+    "height": 157,
+    "weight": 92,
+    "passportID": "PASS000336",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Daria Anderson",
+    "coordinates": {
+      "x": -440.5,
+      "y": 615
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 128,
+      "y": 21.5,
+      "z": 268,
+      "name": "NewYork"
+    },
+    "height": 161,
+    "weight": 58,
+    "passportID": "PASS000337",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Viktor Taylor",
+    "coordinates": {
+      "x": -471.5,
+      "y": 151
+    },
+    "eyeColor": "GREEN",
+    "hairColor": null,
+    "location": {
+      "x": 193,
+      "y": 486.5,
+      "z": 1,
+      "name": "Paris"
+    },
+    "height": 175,
+    "weight": 96,
+    "passportID": "PASS000338",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Ksenia Miller",
+    "coordinates": {
+      "x": -105.5,
+      "y": 410
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 357,
+      "y": 197.5,
+      "z": 440,
+      "name": "NewYork"
+    },
+    "height": 158,
+    "weight": 88,
+    "passportID": "PASS000339",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Vladimir Taylor",
+    "coordinates": {
+      "x": 385.5,
+      "y": 333
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 2,
+      "y": 272.5,
+      "z": 195,
+      "name": "Madrid"
+    },
+    "height": 171,
+    "weight": 86,
+    "passportID": "PASS000340",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Andrey Thomas",
+    "coordinates": {
+      "x": -320.5,
+      "y": 187
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 309,
+      "y": 52.5,
+      "z": 50,
+      "name": "Madrid"
+    },
+    "height": 195,
+    "weight": 84,
+    "passportID": "PASS000341",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Igor Sidorov",
+    "coordinates": {
+      "x": 375.5,
+      "y": 595
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 94,
+      "y": 52.5,
+      "z": 236,
+      "name": "Prague"
+    },
+    "height": 162,
+    "weight": 54,
+    "passportID": "PASS000342",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Maxim Novikov",
+    "coordinates": {
+      "x": 203.5,
+      "y": 74
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 438,
+      "y": 72.5,
+      "z": 447,
+      "name": "NewYork"
+    },
+    "height": 178,
+    "weight": 86,
+    "passportID": "PASS000343",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Igor Lebedev",
+    "coordinates": {
+      "x": 266.5,
+      "y": 600
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 118,
+      "y": 108.5,
+      "z": 269,
+      "name": "Berlin"
+    },
+    "height": 170,
+    "weight": 72,
+    "passportID": "PASS000344",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Anastasia Yakovlev",
+    "coordinates": {
+      "x": 365.5,
+      "y": 237
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 400,
+      "y": 111.5,
+      "z": 310,
+      "name": "Bangkok"
+    },
+    "height": 150,
+    "weight": 58,
+    "passportID": "PASS000345",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Vladimir Kozlov",
+    "coordinates": {
+      "x": -116.5,
+      "y": 58
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 391,
+      "y": 21.5,
+      "z": 479,
+      "name": "Beijing"
+    },
+    "height": 170,
+    "weight": 54,
+    "passportID": "PASS000346",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Ivan Lebedev",
+    "coordinates": {
+      "x": 287.5,
+      "y": 286
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 39,
+      "y": 432.5,
+      "z": 121,
+      "name": "Prague"
+    },
+    "height": 178,
+    "weight": 67,
+    "passportID": "PASS000347",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Marina Morozov",
+    "coordinates": {
+      "x": 426.5,
+      "y": 674
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 249,
+      "y": 31.5,
+      "z": 42,
+      "name": "Moscow"
+    },
+    "height": 182,
+    "weight": 72,
+    "passportID": "PASS000348",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "John Wilson",
+    "coordinates": {
+      "x": 360.5,
+      "y": 0
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 446,
+      "y": 60.5,
+      "z": 25,
+      "name": "Berlin"
+    },
+    "height": 181,
+    "weight": 59,
+    "passportID": "PASS000349",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Tatiana Alekseev",
+    "coordinates": {
+      "x": -35.5,
+      "y": 285
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 379,
+      "y": 440.5,
+      "z": 348,
+      "name": "Paris"
+    },
+    "height": 155,
+    "weight": 78,
+    "passportID": "PASS000350",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Victoria Morozov",
+    "coordinates": {
+      "x": -287.5,
+      "y": 357
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 472,
+      "y": 156.5,
+      "z": 493,
+      "name": "Singapore"
+    },
+    "height": 176,
+    "weight": 89,
+    "passportID": "PASS000351",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Ivan Popov",
+    "coordinates": {
+      "x": 401.5,
+      "y": -280
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 417,
+      "y": 79.5,
+      "z": 488,
+      "name": "Madrid"
+    },
+    "height": 182,
+    "weight": 84,
+    "passportID": "PASS000352",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Elizabeth Ivanov",
+    "coordinates": {
+      "x": 188.5,
+      "y": -72
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 397,
+      "y": 96.5,
+      "z": 490,
+      "name": "Petersburg"
+    },
+    "height": 163,
+    "weight": 63,
+    "passportID": "PASS000353",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Daria Sidorov",
+    "coordinates": {
+      "x": 439.5,
+      "y": -295
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 387,
+      "y": 499.5,
+      "z": 10,
+      "name": "Delhi"
+    },
+    "height": 167,
+    "weight": 68,
+    "passportID": "PASS000354",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Anastasia Morozov",
+    "coordinates": {
+      "x": 389.5,
+      "y": 565
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 458,
+      "y": 150.5,
+      "z": 429,
+      "name": "Seoul"
+    },
+    "height": 160,
+    "weight": 54,
+    "passportID": "PASS000355",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Konstantin Rodriguez",
+    "coordinates": {
+      "x": -303.5,
+      "y": 134
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 154,
+      "y": 485.5,
+      "z": 311,
+      "name": "Vancouver"
+    },
+    "height": 182,
+    "weight": 57,
+    "passportID": "PASS000356",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Konstantin Ivanov",
+    "coordinates": {
+      "x": 417.5,
+      "y": 274
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 242,
+      "y": 386.5,
+      "z": 322,
+      "name": "Budapest"
+    },
+    "height": 171,
+    "weight": 92,
+    "passportID": "PASS000357",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Mary Popov",
+    "coordinates": {
+      "x": 36.5,
+      "y": 648
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 60,
+      "y": 34.5,
+      "z": 20,
+      "name": "London"
+    },
+    "height": 193,
+    "weight": 75,
+    "passportID": "PASS000358",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Maria Thomas",
+    "coordinates": {
+      "x": -394.5,
+      "y": 100
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 163,
+      "y": 155.5,
+      "z": 271,
+      "name": "Tokyo"
+    },
+    "height": 181,
+    "weight": 91,
+    "passportID": "PASS000359",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Natalia Miller",
+    "coordinates": {
+      "x": 390.5,
+      "y": 476
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 326,
+      "y": 450.5,
+      "z": 261,
+      "name": "Seoul"
+    },
+    "height": 181,
+    "weight": 77,
+    "passportID": "PASS000360",
+    "nationality": null
+  },
+  {
+    "name": "Yulia Davis",
+    "coordinates": {
+      "x": 357.5,
+      "y": 381
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 296,
+      "y": 380.5,
+      "z": 2,
+      "name": "Berlin"
+    },
+    "height": 177,
+    "weight": 89,
+    "passportID": "PASS000361",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Svetlana Hernandez",
+    "coordinates": {
+      "x": 184.6,
+      "y": 439
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 47,
+      "y": 108.5,
+      "z": 370,
+      "name": "Rome"
+    },
+    "height": 155,
+    "weight": 88,
+    "passportID": "PASS000362",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Ivan Garcia",
+    "coordinates": {
+      "x": -263.5,
+      "y": 187
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 422,
+      "y": 165.5,
+      "z": 472,
+      "name": "Delhi"
+    },
+    "height": 164,
+    "weight": 59,
+    "passportID": "PASS000363",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Igor Smith",
+    "coordinates": {
+      "x": -64.5,
+      "y": -521
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 213,
+      "y": 348.5,
+      "z": 414,
+      "name": "Seoul"
+    },
+    "height": 183,
+    "weight": 52,
+    "passportID": "PASS000364",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Irina Dmitriev",
+    "coordinates": {
+      "x": 88.6,
+      "y": -5
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 474,
+      "y": 405.5,
+      "z": 103,
+      "name": "Toronto"
+    },
+    "height": 180,
+    "weight": 64,
+    "passportID": "PASS000365",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Oleg Lebedev",
+    "coordinates": {
+      "x": 164.5,
+      "y": 520
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 209,
+      "y": 283.5,
+      "z": 183,
+      "name": "Montreal"
+    },
+    "height": 151,
+    "weight": 74,
+    "passportID": "PASS000366",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Mikhail Williams",
+    "coordinates": {
+      "x": -190.5,
+      "y": 42
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 394,
+      "y": 231.5,
+      "z": 261,
+      "name": "Moscow"
+    },
+    "height": 191,
+    "weight": 81,
+    "passportID": "PASS000367",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Konstantin Taylor",
+    "coordinates": {
+      "x": -83.5,
+      "y": -560
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 118,
+      "y": 282.5,
+      "z": 305,
+      "name": "Rome"
+    },
+    "height": 163,
+    "weight": 70,
+    "passportID": "PASS000368",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Vladimir Lopez",
+    "coordinates": {
+      "x": -472.5,
+      "y": 69
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 254,
+      "y": 343.5,
+      "z": 122,
+      "name": "NewYork"
+    },
+    "height": 157,
+    "weight": 98,
+    "passportID": "PASS000369",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Mikhail Jones",
+    "coordinates": {
+      "x": -337.5,
+      "y": 283
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 231,
+      "y": 449.5,
+      "z": 200,
+      "name": "Seoul"
+    },
+    "height": 192,
+    "weight": 67,
+    "passportID": "PASS000370",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Sergey Morozov",
+    "coordinates": {
+      "x": -94.5,
+      "y": 36
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 407,
+      "y": 401.5,
+      "z": 356,
+      "name": "Rome"
+    },
+    "height": 182,
+    "weight": 52,
+    "passportID": "PASS000371",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Linda Jones",
+    "coordinates": {
+      "x": -207.5,
+      "y": -12
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 280,
+      "y": 361.5,
+      "z": 363,
+      "name": "Bangkok"
+    },
+    "height": 180,
+    "weight": 65,
+    "passportID": "PASS000372",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Maria Davis",
+    "coordinates": {
+      "x": 64.5,
+      "y": -238
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 116,
+      "y": 393.5,
+      "z": 54,
+      "name": "NewYork"
+    },
+    "height": 189,
+    "weight": 92,
+    "passportID": "PASS000373",
+    "nationality": null
+  },
+  {
+    "name": "Vladimir Popov",
+    "coordinates": {
+      "x": -305.5,
+      "y": 614
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 242,
+      "y": 314.5,
+      "z": 170,
+      "name": "Mumbai"
+    },
+    "height": 171,
+    "weight": 73,
+    "passportID": "PASS000374",
+    "nationality": null
+  },
+  {
+    "name": "Susan Lopez",
+    "coordinates": {
+      "x": -186.5,
+      "y": 264
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 435,
+      "y": 367.5,
+      "z": 115,
+      "name": "Toronto"
+    },
+    "height": 187,
+    "weight": 90,
+    "passportID": "PASS000375",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Natalia Thomas",
+    "coordinates": {
+      "x": 449.5,
+      "y": 507
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 218,
+      "y": 296.5,
+      "z": 271,
+      "name": "Vancouver"
+    },
+    "height": 164,
+    "weight": 71,
+    "passportID": "PASS000376",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Andrey Petrov",
+    "coordinates": {
+      "x": 358.5,
+      "y": 402
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 86,
+      "y": 261.5,
+      "z": 453,
+      "name": "Bangkok"
+    },
+    "height": 185,
+    "weight": 67,
+    "passportID": "PASS000377",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "David Jones",
+    "coordinates": {
+      "x": -213.5,
+      "y": 57
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 352,
+      "y": 160.5,
+      "z": 278,
+      "name": "Montreal"
+    },
+    "height": 155,
+    "weight": 90,
+    "passportID": "PASS000378",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Maxim Brown",
+    "coordinates": {
+      "x": -296.5,
+      "y": 601
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 5,
+      "y": 298.5,
+      "z": 448,
+      "name": "Montreal"
+    },
+    "height": 170,
+    "weight": 59,
+    "passportID": "PASS000379",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Irina Taylor",
+    "coordinates": {
+      "x": 180.5,
+      "y": 457
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 98,
+      "y": 496.5,
+      "z": 317,
+      "name": "Montreal"
+    },
+    "height": 157,
+    "weight": 96,
+    "passportID": "PASS000380",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Barbara Garcia",
+    "coordinates": {
+      "x": -366.5,
+      "y": 193
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 393,
+      "y": 19.5,
+      "z": 226,
+      "name": "Vancouver"
+    },
+    "height": 191,
+    "weight": 89,
+    "passportID": "PASS000381",
+    "nationality": null
+  },
+  {
+    "name": "Elena Smith",
+    "coordinates": {
+      "x": 61.5,
+      "y": 393
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 282,
+      "y": 324.5,
+      "z": 408,
+      "name": "Beijing"
+    },
+    "height": 191,
+    "weight": 79,
+    "passportID": "PASS000382",
+    "nationality": null
+  },
+  {
+    "name": "Ksenia Thomas",
+    "coordinates": {
+      "x": 299.5,
+      "y": 194
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 185,
+      "y": 58.5,
+      "z": 3,
+      "name": "Vancouver"
+    },
+    "height": 196,
+    "weight": 77,
+    "passportID": "PASS000383",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Tatiana Dmitriev",
+    "coordinates": {
+      "x": 337.5,
+      "y": 693
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 252,
+      "y": 29.5,
+      "z": 27,
+      "name": "Rome"
+    },
+    "height": 182,
+    "weight": 65,
+    "passportID": "PASS000384",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Svetlana Alekseev",
+    "coordinates": {
+      "x": 295.5,
+      "y": 78
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 231,
+      "y": 173.5,
+      "z": 133,
+      "name": "Budapest"
+    },
+    "height": 180,
+    "weight": 87,
+    "passportID": "PASS000385",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Andrey Rodriguez",
+    "coordinates": {
+      "x": -199.5,
+      "y": 555
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 205,
+      "y": 490.5,
+      "z": 3,
+      "name": "Warsaw"
+    },
+    "height": 168,
+    "weight": 80,
+    "passportID": "PASS000386",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Svetlana Alekseev",
+    "coordinates": {
+      "x": -255.5,
+      "y": 302
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 10,
+      "y": 43.5,
+      "z": 234,
+      "name": "Vienna"
+    },
+    "height": 163,
+    "weight": 87,
+    "passportID": "PASS000387",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Nikolay Mikhailov",
+    "coordinates": {
+      "x": -258.5,
+      "y": 502
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 346,
+      "y": 445.5,
+      "z": 97,
+      "name": "Singapore"
+    },
+    "height": 167,
+    "weight": 50,
+    "passportID": "PASS000388",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Ekaterina Johnson",
+    "coordinates": {
+      "x": 376.5,
+      "y": 190
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 47,
+      "y": 425.5,
+      "z": 241,
+      "name": "Sydney"
+    },
+    "height": 184,
+    "weight": 73,
+    "passportID": "PASS000389",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Nikolay Garcia",
+    "coordinates": {
+      "x": -161.5,
+      "y": 232
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 15,
+      "y": 369.5,
+      "z": 243,
+      "name": "Paris"
+    },
+    "height": 182,
+    "weight": 74,
+    "passportID": "PASS000390",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Olga Kozlov",
+    "coordinates": {
+      "x": -427.5,
+      "y": 222
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 205,
+      "y": 75.5,
+      "z": 302,
+      "name": "Toronto"
+    },
+    "height": 177,
+    "weight": 92,
+    "passportID": "PASS000391",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Robert Morozov",
+    "coordinates": {
+      "x": 117.5,
+      "y": 518
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 236,
+      "y": 39.5,
+      "z": 29,
+      "name": "Rome"
+    },
+    "height": 177,
+    "weight": 89,
+    "passportID": "PASS000392",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Konstantin Kozlov",
+    "coordinates": {
+      "x": -390.5,
+      "y": 396
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 369,
+      "y": 272.5,
+      "z": 114,
+      "name": "Petersburg"
+    },
+    "height": 196,
+    "weight": 97,
+    "passportID": "PASS000393",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Dmitry Hernandez",
+    "coordinates": {
+      "x": -110.5,
+      "y": 604
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 178,
+      "y": 82.5,
+      "z": 249,
+      "name": "Delhi"
+    },
+    "height": 150,
+    "weight": 82,
+    "passportID": "PASS000394",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Irina Davis",
+    "coordinates": {
+      "x": 295.5,
+      "y": 440
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 277,
+      "y": 116.5,
+      "z": 295,
+      "name": "Prague"
+    },
+    "height": 158,
+    "weight": 63,
+    "passportID": "PASS000395",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Vladimir Williams",
+    "coordinates": {
+      "x": -82.5,
+      "y": 583
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 279,
+      "y": 356.5,
+      "z": 467,
+      "name": "Singapore"
+    },
+    "height": 167,
+    "weight": 79,
+    "passportID": "PASS000396",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Robert Thomas",
+    "coordinates": {
+      "x": -498.5,
+      "y": 481
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 286,
+      "y": 461.5,
+      "z": 173,
+      "name": "Tokyo"
+    },
+    "height": 171,
+    "weight": 70,
+    "passportID": "PASS000397",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Konstantin Lopez",
+    "coordinates": {
+      "x": -426.5,
+      "y": -543
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 122,
+      "y": 62.5,
+      "z": 239,
+      "name": "London"
+    },
+    "height": 196,
+    "weight": 96,
+    "passportID": "PASS000398",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Olga Jones",
+    "coordinates": {
+      "x": 450.5,
+      "y": -154
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 198,
+      "y": 232.5,
+      "z": 369,
+      "name": "Berlin"
+    },
+    "height": 165,
+    "weight": 56,
+    "passportID": "PASS000399",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Alexey Taylor",
+    "coordinates": {
+      "x": 428.5,
+      "y": 457
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 94,
+      "y": 27.5,
+      "z": 33,
+      "name": "Delhi"
+    },
+    "height": 182,
+    "weight": 92,
+    "passportID": "PASS000400",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Robert Dmitriev",
+    "coordinates": {
+      "x": 147.5,
+      "y": -418
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 263,
+      "y": 345.5,
+      "z": 335,
+      "name": "Vienna"
+    },
+    "height": 182,
+    "weight": 63,
+    "passportID": "PASS000401",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Patricia Johnson",
+    "coordinates": {
+      "x": -109.5,
+      "y": -268
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 355,
+      "y": 314.5,
+      "z": 280,
+      "name": "Singapore"
+    },
+    "height": 155,
+    "weight": 80,
+    "passportID": "PASS000402",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "James Kozlov",
+    "coordinates": {
+      "x": -266.5,
+      "y": 195
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 351,
+      "y": 61.5,
+      "z": 233,
+      "name": "Prague"
+    },
+    "height": 150,
+    "weight": 60,
+    "passportID": "PASS000403",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Barbara Taylor",
+    "coordinates": {
+      "x": 384.5,
+      "y": 418
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 388,
+      "y": 290.5,
+      "z": 293,
+      "name": "Toronto"
+    },
+    "height": 156,
+    "weight": 83,
+    "passportID": "PASS000404",
+    "nationality": null
+  },
+  {
+    "name": "Olga Anderson",
+    "coordinates": {
+      "x": 356.5,
+      "y": 9
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 470,
+      "y": 497.5,
+      "z": 102,
+      "name": "NewYork"
+    },
+    "height": 197,
+    "weight": 61,
+    "passportID": "PASS000405",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Viktor Novikov",
+    "coordinates": {
+      "x": 179.5,
+      "y": 225
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 450,
+      "y": 368.5,
+      "z": 399,
+      "name": "Berlin"
+    },
+    "height": 152,
+    "weight": 98,
+    "passportID": "PASS000406",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Svetlana Morozov",
+    "coordinates": {
+      "x": 429.5,
+      "y": 580
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 155,
+      "y": 194.5,
+      "z": 114,
+      "name": "Prague"
+    },
+    "height": 156,
+    "weight": 66,
+    "passportID": "PASS000407",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Ekaterina Petrov",
+    "coordinates": {
+      "x": -345.5,
+      "y": 515
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 196,
+      "y": 388.5,
+      "z": 311,
+      "name": "Singapore"
+    },
+    "height": 158,
+    "weight": 88,
+    "passportID": "PASS000408",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Anna Volkov",
+    "coordinates": {
+      "x": 222.5,
+      "y": 409
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 488,
+      "y": 81.5,
+      "z": 463,
+      "name": "Prague"
+    },
+    "height": 194,
+    "weight": 60,
+    "passportID": "PASS000409",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Daria Dmitriev",
+    "coordinates": {
+      "x": -228.5,
+      "y": 474
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 336,
+      "y": 390.5,
+      "z": 483,
+      "name": "Delhi"
+    },
+    "height": 167,
+    "weight": 57,
+    "passportID": "PASS000410",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Igor Martinez",
+    "coordinates": {
+      "x": 56.5,
+      "y": 14
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 64,
+      "y": 80.5,
+      "z": 296,
+      "name": "Tokyo"
+    },
+    "height": 167,
+    "weight": 97,
+    "passportID": "PASS000411",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Barbara Kuznetsov",
+    "coordinates": {
+      "x": 84.5,
+      "y": 435
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 152,
+      "y": 381.5,
+      "z": 141,
+      "name": "NewYork"
+    },
+    "height": 173,
+    "weight": 95,
+    "passportID": "PASS000412",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Mikhail Martinez",
+    "coordinates": {
+      "x": 271.5,
+      "y": 508
+    },
+    "eyeColor": "BROWN",
+    "hairColor": null,
+    "location": {
+      "x": 93,
+      "y": 378.5,
+      "z": 368,
+      "name": "Shanghai"
+    },
+    "height": 190,
+    "weight": 58,
+    "passportID": "PASS000413",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Sergey Wilson",
+    "coordinates": {
+      "x": 31.5,
+      "y": 193
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 284,
+      "y": 410.5,
+      "z": 145,
+      "name": "Toronto"
+    },
+    "height": 169,
+    "weight": 66,
+    "passportID": "PASS000414",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Jessica Lopez",
+    "coordinates": {
+      "x": -153.5,
+      "y": 601
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 209,
+      "y": 278.5,
+      "z": 78,
+      "name": "Toronto"
+    },
+    "height": 180,
+    "weight": 80,
+    "passportID": "PASS000415",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Patricia Lopez",
+    "coordinates": {
+      "x": -348.5,
+      "y": 44
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 447,
+      "y": 405.5,
+      "z": 242,
+      "name": "Prague"
+    },
+    "height": 198,
+    "weight": 74,
+    "passportID": "PASS000416",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Viktor Kozlov",
+    "coordinates": {
+      "x": -257.5,
+      "y": 379
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 245,
+      "y": 406.5,
+      "z": 292,
+      "name": "NewYork"
+    },
+    "height": 193,
+    "weight": 85,
+    "passportID": "PASS000417",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Maria Sidorov",
+    "coordinates": {
+      "x": 244.5,
+      "y": 285
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 76,
+      "y": 486.5,
+      "z": 356,
+      "name": "Delhi"
+    },
+    "height": 176,
+    "weight": 81,
+    "passportID": "PASS000418",
+    "nationality": null
+  },
+  {
+    "name": "Andrey Jones",
+    "coordinates": {
+      "x": 211.5,
+      "y": 122
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 40,
+      "y": 106.5,
+      "z": 8,
+      "name": "Madrid"
+    },
+    "height": 176,
+    "weight": 78,
+    "passportID": "PASS000419",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Barbara Sokolov",
+    "coordinates": {
+      "x": -150.4,
+      "y": 176
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 93,
+      "y": 326.5,
+      "z": 201,
+      "name": "Beijing"
+    },
+    "height": 158,
+    "weight": 83,
+    "passportID": "PASS000420",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Robert Volkov",
+    "coordinates": {
+      "x": -225.5,
+      "y": 162
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 318,
+      "y": 280.5,
+      "z": 367,
+      "name": "Warsaw"
+    },
+    "height": 157,
+    "weight": 99,
+    "passportID": "PASS000421",
+    "nationality": null
+  },
+  {
+    "name": "Linda Brown",
+    "coordinates": {
+      "x": 251.5,
+      "y": 659
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 22,
+      "y": 112.5,
+      "z": 157,
+      "name": "Seoul"
+    },
+    "height": 181,
+    "weight": 69,
+    "passportID": "PASS000422",
+    "nationality": null
+  },
+  {
+    "name": "Konstantin Novikov",
+    "coordinates": {
+      "x": 163.5,
+      "y": 105
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 452,
+      "y": 215.5,
+      "z": 11,
+      "name": "Berlin"
+    },
+    "height": 163,
+    "weight": 67,
+    "passportID": "PASS000423",
+    "nationality": null
+  },
+  {
+    "name": "Nikolay Williams",
+    "coordinates": {
+      "x": -106.5,
+      "y": 474
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 363,
+      "y": 113.5,
+      "z": 303,
+      "name": "Vancouver"
+    },
+    "height": 184,
+    "weight": 86,
+    "passportID": "PASS000424",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Mikhail Kozlov",
+    "coordinates": {
+      "x": 59.5,
+      "y": 292
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 391,
+      "y": 442.5,
+      "z": 63,
+      "name": "Rome"
+    },
+    "height": 183,
+    "weight": 95,
+    "passportID": "PASS000425",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Marina Jones",
+    "coordinates": {
+      "x": 346.5,
+      "y": 214
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 16,
+      "y": 190.5,
+      "z": 322,
+      "name": "Beijing"
+    },
+    "height": 161,
+    "weight": 97,
+    "passportID": "PASS000426",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "David Dmitriev",
+    "coordinates": {
+      "x": -273.5,
+      "y": 661
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 141,
+      "y": 471.5,
+      "z": 131,
+      "name": "Budapest"
+    },
+    "height": 167,
+    "weight": 80,
+    "passportID": "PASS000427",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Yulia Mikhailov",
+    "coordinates": {
+      "x": -379.5,
+      "y": 293
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 179,
+      "y": 86.5,
+      "z": 463,
+      "name": "Prague"
+    },
+    "height": 191,
+    "weight": 85,
+    "passportID": "PASS000428",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Vladimir Jones",
+    "coordinates": {
+      "x": -279.5,
+      "y": 417
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 235,
+      "y": 54.5,
+      "z": 77,
+      "name": "Tokyo"
+    },
+    "height": 189,
+    "weight": 99,
+    "passportID": "PASS000429",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Roman Sokolov",
+    "coordinates": {
+      "x": 302.5,
+      "y": 22
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 294,
+      "y": 13.5,
+      "z": 245,
+      "name": "Warsaw"
+    },
+    "height": 179,
+    "weight": 75,
+    "passportID": "PASS000430",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Viktor Hernandez",
+    "coordinates": {
+      "x": 384.5,
+      "y": 113
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 237,
+      "y": 317.5,
+      "z": 402,
+      "name": "London"
+    },
+    "height": 177,
+    "weight": 53,
+    "passportID": "PASS000431",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Patricia Yakovlev",
+    "coordinates": {
+      "x": -390.5,
+      "y": 517
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 10,
+      "y": 263.5,
+      "z": 428,
+      "name": "Petersburg"
+    },
+    "height": 162,
+    "weight": 56,
+    "passportID": "PASS000432",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Thomas Williams",
+    "coordinates": {
+      "x": -114.5,
+      "y": 143
+    },
+    "eyeColor": "GREEN",
+    "hairColor": null,
+    "location": {
+      "x": 212,
+      "y": 487.5,
+      "z": 410,
+      "name": "Budapest"
+    },
+    "height": 198,
+    "weight": 55,
+    "passportID": "PASS000433",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Vladimir Mikhailov",
+    "coordinates": {
+      "x": -276.5,
+      "y": 79
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 104,
+      "y": 456.5,
+      "z": 221,
+      "name": "London"
+    },
+    "height": 184,
+    "weight": 70,
+    "passportID": "PASS000434",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Linda Volkov",
+    "coordinates": {
+      "x": -453.5,
+      "y": 320
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 5,
+      "y": 292.5,
+      "z": 146,
+      "name": "Rome"
+    },
+    "height": 185,
+    "weight": 77,
+    "passportID": "PASS000435",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Michael Hernandez",
+    "coordinates": {
+      "x": 366.5,
+      "y": 143
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 24,
+      "y": 224.5,
+      "z": 449,
+      "name": "Delhi"
+    },
+    "height": 177,
+    "weight": 63,
+    "passportID": "PASS000436",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Irina Novikov",
+    "coordinates": {
+      "x": -3.5,
+      "y": 609
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 425,
+      "y": 344.5,
+      "z": 265,
+      "name": "London"
+    },
+    "height": 154,
+    "weight": 78,
+    "passportID": "PASS000437",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Jennifer Kozlov",
+    "coordinates": {
+      "x": -380.5,
+      "y": -398
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 210,
+      "y": 170.5,
+      "z": 372,
+      "name": "Singapore"
+    },
+    "height": 199,
+    "weight": 59,
+    "passportID": "PASS000438",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Barbara Volkov",
+    "coordinates": {
+      "x": 36.6,
+      "y": -560
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 267,
+      "y": 449.5,
+      "z": 220,
+      "name": "Singapore"
+    },
+    "height": 170,
+    "weight": 55,
+    "passportID": "PASS000439",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Maxim Lebedev",
+    "coordinates": {
+      "x": -94.5,
+      "y": 326
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 116,
+      "y": 68.5,
+      "z": 312,
+      "name": "Berlin"
+    },
+    "height": 159,
+    "weight": 61,
+    "passportID": "PASS000440",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Nikolay Taylor",
+    "coordinates": {
+      "x": 198.5,
+      "y": 371
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 112,
+      "y": 371.5,
+      "z": 47,
+      "name": "Delhi"
+    },
+    "height": 168,
+    "weight": 93,
+    "passportID": "PASS000441",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Oleg Fedorov",
+    "coordinates": {
+      "x": -438.5,
+      "y": -523
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 159,
+      "y": 275.5,
+      "z": 499,
+      "name": "Rome"
+    },
+    "height": 188,
+    "weight": 65,
+    "passportID": "PASS000442",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Robert Johnson",
+    "coordinates": {
+      "x": -313.5,
+      "y": 476
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 467,
+      "y": 214.5,
+      "z": 287,
+      "name": "Tokyo"
+    },
+    "height": 167,
+    "weight": 86,
+    "passportID": "PASS000443",
+    "nationality": null
+  },
+  {
+    "name": "Mary Alekseev",
+    "coordinates": {
+      "x": -152.5,
+      "y": 290
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 223,
+      "y": 372.5,
+      "z": 464,
+      "name": "Mumbai"
+    },
+    "height": 182,
+    "weight": 64,
+    "passportID": "PASS000444",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Victoria Ivanov",
+    "coordinates": {
+      "x": 374.5,
+      "y": 656
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 372,
+      "y": 167.5,
+      "z": 56,
+      "name": "Budapest"
+    },
+    "height": 197,
+    "weight": 79,
+    "passportID": "PASS000445",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Mikhail Morozov",
+    "coordinates": {
+      "x": 244.5,
+      "y": 334
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 288,
+      "y": 434.5,
+      "z": 141,
+      "name": "Mumbai"
+    },
+    "height": 153,
+    "weight": 53,
+    "passportID": "PASS000446",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Pavel Martinez",
+    "coordinates": {
+      "x": 5.5,
+      "y": -554
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 369,
+      "y": 208.5,
+      "z": 59,
+      "name": "London"
+    },
+    "height": 159,
+    "weight": 66,
+    "passportID": "PASS000447",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Tatiana Thomas",
+    "coordinates": {
+      "x": -292.5,
+      "y": -112
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 86,
+      "y": 202.5,
+      "z": 448,
+      "name": "Petersburg"
+    },
+    "height": 163,
+    "weight": 89,
+    "passportID": "PASS000448",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "William Fedorov",
+    "coordinates": {
+      "x": -276.5,
+      "y": 608
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 234,
+      "y": 83.5,
+      "z": 459,
+      "name": "London"
+    },
+    "height": 152,
+    "weight": 58,
+    "passportID": "PASS000449",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "John Davis",
+    "coordinates": {
+      "x": -263.5,
+      "y": -540
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 97,
+      "y": 84.5,
+      "z": 474,
+      "name": "Delhi"
+    },
+    "height": 167,
+    "weight": 67,
+    "passportID": "PASS000450",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Ekaterina Thomas",
+    "coordinates": {
+      "x": 41.5,
+      "y": -44
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 277,
+      "y": 138.5,
+      "z": 26,
+      "name": "Petersburg"
+    },
+    "height": 180,
+    "weight": 67,
+    "passportID": "PASS000451",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Michael Martinez",
+    "coordinates": {
+      "x": -496.5,
+      "y": 434
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 435,
+      "y": 148.5,
+      "z": 407,
+      "name": "Rome"
+    },
+    "height": 152,
+    "weight": 69,
+    "passportID": "PASS000452",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "William Popov",
+    "coordinates": {
+      "x": 423.5,
+      "y": 494
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 464,
+      "y": 66.5,
+      "z": 377,
+      "name": "Beijing"
+    },
+    "height": 166,
+    "weight": 68,
+    "passportID": "PASS000453",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Vladimir Rodriguez",
+    "coordinates": {
+      "x": 255.5,
+      "y": 601
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 205,
+      "y": 320.5,
+      "z": 442,
+      "name": "Tokyo"
+    },
+    "height": 150,
+    "weight": 82,
+    "passportID": "PASS000454",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Ivan Davis",
+    "coordinates": {
+      "x": -239.5,
+      "y": 646
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 296,
+      "y": 164.5,
+      "z": 219,
+      "name": "London"
+    },
+    "height": 156,
+    "weight": 85,
+    "passportID": "PASS000455",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Ksenia Morozov",
+    "coordinates": {
+      "x": 66.5,
+      "y": 612
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 156,
+      "y": 54.5,
+      "z": 365,
+      "name": "NewYork"
+    },
+    "height": 199,
+    "weight": 96,
+    "passportID": "PASS000456",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Natalia Dmitriev",
+    "coordinates": {
+      "x": -184.5,
+      "y": 46
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 294,
+      "y": 474.5,
+      "z": 204,
+      "name": "London"
+    },
+    "height": 167,
+    "weight": 57,
+    "passportID": "PASS000457",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Daria Ivanov",
+    "coordinates": {
+      "x": 99.5,
+      "y": 55
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 318,
+      "y": 370.5,
+      "z": 303,
+      "name": "London"
+    },
+    "height": 196,
+    "weight": 73,
+    "passportID": "PASS000458",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Patricia Garcia",
+    "coordinates": {
+      "x": 386.5,
+      "y": 578
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 293,
+      "y": 165.5,
+      "z": 186,
+      "name": "London"
+    },
+    "height": 162,
+    "weight": 81,
+    "passportID": "PASS000459",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Anastasia Martinez",
+    "coordinates": {
+      "x": -491.5,
+      "y": 492
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 487,
+      "y": 236.5,
+      "z": 23,
+      "name": "Seoul"
+    },
+    "height": 197,
+    "weight": 97,
+    "passportID": "PASS000460",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Maria Volkov",
+    "coordinates": {
+      "x": 162.5,
+      "y": -581
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 115,
+      "y": 304.5,
+      "z": 407,
+      "name": "Beijing"
+    },
+    "height": 150,
+    "weight": 91,
+    "passportID": "PASS000461",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Patricia Wilson",
+    "coordinates": {
+      "x": 62.5,
+      "y": 18
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 144,
+      "y": 281.5,
+      "z": 164,
+      "name": "Shanghai"
+    },
+    "height": 197,
+    "weight": 98,
+    "passportID": "PASS000462",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "David Thomas",
+    "coordinates": {
+      "x": 75.5,
+      "y": 469
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 207,
+      "y": 452.5,
+      "z": 128,
+      "name": "Sydney"
+    },
+    "height": 156,
+    "weight": 89,
+    "passportID": "PASS000463",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Anna Wilson",
+    "coordinates": {
+      "x": -471.5,
+      "y": -107
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 217,
+      "y": 105.5,
+      "z": 15,
+      "name": "Petersburg"
+    },
+    "height": 174,
+    "weight": 50,
+    "passportID": "PASS000464",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Oleg Lopez",
+    "coordinates": {
+      "x": -109.5,
+      "y": 646
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 135,
+      "y": 153.5,
+      "z": 132,
+      "name": "London"
+    },
+    "height": 173,
+    "weight": 73,
+    "passportID": "PASS000465",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Ivan Petrov",
+    "coordinates": {
+      "x": 51.5,
+      "y": 223
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 398,
+      "y": 460.5,
+      "z": 155,
+      "name": "Shanghai"
+    },
+    "height": 157,
+    "weight": 80,
+    "passportID": "PASS000466",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Susan Kozlov",
+    "coordinates": {
+      "x": 297.5,
+      "y": -522
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 10,
+      "y": 240.5,
+      "z": 302,
+      "name": "Seoul"
+    },
+    "height": 173,
+    "weight": 95,
+    "passportID": "PASS000467",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Natalia Wilson",
+    "coordinates": {
+      "x": -101.5,
+      "y": 332
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 69,
+      "y": 307.5,
+      "z": 363,
+      "name": "Vancouver"
+    },
+    "height": 185,
+    "weight": 52,
+    "passportID": "PASS000468",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Oleg Smith",
+    "coordinates": {
+      "x": 89.5,
+      "y": 46
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 10,
+      "y": 259.5,
+      "z": 323,
+      "name": "Montreal"
+    },
+    "height": 185,
+    "weight": 71,
+    "passportID": "PASS000469",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Olga Rodriguez",
+    "coordinates": {
+      "x": -270.5,
+      "y": -24
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 278,
+      "y": 73.5,
+      "z": 108,
+      "name": "Vancouver"
+    },
+    "height": 188,
+    "weight": 64,
+    "passportID": "PASS000470",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Maria Garcia",
+    "coordinates": {
+      "x": -264.5,
+      "y": 363
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 349,
+      "y": 218.5,
+      "z": 261,
+      "name": "Singapore"
+    },
+    "height": 175,
+    "weight": 88,
+    "passportID": "PASS000471",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Elena Sokolov",
+    "coordinates": {
+      "x": 28.5,
+      "y": 215
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 345,
+      "y": 224.5,
+      "z": 114,
+      "name": "Mumbai"
+    },
+    "height": 188,
+    "weight": 94,
+    "passportID": "PASS000472",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Roman Rodriguez",
+    "coordinates": {
+      "x": -427.5,
+      "y": 696
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 244,
+      "y": 463.5,
+      "z": 237,
+      "name": "Sydney"
+    },
+    "height": 191,
+    "weight": 54,
+    "passportID": "PASS000473",
+    "nationality": null
+  },
+  {
+    "name": "Anna Yakovlev",
+    "coordinates": {
+      "x": -53.5,
+      "y": 209
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 445,
+      "y": 428.5,
+      "z": 417,
+      "name": "Toronto"
+    },
+    "height": 169,
+    "weight": 88,
+    "passportID": "PASS000474",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Victoria Williams",
+    "coordinates": {
+      "x": -43.5,
+      "y": 550
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 58,
+      "y": 404.5,
+      "z": 207,
+      "name": "Montreal"
+    },
+    "height": 162,
+    "weight": 58,
+    "passportID": "PASS000475",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Ksenia Smith",
+    "coordinates": {
+      "x": -470.5,
+      "y": 662
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 382,
+      "y": 406.5,
+      "z": 272,
+      "name": "Montreal"
+    },
+    "height": 158,
+    "weight": 90,
+    "passportID": "PASS000476",
+    "nationality": null
+  },
+  {
+    "name": "Daria Sidorov",
+    "coordinates": {
+      "x": 104.5,
+      "y": 494
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 459,
+      "y": 293.5,
+      "z": 333,
+      "name": "Tokyo"
+    },
+    "height": 185,
+    "weight": 70,
+    "passportID": "PASS000477",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Svetlana Dmitriev",
+    "coordinates": {
+      "x": -13.5,
+      "y": 16
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 426,
+      "y": 457.5,
+      "z": 474,
+      "name": "Prague"
+    },
+    "height": 176,
+    "weight": 63,
+    "passportID": "PASS000478",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Nikolay Smith",
+    "coordinates": {
+      "x": 53.5,
+      "y": 242
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 0,
+      "y": 358.5,
+      "z": 140,
+      "name": "Toronto"
+    },
+    "height": 189,
+    "weight": 76,
+    "passportID": "PASS000479",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "William Johnson",
+    "coordinates": {
+      "x": 200.5,
+      "y": 555
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 92,
+      "y": 122.5,
+      "z": 73,
+      "name": "Vienna"
+    },
+    "height": 152,
+    "weight": 72,
+    "passportID": "PASS000480",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Viktor Davis",
+    "coordinates": {
+      "x": -129.5,
+      "y": 255
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 45,
+      "y": 257.5,
+      "z": 255,
+      "name": "Madrid"
+    },
+    "height": 193,
+    "weight": 60,
+    "passportID": "PASS000481",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Tatiana Dmitriev",
+    "coordinates": {
+      "x": -448.5,
+      "y": 40
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 11,
+      "y": 123.5,
+      "z": 217,
+      "name": "Shanghai"
+    },
+    "height": 164,
+    "weight": 84,
+    "passportID": "PASS000482",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Dmitry Thomas",
+    "coordinates": {
+      "x": 348.5,
+      "y": 221
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 40,
+      "y": 172.5,
+      "z": 463,
+      "name": "Montreal"
+    },
+    "height": 186,
+    "weight": 97,
+    "passportID": "PASS000483",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Vera Taylor",
+    "coordinates": {
+      "x": -298.5,
+      "y": 576
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 367,
+      "y": 214.5,
+      "z": 191,
+      "name": "Montreal"
+    },
+    "height": 164,
+    "weight": 56,
+    "passportID": "PASS000484",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Vladimir Rodriguez",
+    "coordinates": {
+      "x": 415.5,
+      "y": 479
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 327,
+      "y": 82.5,
+      "z": 422,
+      "name": "Shanghai"
+    },
+    "height": 164,
+    "weight": 62,
+    "passportID": "PASS000485",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Marina Wilson",
+    "coordinates": {
+      "x": 60.5,
+      "y": 50
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 452,
+      "y": 337.5,
+      "z": 192,
+      "name": "Singapore"
+    },
+    "height": 185,
+    "weight": 62,
+    "passportID": "PASS000486",
+    "nationality": null
+  },
+  {
+    "name": "Jessica Yakovlev",
+    "coordinates": {
+      "x": 383.5,
+      "y": 279
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 70,
+      "y": 234.5,
+      "z": 495,
+      "name": "Montreal"
+    },
+    "height": 167,
+    "weight": 56,
+    "passportID": "PASS000487",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Anastasia Lebedev",
+    "coordinates": {
+      "x": 168.5,
+      "y": -544
+    },
+    "eyeColor": "BLUE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 403,
+      "y": 450.5,
+      "z": 77,
+      "name": "Singapore"
+    },
+    "height": 197,
+    "weight": 53,
+    "passportID": "PASS000488",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Thomas Davis",
+    "coordinates": {
+      "x": -496.5,
+      "y": 73
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 490,
+      "y": 448.5,
+      "z": 282,
+      "name": "Madrid"
+    },
+    "height": 184,
+    "weight": 52,
+    "passportID": "PASS000489",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Anastasia Garcia",
+    "coordinates": {
+      "x": -293.5,
+      "y": -136
+    },
+    "eyeColor": "BROWN",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 183,
+      "y": 338.5,
+      "z": 393,
+      "name": "Singapore"
+    },
+    "height": 197,
+    "weight": 50,
+    "passportID": "PASS000490",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Daria Ivanov",
+    "coordinates": {
+      "x": -359.5,
+      "y": 111
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 374,
+      "y": 440.5,
+      "z": 366,
+      "name": "Bangkok"
+    },
+    "height": 160,
+    "weight": 90,
+    "passportID": "PASS000491",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Pavel Mikhailov",
+    "coordinates": {
+      "x": -1.5,
+      "y": 250
+    },
+    "eyeColor": "BROWN",
+    "hairColor": null,
+    "location": {
+      "x": 467,
+      "y": 17.5,
+      "z": 496,
+      "name": "Rome"
+    },
+    "height": 178,
+    "weight": 88,
+    "passportID": "PASS000492",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Olga Davis",
+    "coordinates": {
+      "x": 435.5,
+      "y": 355
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 391,
+      "y": 408.5,
+      "z": 461,
+      "name": "London"
+    },
+    "height": 171,
+    "weight": 70,
+    "passportID": "PASS000493",
+    "nationality": null
+  },
+  {
+    "name": "Natalia Miller",
+    "coordinates": {
+      "x": -284.5,
+      "y": 64
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 52,
+      "y": 144.5,
+      "z": 33,
+      "name": "Budapest"
+    },
+    "height": 198,
+    "weight": 61,
+    "passportID": "PASS000494",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Vladimir Miller",
+    "coordinates": {
+      "x": -379.5,
+      "y": 410
+    },
+    "eyeColor": "BLACK",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 85,
+      "y": 489.5,
+      "z": 366,
+      "name": "Prague"
+    },
+    "height": 156,
+    "weight": 67,
+    "passportID": "PASS000495",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Anastasia Novikov",
+    "coordinates": {
+      "x": 440.5,
+      "y": -438
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "GREEN",
+    "location": {
+      "x": 444,
+      "y": 301.5,
+      "z": 429,
+      "name": "Shanghai"
+    },
+    "height": 182,
+    "weight": 52,
+    "passportID": "PASS000496",
+    "nationality": "VATICAN"
+  },
+  {
+    "name": "Viktor Sidorov",
+    "coordinates": {
+      "x": 282.5,
+      "y": 393
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 425,
+      "y": 28.5,
+      "z": 151,
+      "name": "Toronto"
+    },
+    "height": 163,
+    "weight": 52,
+    "passportID": "PASS000497",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Alexey Popov",
+    "coordinates": {
+      "x": 296.5,
+      "y": 106
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 269,
+      "y": 421.5,
+      "z": 133,
+      "name": "Shanghai"
+    },
+    "height": 179,
+    "weight": 86,
+    "passportID": "PASS000498",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Svetlana Martinez",
+    "coordinates": {
+      "x": 183.5,
+      "y": -545
+    },
+    "eyeColor": "WHITE",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 134,
+      "y": 394.5,
+      "z": 347,
+      "name": "London"
+    },
+    "height": 180,
+    "weight": 51,
+    "passportID": "PASS000499",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Viktor Anderson",
+    "coordinates": {
+      "x": -50.6,
+      "y": 184
+    },
+    "eyeColor": "GREEN",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 366,
+      "y": 3.5,
+      "z": 259,
+      "name": "Beijing"
+    },
+    "height": 180,
+    "weight": 67,
+    "passportID": "PASS000500",
+    "nationality": "GERMANY"
+  }
+]

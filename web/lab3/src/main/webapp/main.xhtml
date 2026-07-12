@@ -1,0 +1,379 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+>
+
+<h:head>
+    <title>Точка на координатной плоскости</title>
+    <h:outputStylesheet library="css" name="style.css"/>
+</h:head>
+
+<h:body>
+    <div class="container">
+        <div id="header">
+            <div class="left">
+                <p>P3207</p>
+            </div>
+            <div class="center">
+                <p>Чусовлянов Максим Сергеевич</p>
+            </div>
+            <div class="right">
+                <p>409858</p>
+            </div>
+            <h:form style="display: inline-block;" styleClass="right">
+                <h:commandButton value="назад!!!" action="goToIndex" styleClass="header-button"/>
+            </h:form>
+        </div>
+
+        <div class="main-content">
+            <div class="content-section">
+                <div class="form-section">
+                    <h3>Проверка попадания точки</h3>
+                    <h:form id="controlForm">
+                        <h2>Изменение X:</h2>
+                        <h:panelGrid columns="2" cellpadding="10">
+                            <h:outputLabel value="-2"/>
+                            <h:selectBooleanCheckbox value="#{bean.XValues['-2']}">
+                                <f:ajax render="@form"/>
+                            </h:selectBooleanCheckbox>
+
+                            <h:outputLabel value="-1.5"/>
+                            <h:selectBooleanCheckbox value="#{bean.XValues['-1.5']}">
+                                <f:ajax render="@form"/>
+                            </h:selectBooleanCheckbox>
+
+                            <h:outputLabel value="-1"/>
+                            <h:selectBooleanCheckbox value="#{bean.XValues['-1']}">
+                                <f:ajax render="@form"/>
+                            </h:selectBooleanCheckbox>
+
+                            <h:outputLabel value="-0.5"/>
+                            <h:selectBooleanCheckbox value="#{bean.XValues['-0.5']}">
+                                <f:ajax render="@form"/>
+                            </h:selectBooleanCheckbox>
+
+                            <h:outputLabel value="0"/>
+                            <h:selectBooleanCheckbox value="#{bean.XValues['0']}">
+                                <f:ajax render="@form"/>
+                            </h:selectBooleanCheckbox>
+
+                            <h:outputLabel value="0.5"/>
+                            <h:selectBooleanCheckbox value="#{bean.XValues['0.5']}">
+                                <f:ajax render="@form"/>
+                            </h:selectBooleanCheckbox>
+
+                            <h:outputLabel value="1"/>
+                            <h:selectBooleanCheckbox value="#{bean.XValues['1']}">
+                                <f:ajax render="@form"/>
+                            </h:selectBooleanCheckbox>
+
+                            <h:outputLabel value="1.5"/>
+                            <h:selectBooleanCheckbox value="#{bean.XValues['1.5']}">
+                                <f:ajax render="@form"/>
+                            </h:selectBooleanCheckbox>
+
+                            <h:outputLabel value="2"/>
+                            <h:selectBooleanCheckbox value="#{bean.XValues['2']}">
+                                <f:ajax render="@form"/>
+                            </h:selectBooleanCheckbox>
+                        </h:panelGrid>
+
+                        <!-- Y Input -->
+                        <h2>Изменение Y:</h2>
+                        <h:inputText id="yInput" value="#{bean.YValue}" maxlength="4" size="10"/>
+                        <h:message for="yInput"/>
+
+                        <!-- R Selection -->
+                        <h2>Изменение R:</h2>
+                        <h:panelGrid columns="5">
+                            <h:commandButton id="r1Button" value="1" action="#{bean.setRadius(1)}" styleClass="big-button">
+                                <f:ajax execute="@form" render="canvasForm hiddenPoints" onevent="updateCanvas"/>
+                            </h:commandButton>
+                            <h:commandButton value="1.5" action="#{bean.setRadius(1.5)}" styleClass="big-button">
+                                <f:ajax execute="@form" render="canvasForm hiddenPoints" onevent="updateCanvas" />
+                            </h:commandButton>
+                            <h:commandButton value="2" action="#{bean.setRadius(2)}" styleClass="big-button">
+                                <f:ajax execute="@form" render="canvasForm hiddenPoints" onevent="updateCanvas"/>
+                            </h:commandButton>
+                            <h:commandButton value="2.5" action="#{bean.setRadius(2.5)}" styleClass="big-button">
+                                <f:ajax execute="@form" render="canvasForm hiddenPoints" onevent="updateCanvas"/>
+                            </h:commandButton>
+                            <h:commandButton value="3" action="#{bean.setRadius(3)}" styleClass="big-button">
+                                <f:ajax execute="@form" render="canvasForm hiddenPoints" onevent="updateCanvas"/>
+                            </h:commandButton>
+                        </h:panelGrid>
+
+                        <!-- Submit Button -->
+                        <h:commandButton value="Submit" action="#{bean.savePoint()}" styleClass="big-button">
+                            <f:ajax execute="@form" render="canvasForm hiddenPoints logTable  canvasForm:hitStatus" onevent=""/>
+                        </h:commandButton>
+                    </h:form>
+                </div>
+
+                <h:form id="canvasForm">
+                    <div class="graphic-and-info">
+                        <div class="graphic-content">
+                            <div class="info-container">
+                                <div class="current-point-info">
+                                    <p>
+                                        <span>ID:</span>
+                                        <span id="point-id">
+                                            <h:outputText value="#{bean.lastResult != null ? bean.lastResult.id : 'N/A'}"/>
+                                        </span>
+                                    </p>
+                                </div>
+                                <div id="status-icon">
+                                    <h:outputText id="hitStatus" value="#{bean.lastResult != null &amp;&amp; bean.lastResult.hit ? '✅' : '❌'}"/>
+                                </div>
+                            </div>
+                            <div class="graphic-section">
+                                <canvas id="diagram" width="300" height="300" style="border: 1px solid black;"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h:inputHidden id="clickX" value="#{bean.clickX}"/>
+                    <h:inputHidden id="clickY" value="#{bean.clickY}"/>
+                    <h:inputHidden id="hiddenR" value="#{bean.radius}"/>
+
+                    <h:commandButton id="submitPointButton" value="Save Point" action="#{bean.savePointFromClick}" style="display: none">
+                        <f:ajax execute="@form" render="canvasForm logTable hiddenPoints status-icon" onevent="" />
+                    </h:commandButton>
+                </h:form>
+            </div>
+
+            <div class="log-table-wrapper" id="logTable">
+                <div class="log-table">
+                    <h:dataTable value="#{bean.resultsFromDB}" var="result" border="1">
+                        <h:column>
+                            <f:facet name="header">ID</f:facet>
+                            #{result.id}
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">X</f:facet>
+                            #{result.x}
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">Y</f:facet>
+                            #{result.y}
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">R</f:facet>
+                            #{result.r}
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">Hit</f:facet>
+                            #{result.hit ? 'Yes' : 'No'}
+                        </h:column>
+                    </h:dataTable>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <h:outputScript>
+        window.addEventListener('load', function () {
+
+            const canvas = document.getElementById('diagram');
+            const ctx = canvas.getContext('2d');
+            const scale = 120; // Scale in pixels per unit
+            const CENTER_X = canvas.width / 2;
+            const CENTER_Y = canvas.height / 2;
+
+
+            function clickHandler(event, canvas) {
+                const rect = canvas.getBoundingClientRect();
+
+                const clickX1 = event.clientX - rect.left;
+                const clickY1 = event.clientY - rect.top;
+
+                console.log('clickX1: ' + clickX1 + ', clickY1: ' + clickY1 + ', scale: ' + scale + ', CENTER_X: ' + CENTER_X + ', CENTER_Y: ' + CENTER_Y + 'rect.left: ' + rect.left + ', rect.top: ' + rect.top + 'clientX: ' + event.clientX + ', clientY: ' + event.clientY);
+                const logicalX = (clickX1 - CENTER_X) / scale;
+                const logicalY = (CENTER_Y- clickY1) / scale;
+                const r = parseFloat(document.getElementById("canvasForm:hiddenR").value);
+
+                console.log('meow ' + r);
+
+                console.log('Logical Coordinates: ' + logicalX + ', ' + logicalY);
+
+                document.getElementById("canvasForm:clickX").value = logicalX * r;
+                document.getElementById("canvasForm:clickY").value = logicalY * r;
+
+                // Trigger the hidden button to submit
+                document.getElementById("canvasForm:submitPointButton").click();
+            }
+
+            function drawStaticDiagram() {
+                const canvas = document.getElementById('diagram');
+                const ctx = canvas.getContext('2d');
+                canvas.addEventListener('click', (event) => clickHandler(event, canvas));
+
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+                ctx.strokeStyle = '#333';
+                ctx.lineWidth = 1;
+                ctx.beginPath();
+                // X-axis
+                ctx.moveTo(0, CENTER_Y);
+                ctx.lineTo(canvas.width, CENTER_Y);
+                // Y-axis
+                ctx.moveTo(CENTER_X, 0);
+                ctx.lineTo(CENTER_X, canvas.height);
+                ctx.stroke();
+
+                // Add markers for R and R/2 on axes
+                ctx.fillStyle = '#000';
+                ctx.font = '12px Arial';
+
+                // Positive X-axis
+                ctx.beginPath();
+                ctx.moveTo(CENTER_X + scale, CENTER_Y - 5);
+                ctx.lineTo(CENTER_X + scale, CENTER_Y + 5);
+                ctx.stroke();
+                ctx.fillText('R', CENTER_X + scale - 10, CENTER_Y + 15);
+
+                ctx.beginPath();
+                ctx.moveTo(CENTER_X + (scale / 2), CENTER_Y - 5);
+                ctx.lineTo(CENTER_X + (scale / 2), CENTER_Y + 5);
+                ctx.stroke();
+                ctx.fillText('R/2', CENTER_X + (scale / 2) - 15, CENTER_Y + 15);
+
+                // Negative X-axis
+                ctx.beginPath();
+                ctx.moveTo(CENTER_X - scale, CENTER_Y - 5);
+                ctx.lineTo(CENTER_X - scale, CENTER_Y + 5);
+                ctx.stroke();
+                ctx.fillText('-R', CENTER_X - scale - 15, CENTER_Y + 15);
+
+                ctx.beginPath();
+                ctx.moveTo(CENTER_X - (scale / 2), CENTER_Y - 5);
+                ctx.lineTo(CENTER_X - (scale / 2), CENTER_Y + 5);
+                ctx.stroke();
+                ctx.fillText('-R/2', CENTER_X - (scale / 2) - 25, CENTER_Y + 15);
+
+                // Positive Y-axis
+                ctx.beginPath();
+                ctx.moveTo(CENTER_X - 5, CENTER_Y - scale);
+                ctx.lineTo(CENTER_X + 5, CENTER_Y - scale);
+                ctx.stroke();
+                ctx.fillText('R', CENTER_X + 10, CENTER_Y - scale + 5);
+
+                ctx.beginPath();
+                ctx.moveTo(CENTER_X - 5, CENTER_Y - (scale / 2));
+                ctx.lineTo(CENTER_X + 5, CENTER_Y - (scale / 2));
+                ctx.stroke();
+                ctx.fillText('R/2', CENTER_X + 10, CENTER_Y - (scale / 2) + 5);
+
+                // Negative Y-axis
+                ctx.beginPath();
+                ctx.moveTo(CENTER_X - 5, CENTER_Y + scale);
+                ctx.lineTo(CENTER_X + 5, CENTER_Y + scale);
+                ctx.stroke();
+                ctx.fillText('-R', CENTER_X + 10, CENTER_Y + scale + 5);
+
+                ctx.beginPath();
+                ctx.moveTo(CENTER_X - 5, CENTER_Y + (scale / 2));
+                ctx.lineTo(CENTER_X + 5, CENTER_Y + (scale / 2));
+                ctx.stroke();
+                ctx.fillText('-R/2', CENTER_X + 10, CENTER_Y + (scale / 2) + 5);
+
+                // Draw region (static, assuming R=1 for scaling)
+                ctx.fillStyle = 'rgba(0, 128, 255, 0.2)';
+
+                // Quarter-circle in top-left
+                ctx.beginPath();
+                ctx.arc(CENTER_X, CENTER_Y, scale, -Math.PI, -Math.PI / 2);
+                ctx.lineTo(CENTER_X, CENTER_Y);
+                ctx.closePath();
+                ctx.fill();
+
+                // Triangle in bottom-right
+                ctx.beginPath();
+                ctx.moveTo(CENTER_X, CENTER_Y);
+                ctx.lineTo(CENTER_X, CENTER_Y - scale / 2);
+                ctx.lineTo(CENTER_X + scale / 2, CENTER_Y);
+                ctx.closePath();
+                ctx.fill();
+
+                // Rectangle in top-right
+                ctx.beginPath();
+                ctx.rect(CENTER_X, CENTER_Y, scale / 2, scale);
+                ctx.closePath();
+                ctx.fill();
+            }
+
+            function drawPoints(points, r) {
+                const canvas = document.getElementById('diagram');
+                const ctx = canvas.getContext('2d');
+                canvas.addEventListener('click', (event) => clickHandler(event, canvas));
+
+
+                points.forEach(function (point) {
+                    const px = CENTER_X + (point.x / r) * scale;
+                    const py = CENTER_Y - (point.y / r) * scale
+
+                    ctx.beginPath();
+                    ctx.arc(px, py, 3, 0, 2 * Math.PI);
+                    console.log(point.x + ' ' + point.y + ' ' + r + check_hit(point.x, point.y, r));
+                    ctx.fillStyle = check_hit(point.x, point.y, r) ? 'green' : 'red';
+                    ctx.fill();
+                });
+            }
+
+            function getPointsFromFormBean() {
+                const hiddenPoints = document.getElementById('hiddenPoints');
+                if (hiddenPoints) {
+                    try {
+                        return JSON.parse(hiddenPoints.value); // Parse JSON
+                    } catch (e) {
+                        console.error('Failed to parse points:', e);
+                    }
+                }
+                return [];
+            }
+
+            function reloadCanvas() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+                console.log("updateCanvas triggered");
+                const hiddenR = document.getElementById('canvasForm:hiddenR');
+                let r = parseFloat(hiddenR.value) || 1;
+                console.log(r);
+
+                drawStaticDiagram();
+                const points = getPointsFromFormBean();
+                console.log(points);
+                drawPoints(points, r);
+            }
+
+            function updateCanvas(event) {
+                if (event.status === "success") {
+                    reloadCanvas();
+                }
+            }
+
+            function updateAll(event) {
+                updateCanvas(event);
+                if (event.status === 'complete') {
+                    console.log('Table updated successfully!');
+                }
+            }
+
+            function check_hit(x, y, r){
+                return (x >= 0 &amp;&amp; y >= 0 &amp;&amp; r/2 >= (x + y)) || (x >= 0 &amp;&amp; 0 >= y &amp;&amp; r/2 >= x &amp;&amp; y >= -r) || (0 >= x &amp;&amp; y >= 0 &amp;&amp; r*r >= x*x + y*y);
+            }
+
+            window.updateCanvas = updateCanvas;
+            window.updateAll = updateAll;
+
+            reloadCanvas();
+
+            if (1 > document.getElementById('canvasForm:hiddenR').value ) {
+                document.getElementById('controlForm:r1Button').click();
+            }
+        });
+    </h:outputScript>
+    <h:inputHidden id="hiddenPoints" value="#{bean.pointsAsJson}" />
+</h:body>
+</html>

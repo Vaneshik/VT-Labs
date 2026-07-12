@@ -1,0 +1,23 @@
+diff --git a/node_modules/belle/lib/utils/inject-style.js b/node_modules/belle/lib/utils/inject-style.js
+index 78cfd4d..a56028c 100644
+--- a/node_modules/belle/lib/utils/inject-style.js
++++ b/node_modules/belle/lib/utils/inject-style.js
+@@ -15,7 +15,17 @@ exports.default = function (styleId, style, pseudoClass, disabled) {
+ 
+ var _helpers = require('../utils/helpers');
+ 
+-var _CSSPropertyOperations = require('react-dom/lib/CSSPropertyOperations');
++var _CSSPropertyOperations = {
++  createMarkupForStyles: function(styles) {
++    let serialized = '';
++    for (const key in styles) {
++      if (styles.hasOwnProperty(key)) {
++        serialized += key + ':' + styles[key] + ';';
++      }
++    }
++    return serialized;
++  }
++};
+ 
+ var _CSSPropertyOperations2 = _interopRequireDefault(_CSSPropertyOperations);
+ 

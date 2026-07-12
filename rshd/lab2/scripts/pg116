@@ -1,0 +1,5 @@
+#!/bin/sh
+# SSH helper for pg116 (primary / lab1 node) — wrapper around pg117.py
+set -e
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+PG117_NODE=pg116 exec "${PG117_PYTHON:-python3}" "$ROOT/scripts/pg117.py" "$@"

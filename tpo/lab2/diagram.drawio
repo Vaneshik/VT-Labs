@@ -1,0 +1,163 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36">
+  <diagram id="tpo-lab2-classes" name="Class diagram">
+    <mxGraphModel dx="1900" dy="1300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="frame-functions" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=100;height=28;fontSize=14;fontFamily=Helvetica;" value="functions" vertex="1">
+          <mxGeometry height="760" width="1420" x="120" y="-420" as="geometry" />
+        </mxCell>
+        <mxCell id="frame-core" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=70;height=24;fontSize=13;fontFamily=Helvetica;" value="core" vertex="1">
+          <mxGeometry height="210" width="360" x="650" y="-380" as="geometry" />
+        </mxCell>
+        <mxCell id="frame-log" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=96;height=24;fontSize=13;fontFamily=Helvetica;" value="logarithmic" vertex="1">
+          <mxGeometry height="310" width="330" x="170" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="frame-trig" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=112;height=24;fontSize=13;fontFamily=Helvetica;" value="trigonometric" vertex="1">
+          <mxGeometry height="360" width="790" x="560" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="frame-system" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=80;height=24;fontSize=13;fontFamily=Helvetica;" value="system" vertex="1">
+          <mxGeometry height="190" width="330" x="1070" y="-380" as="geometry" />
+        </mxCell>
+        <mxCell id="frame-stubs" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=70;height=24;fontSize=13;fontFamily=Helvetica;" value="stubs" vertex="1">
+          <mxGeometry height="190" width="490" x="590" y="230" as="geometry" />
+        </mxCell>
+
+        <mxCell id="function-rule" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;b&gt;FunctionRule&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ calculate(BigDecimal, BigDecimal): BigDecimal&lt;/p&gt;" vertex="1">
+          <mxGeometry height="82" width="300" x="680" y="-340" as="geometry" />
+        </mxCell>
+        <mxCell id="abstract-function" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;b&gt;AbstractFunction&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- seriesLength: int&lt;br/&gt;# isValid(BigDecimal, BigDecimal): void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="96" width="300" x="680" y="-240" as="geometry" />
+        </mxCell>
+        <mxCell id="equation-system" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;EquationSystem&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ calculate(BigDecimal, BigDecimal): BigDecimal&lt;/p&gt;" vertex="1">
+          <mxGeometry height="72" width="300" x="1090" y="-310" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ln" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;NaturalLogarithm&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ calculate(BigDecimal, BigDecimal): BigDecimal&lt;/p&gt;" vertex="1">
+          <mxGeometry height="72" width="280" x="195" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="logn" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BaseNLogarithm&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- base: int&lt;br/&gt;+ calculate(BigDecimal, BigDecimal): BigDecimal&lt;/p&gt;" vertex="1">
+          <mxGeometry height="92" width="280" x="195" y="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sine" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Sine&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ calculate(BigDecimal, BigDecimal): BigDecimal&lt;/p&gt;" vertex="1">
+          <mxGeometry height="72" width="240" x="590" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="cosine" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Cosine&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ calculate(BigDecimal, BigDecimal): BigDecimal&lt;/p&gt;" vertex="1">
+          <mxGeometry height="72" width="240" x="870" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="tangent" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Tangent&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ calculate(BigDecimal, BigDecimal): BigDecimal&lt;/p&gt;" vertex="1">
+          <mxGeometry height="72" width="240" x="1150" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="secant" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Secant&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ calculate(BigDecimal, BigDecimal): BigDecimal&lt;/p&gt;" vertex="1">
+          <mxGeometry height="72" width="240" x="590" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cosecant" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Cosecant&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ calculate(BigDecimal, BigDecimal): BigDecimal&lt;/p&gt;" vertex="1">
+          <mxGeometry height="72" width="240" x="870" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cotangent" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Cotangent&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ calculate(BigDecimal, BigDecimal): BigDecimal&lt;/p&gt;" vertex="1">
+          <mxGeometry height="72" width="240" x="1150" y="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="stubs" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Table stubs&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;SineStub, CosineStub, TangentStub&lt;br/&gt;CotangentStub, SecantStub, CosecantStub&lt;br/&gt;NaturalLogarithmStub, BaseNLogarithmStub&lt;/p&gt;" vertex="1">
+          <mxGeometry height="112" width="430" x="620" y="295" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge-abstract-rule" edge="1" parent="1" source="abstract-function" target="function-rule" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endFill=0;endSize=12;strokeColor=#008200;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-system-abstract" edge="1" parent="1" source="equation-system" target="abstract-function" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=0;endSize=12;strokeColor=#444444;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-ln-abstract" edge="1" parent="1" source="ln" target="abstract-function" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=0;endSize=12;strokeColor=#444444;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="-180" />
+              <mxPoint x="830" y="-180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-log-abstract" edge="1" parent="1" source="logn" target="abstract-function" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=0;endSize=12;strokeColor=#444444;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="-180" />
+              <mxPoint x="830" y="-180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-sine-abstract" edge="1" parent="1" source="sine" target="abstract-function" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=0;endSize=12;strokeColor=#444444;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-cos-abstract" edge="1" parent="1" source="cosine" target="abstract-function" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=0;endSize=12;strokeColor=#444444;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-tan-abstract" edge="1" parent="1" source="tangent" target="abstract-function" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=0;endSize=12;strokeColor=#444444;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1270" y="-180" />
+              <mxPoint x="830" y="-180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-sec-abstract" edge="1" parent="1" source="secant" target="abstract-function" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=0;endSize=12;strokeColor=#444444;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-csc-abstract" edge="1" parent="1" source="cosecant" target="abstract-function" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=0;endSize=12;strokeColor=#444444;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-cot-abstract" edge="1" parent="1" source="cotangent" target="abstract-function" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=0;endSize=12;strokeColor=#444444;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1270" y="-180" />
+              <mxPoint x="830" y="-180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="dep-log-ln" edge="1" parent="1" source="logn" target="ln" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=open;endSize=10;strokeColor=#666666;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dep-cos-sin" edge="1" parent="1" source="cosine" target="sine" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=open;endSize=10;strokeColor=#666666;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dep-tan-sin" edge="1" parent="1" source="tangent" target="sine" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=open;endSize=10;strokeColor=#666666;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1270" y="-115" />
+              <mxPoint x="710" y="-115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dep-tan-cos" edge="1" parent="1" source="tangent" target="cosine" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=open;endSize=10;strokeColor=#666666;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dep-sec-cos" edge="1" parent="1" source="secant" target="cosine" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=open;endSize=10;strokeColor=#666666;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dep-csc-sin" edge="1" parent="1" source="cosecant" target="sine" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=open;endSize=10;strokeColor=#666666;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dep-cot-sin" edge="1" parent="1" source="cotangent" target="sine" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=open;endSize=10;strokeColor=#666666;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1270" y="190" />
+              <mxPoint x="710" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dep-cot-cos" edge="1" parent="1" source="cotangent" target="cosine" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=open;endSize=10;strokeColor=#666666;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dep-system-trig" edge="1" parent="1" source="equation-system" target="tangent" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=open;endSize=10;strokeColor=#666666;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dep-system-log" edge="1" parent="1" source="equation-system" target="logn" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=open;endSize=10;strokeColor=#666666;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-stubs-abstract" edge="1" parent="1" source="stubs" target="abstract-function" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=0;endSize=12;strokeColor=#444444;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

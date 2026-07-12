@@ -1,0 +1,313 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ReManga UseCase" id="remanga-usecase">
+    <mxGraphModel dx="1341" dy="903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1250" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=1;fontColor=#0f172a;" value="UseCase-диаграмма сайта ReManga" vertex="1">
+          <mxGeometry height="50" width="920" x="430" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="system" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#ffffff;strokeColor=#334155;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#0f172a;verticalAlign=top;spacingTop=12;" value="ReManga" vertex="1">
+          <mxGeometry height="1020" width="1510" x="230" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="guest" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8fafc;strokeColor=#334155;fontSize=16;fontStyle=1;fontColor=#0f172a;" value="Гость" vertex="1">
+          <mxGeometry height="150" width="80" x="50" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="user" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8fafc;strokeColor=#334155;fontSize=16;fontStyle=1;fontColor=#0f172a;" value="Авторизованный&lt;br&gt;пользователь" vertex="1">
+          <mxGeometry height="160" width="110" x="40" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="public_group" parent="1" style="swimlane;html=1;startSize=32;rounded=1;arcSize=6;fillColor=#f8fafc;strokeColor=#94a3b8;fontSize=15;fontStyle=1;fontColor=#0f172a;" value="Публичный контур" vertex="1">
+          <mxGeometry height="245" width="330" x="270" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="catalog_group" parent="1" style="swimlane;html=1;startSize=32;rounded=1;arcSize=6;fillColor=#eff6ff;strokeColor=#60a5fa;fontSize=15;fontStyle=1;fontColor=#0f172a;" value="Каталог и поиск" vertex="1">
+          <mxGeometry height="245" width="350" x="630" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="title_group" parent="1" style="swimlane;html=1;startSize=32;rounded=1;arcSize=6;fillColor=#f0fdf4;strokeColor=#4ade80;fontSize=15;fontStyle=1;fontColor=#0f172a;" value="Страница тайтла" vertex="1">
+          <mxGeometry height="245" width="690" x="1010" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="forum_group" parent="1" style="swimlane;html=1;startSize=32;rounded=1;arcSize=6;fillColor=#fff7ed;strokeColor=#fb923c;fontSize=15;fontStyle=1;fontColor=#0f172a;" value="Форум" vertex="1">
+          <mxGeometry height="285" width="540" x="270" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="account_group" parent="1" style="swimlane;html=1;startSize=32;rounded=1;arcSize=6;fillColor=#fef2f2;strokeColor=#f87171;fontSize=15;fontStyle=1;fontColor=#0f172a;" value="Аккаунт и профиль" vertex="1">
+          <mxGeometry height="285" width="860" x="840" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="services_group" parent="1" style="swimlane;html=1;startSize=32;rounded=1;arcSize=6;fillColor=#f5f3ff;strokeColor=#a78bfa;fontSize=15;fontStyle=1;fontColor=#0f172a;" value="Сервисы пользователя" vertex="1">
+          <mxGeometry height="320" width="760" x="270" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="info_group" parent="1" style="swimlane;html=1;startSize=32;rounded=1;arcSize=6;fillColor=#ecfeff;strokeColor=#22d3ee;fontSize=15;fontStyle=1;fontColor=#0f172a;" value="Справка, документы и сообщество" vertex="1">
+          <mxGeometry height="320" width="640" x="1060" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_home" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dbeafe;strokeColor=#2563eb;fontSize=13;fontColor=#0f172a;" value="Открыть&lt;br&gt;главную" vertex="1">
+          <mxGeometry height="72" width="105" x="295" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_home_feed" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dbeafe;strokeColor=#2563eb;fontSize=13;fontColor=#0f172a;" value="Просмотреть&lt;br&gt;подборки" vertex="1">
+          <mxGeometry height="72" width="105" x="460" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_top_news" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dbeafe;strokeColor=#2563eb;fontSize=13;fontColor=#0f172a;" value="Топы,&lt;br&gt;коллекции,&lt;br&gt;новости" vertex="1">
+          <mxGeometry height="78" width="115" x="380" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_catalog" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#bfdbfe;strokeColor=#2563eb;fontSize=13;fontColor=#0f172a;" value="Открыть&lt;br&gt;каталог" vertex="1">
+          <mxGeometry height="72" width="105" x="655" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_filters" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#bfdbfe;strokeColor=#2563eb;fontSize=13;fontColor=#0f172a;" value="Применить&lt;br&gt;фильтры" vertex="1">
+          <mxGeometry height="72" width="105" x="830" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_search" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#bfdbfe;strokeColor=#2563eb;fontSize=13;fontColor=#0f172a;" value="Искать&lt;br&gt;тайтл" vertex="1">
+          <mxGeometry height="75" width="110" x="740" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_title" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#bbf7d0;strokeColor=#16a34a;fontSize=13;fontColor=#0f172a;" value="Открыть&lt;br&gt;тайтл" vertex="1">
+          <mxGeometry height="72" width="105" x="1040" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_title_info" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dcfce7;strokeColor=#16a34a;fontSize=13;fontColor=#0f172a;" value="Описание&lt;br&gt;и метаданные" vertex="1">
+          <mxGeometry height="78" width="115" x="1210" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_chapters" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dcfce7;strokeColor=#16a34a;fontSize=13;fontColor=#0f172a;" value="Главы" vertex="1">
+          <mxGeometry height="65" width="95" x="1380" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_discussions" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dcfce7;strokeColor=#16a34a;fontSize=13;fontColor=#0f172a;" value="Обсуждения" vertex="1">
+          <mxGeometry height="65" width="105" x="1535" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_moments" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dcfce7;strokeColor=#16a34a;fontSize=13;fontColor=#0f172a;" value="Моменты&lt;br&gt;и карты" vertex="1">
+          <mxGeometry height="72" width="105" x="1375" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_people_voice" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dcfce7;strokeColor=#16a34a;fontSize=13;fontColor=#0f172a;" value="Персонажи&lt;br&gt;и озвучка" vertex="1">
+          <mxGeometry height="72" width="105" x="1535" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_forum" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fed7aa;strokeColor=#ea580c;fontSize=13;fontColor=#0f172a;" value="Открыть&lt;br&gt;форум" vertex="1">
+          <mxGeometry height="72" width="105" x="300" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_forum_filter" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffedd5;strokeColor=#ea580c;fontSize=13;fontColor=#0f172a;" value="Фильтр&lt;br&gt;категорий" vertex="1">
+          <mxGeometry height="72" width="105" x="475" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_forum_search" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffedd5;strokeColor=#ea580c;fontSize=13;fontColor=#0f172a;" value="Поиск&lt;br&gt;постов" vertex="1">
+          <mxGeometry height="72" width="105" x="645" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_forum_post" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffedd5;strokeColor=#ea580c;fontSize=13;fontColor=#0f172a;" value="Открыть&lt;br&gt;пост" vertex="1">
+          <mxGeometry height="72" width="105" x="475" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_create_post" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffedd5;strokeColor=#ea580c;fontSize=13;fontColor=#0f172a;" value="Создать&lt;br&gt;пост" vertex="1">
+          <mxGeometry height="72" width="105" x="645" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_login" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fecaca;strokeColor=#dc2626;fontSize=13;fontColor=#0f172a;" value="Войти&lt;br&gt;в аккаунт" vertex="1">
+          <mxGeometry height="72" width="105" x="875" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_login_error" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fee2e2;strokeColor=#dc2626;fontSize=13;fontColor=#0f172a;" value="Ошибка&lt;br&gt;входа" vertex="1">
+          <mxGeometry height="72" width="105" x="875" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_bookmarks" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fee2e2;strokeColor=#dc2626;fontSize=13;fontColor=#0f172a;" value="Закладки" vertex="1">
+          <mxGeometry height="68" width="100" x="1050" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_history_requests" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fee2e2;strokeColor=#dc2626;fontSize=13;fontColor=#0f172a;" value="История&lt;br&gt;и заявки" vertex="1">
+          <mxGeometry height="75" width="110" x="1215" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_profile" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fee2e2;strokeColor=#dc2626;fontSize=13;fontColor=#0f172a;" value="Публичный&lt;br&gt;профиль" vertex="1">
+          <mxGeometry height="75" width="110" x="1390" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_notifications" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fee2e2;strokeColor=#dc2626;fontSize=13;fontColor=#0f172a;" value="Уведомления&lt;br&gt;и настройки" vertex="1">
+          <mxGeometry height="82" width="125" x="1050" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_profile_more" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fee2e2;strokeColor=#dc2626;fontSize=13;fontColor=#0f172a;" value="Друзья,&lt;br&gt;соц. посты,&lt;br&gt;достижения" vertex="1">
+          <mxGeometry height="88" width="125" x="1540" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_chat" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ddd6fe;strokeColor=#7c3aed;fontSize=13;fontColor=#0f172a;" value="Чат&lt;br&gt;и поиск" vertex="1">
+          <mxGeometry height="75" width="110" x="310" y="835" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_premium" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ede9fe;strokeColor=#7c3aed;fontSize=13;fontColor=#0f172a;" value="RePremium" vertex="1">
+          <mxGeometry height="72" width="110" x="485" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_shop" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ede9fe;strokeColor=#7c3aed;fontSize=13;fontColor=#0f172a;" value="Магазин&lt;br&gt;кастомизации" vertex="1">
+          <mxGeometry height="82" width="125" x="650" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_billing" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ede9fe;strokeColor=#7c3aed;fontSize=13;fontColor=#0f172a;" value="История&lt;br&gt;транзакций" vertex="1">
+          <mxGeometry height="80" width="120" x="835" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_repass" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ede9fe;strokeColor=#7c3aed;fontSize=13;fontColor=#0f172a;" value="Re:Pass" vertex="1">
+          <mxGeometry height="72" width="110" x="485" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_dungeon" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ede9fe;strokeColor=#7c3aed;fontSize=13;fontColor=#0f172a;" value="Ивент&lt;br&gt;Охотники&lt;br&gt;подземелий" vertex="1">
+          <mxGeometry height="88" width="125" x="690" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_faq_rules" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cffafe;strokeColor=#0891b2;fontSize=13;fontColor=#0f172a;" value="FAQ&lt;br&gt;и правила" vertex="1">
+          <mxGeometry height="75" width="110" x="1100" y="835" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_about_mobile" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cffafe;strokeColor=#0891b2;fontSize=13;fontColor=#0f172a;" value="О проекте&lt;br&gt;и приложение" vertex="1">
+          <mxGeometry height="82" width="125" x="1280" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_legal" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cffafe;strokeColor=#0891b2;fontSize=13;fontColor=#0f172a;" value="Правовые&lt;br&gt;документы" vertex="1">
+          <mxGeometry height="80" width="120" x="1470" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_publisher" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cffafe;strokeColor=#0891b2;fontSize=13;fontColor=#0f172a;" value="Паблишер&lt;br&gt;и гильдия" vertex="1">
+          <mxGeometry height="80" width="120" x="1195" y="965" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_business" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cffafe;strokeColor=#0891b2;fontSize=13;fontColor=#0f172a;" value="Реклама&lt;br&gt;и вакансии" vertex="1">
+          <mxGeometry height="80" width="120" x="1400" y="965" as="geometry" />
+        </mxCell>
+        <mxCell id="guest_home" edge="1" parent="1" source="guest" style="endArrow=none;html=1;rounded=0;strokeColor=#475569;" target="uc_home" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="guest_catalog" edge="1" parent="1" source="guest" style="endArrow=none;html=1;rounded=0;strokeColor=#475569;edgeStyle=orthogonalEdgeStyle;" target="uc_catalog" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="190" />
+              <mxPoint x="708" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="guest_forum" edge="1" parent="1" source="guest" style="endArrow=none;html=1;rounded=0;strokeColor=#475569;" target="uc_forum" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="guest_login_error" edge="1" parent="1" source="guest" style="endArrow=none;html=1;rounded=0;strokeColor=#475569;edgeStyle=orthogonalEdgeStyle;" target="uc_login_error" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="420" />
+              <mxPoint x="820" y="420" />
+              <mxPoint x="820" y="646" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="guest_info" edge="1" parent="1" source="guest" style="endArrow=none;html=1;rounded=0;strokeColor=#475569;edgeStyle=orthogonalEdgeStyle;" target="uc_faq_rules" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="325" />
+              <mxPoint x="200" y="740" />
+              <mxPoint x="1155" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="user_login" edge="1" parent="1" source="user" style="endArrow=none;html=1;rounded=0;strokeColor=#475569;edgeStyle=orthogonalEdgeStyle;" target="uc_login" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="740" />
+              <mxPoint x="860" y="536" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="user_create_post" edge="1" parent="1" source="user" style="endArrow=none;html=1;rounded=0;strokeColor=#475569;edgeStyle=orthogonalEdgeStyle;" target="uc_create_post" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="698" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="user_services" edge="1" parent="1" source="user" style="endArrow=none;html=1;rounded=0;strokeColor=#475569;" target="uc_chat" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="home_include" edge="1" parent="1" source="uc_home" style="dashed=1;endArrow=open;html=1;rounded=0;strokeColor=#64748b;fontSize=11;fontColor=#475569;" target="uc_home_feed" value="include">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="home_extend" edge="1" parent="1" source="uc_top_news" style="dashed=1;endArrow=open;html=1;rounded=0;strokeColor=#64748b;fontSize=11;fontColor=#475569;" target="uc_home" value="extend">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="catalog_filter" edge="1" parent="1" source="uc_filters" style="dashed=1;endArrow=open;html=1;rounded=0;strokeColor=#64748b;fontSize=11;fontColor=#475569;" target="uc_catalog" value="extend">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="catalog_search" edge="1" parent="1" source="uc_filters" style="dashed=1;endArrow=open;html=1;rounded=0;strokeColor=#64748b;fontSize=11;fontColor=#475569;" target="uc_search" value="include">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="search_title" edge="1" parent="1" source="uc_search" style="dashed=1;endArrow=open;html=1;rounded=0;strokeColor=#64748b;fontSize=11;fontColor=#475569;" target="uc_title" value="include">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="title_info" edge="1" parent="1" source="uc_title" style="dashed=1;endArrow=open;html=1;rounded=0;strokeColor=#64748b;fontSize=11;fontColor=#475569;" target="uc_title_info" value="include">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="title_tabs_1" edge="1" parent="1" source="uc_chapters" style="dashed=1;endArrow=open;html=1;rounded=0;strokeColor=#64748b;fontSize=11;fontColor=#475569;edgeStyle=orthogonalEdgeStyle;" target="uc_title" value="extend">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1092" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="title_tabs_2" edge="1" parent="1" source="uc_discussions" style="dashed=1;endArrow=open;html=1;rounded=0;strokeColor=#64748b;fontSize=11;fontColor=#475569;edgeStyle=orthogonalEdgeStyle;" target="uc_title" value="extend">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1588" y="290" />
+              <mxPoint x="1092" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="title_tabs_3" edge="1" parent="1" source="uc_moments" style="dashed=1;endArrow=open;html=1;rounded=0;strokeColor=#64748b;fontSize=11;fontColor=#475569;edgeStyle=orthogonalEdgeStyle;" target="uc_title" value="extend">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1092" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="title_tabs_4" edge="1" parent="1" source="uc_people_voice" style="dashed=1;endArrow=open;html=1;rounded=0;strokeColor=#64748b;fontSize=11;fontColor=#475569;edgeStyle=orthogonalEdgeStyle;" target="uc_title" value="extend">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1092" y="380" />
+              <mxPoint x="1588" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="forum_filter" edge="1" parent="1" source="uc_forum_filter" style="dashed=1;endArrow=open;html=1;rounded=0;strokeColor=#64748b;fontSize=11;fontColor=#475569;" target="uc_forum" value="extend">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="forum_search" edge="1" parent="1" source="uc_forum_search" style="dashed=1;endArrow=open;html=1;rounded=0;strokeColor=#64748b;fontSize=11;fontColor=#475569;edgeStyle=orthogonalEdgeStyle;" target="uc_forum" value="extend">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="698" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="forum_post" edge="1" parent="1" source="uc_forum" style="dashed=1;endArrow=open;html=1;rounded=0;strokeColor=#64748b;fontSize=11;fontColor=#475569;" target="uc_forum_post" value="include">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="forum_create" edge="1" parent="1" source="uc_create_post" style="dashed=1;endArrow=open;html=1;rounded=0;strokeColor=#64748b;fontSize=11;fontColor=#475569;" target="uc_forum" value="extend">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="login_profile" edge="1" parent="1" source="uc_profile" style="dashed=1;endArrow=open;html=1;rounded=0;strokeColor=#64748b;fontSize=11;fontColor=#475569;edgeStyle=orthogonalEdgeStyle;" target="uc_login" value="include">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1190" y="560" />
+              <mxPoint x="1190" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="profile_more" edge="1" parent="1" source="uc_profile_more" style="dashed=1;endArrow=open;html=1;rounded=0;strokeColor=#64748b;fontSize=11;fontColor=#475569;" target="uc_profile" value="extend">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="profile_account_1" edge="1" parent="1" source="uc_bookmarks" style="dashed=1;endArrow=open;html=1;rounded=0;strokeColor=#64748b;fontSize=11;fontColor=#475569;edgeStyle=orthogonalEdgeStyle;" target="uc_profile" value="extend">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1140" y="600" />
+              <mxPoint x="1445" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="profile_account_2" edge="1" parent="1" source="uc_history_requests" style="dashed=1;endArrow=open;html=1;rounded=0;strokeColor=#64748b;fontSize=11;fontColor=#475569;" target="uc_profile" value="extend">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="profile_account_3" edge="1" parent="1" source="uc_notifications" style="dashed=1;endArrow=open;html=1;rounded=0;strokeColor=#64748b;fontSize=11;fontColor=#475569;edgeStyle=orthogonalEdgeStyle;" target="uc_profile" value="extend">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1445" y="700" />
+              <mxPoint x="1113" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="service_group_1" edge="1" parent="1" source="uc_chat" style="endArrow=none;html=1;rounded=0;strokeColor=#a78bfa;dashed=1;" target="uc_premium" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="service_group_2" edge="1" parent="1" source="uc_premium" style="endArrow=none;html=1;rounded=0;strokeColor=#a78bfa;dashed=1;" target="uc_shop" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="service_group_3" edge="1" parent="1" source="uc_shop" style="endArrow=none;html=1;rounded=0;strokeColor=#a78bfa;dashed=1;" target="uc_billing" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="service_group_4" edge="1" parent="1" source="uc_repass" style="endArrow=none;html=1;rounded=0;strokeColor=#a78bfa;dashed=1;" target="uc_dungeon" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="info_group_1" edge="1" parent="1" source="uc_faq_rules" style="endArrow=none;html=1;rounded=0;strokeColor=#22d3ee;dashed=1;" target="uc_about_mobile" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="info_group_2" edge="1" parent="1" source="uc_about_mobile" style="endArrow=none;html=1;rounded=0;strokeColor=#22d3ee;dashed=1;" target="uc_legal" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="info_group_3" edge="1" parent="1" source="uc_publisher" style="endArrow=none;html=1;rounded=0;strokeColor=#22d3ee;dashed=1;" target="uc_business" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Rem",
+    "coordinates": {"x": 270.0, "y": 520},
+    "eyeColor": "BLUE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 110,
+      "y": 155.0,
+      "z": 260,
+      "name": "Roswaal Mansion"
+    },
+    "height": 154,
+    "weight": 50,
+    "passportID": "JP9203040",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Ram",
+    "coordinates": {"x": 275.0, "y": 525},
+    "eyeColor": "BLUE",
+    "hairColor": "BLUE",
+    "location": {
+      "x": 115,
+      "y": 160.0,
+      "z": 265,
+      "name": "Roswaal Mansion"
+    },
+    "height": 154,
+    "weight": 50,
+    "passportID": "JP9203050",
+    "nationality": "GERMANY"
+  },
+  {
+    "name": "Emilia",
+    "coordinates": {"x": 280.0, "y": 530},
+    "eyeColor": "BLUE",
+    "hairColor": "WHITE",
+    "location": {
+      "x": 120,
+      "y": 165.0,
+      "z": 270,
+      "name": "Royal Capital"
+    },
+    "height": 164,
+    "weight": 55,
+    "passportID": "JP9203060",
+    "nationality": "FRANCE"
+  },
+  {
+    "name": "Subaru Natsuki",
+    "coordinates": {"x": 285.0, "y": 535},
+    "eyeColor": "BROWN",
+    "hairColor": "BLACK",
+    "location": {
+      "x": 125,
+      "y": 170.0,
+      "z": 275,
+      "name": "Isekai"
+    },
+    "height": 172,
+    "weight": 65,
+    "passportID": "JP9203070",
+    "nationality": "SPAIN"
+  },
+  {
+    "name": "Beatrice",
+    "coordinates": {"x": 290.0, "y": 540},
+    "eyeColor": "BLUE",
+    "hairColor": "BROWN",
+    "location": {
+      "x": 130,
+      "y": 175.0,
+      "z": 280,
+      "name": "Forbidden Library"
+    },
+    "height": 140,
+    "weight": 40,
+    "passportID": "JP9203080",
+    "nationality": "VATICAN"
+  }
+]
